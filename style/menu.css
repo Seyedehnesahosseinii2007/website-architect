@@ -33,6 +33,7 @@ h1 {
     justify-content: center;
     align-items: center;
 }
+
 /* choose items */
 .choose-item {
     width: 600px;
@@ -40,5 +41,32 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 70px;
+    justify-content: space-between;
+}
+
+/* buttons */
+/* buttons */
+.btn1,
+.btn2,
+.btn3,
+.btn4 {
+    border: none;
+    background-color: #EDE9DC;
+    cursor: pointer;
+    letter-spacing: 8px;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 15pt;
+    font-weight: 700;
+    transition: 0.5s;
+    width: 150px;
+    /* Set a fixed width */
+    text-align: center;
+    /* Center the text */
+}
+
+.btn1:hover,
+.btn2:hover,
+.btn3:hover,
+.btn4:hover {
+    letter-spacing: 4px;
 }
