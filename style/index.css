@@ -57,6 +57,7 @@ body {
     position: relative;
     animation: moveButton 3s;
     background-color: #EDE9DC;
+    margin-top: 50px;
 }
 
 /* animation move button start */
@@ -104,8 +105,8 @@ body {
 /* start responsive for devices smaller than 576px */
 @media screen and (max-width:576px) {
     .border-site {
-        width: 270px;
-        height: 270px;
+        width: 300px;
+        height: 300px;
         border: 4px solid #121212;
         display: flex;
         justify-content: center;
@@ -123,6 +124,7 @@ body {
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        margin-top: -100px;
     }
 
     body {
@@ -157,6 +159,7 @@ body {
         position: relative;
         animation: moveButton 3s;
         background-color: #EDE9DC;
+        margin-top: -10px;
     }
 
     /* animation move button start */
@@ -202,3 +205,105 @@ body {
 }
 
 /* End  responsive for devices smaller than 576px */
+/* start responsive for devices greather than 577px and smaller than 768px */
+@media screen and (min-width:577px) and (max-width:768px) {
+    .border-site {
+        width: 550px;
+        height: 550px;
+        border: 4px solid #121212;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #gifstart {
+        width: 350px;
+        height: 350px;
+    }
+
+    .start-enter-button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: -100px;
+    }
+
+    body {
+        font-family: 'Saira Condensed', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #EDE9DC !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+    }
+
+    /* button enter division */
+    .button-enter {
+        width: inherit;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* button enter  */
+    #enter {
+        border: none;
+        font-family: 'Saira Condensed', sans-serif;
+        font-size: 17pt;
+        font-weight: 600;
+        letter-spacing: 8px;
+        transition: 0.5s;
+        position: relative;
+        animation: moveButton 3s;
+        background-color: #EDE9DC;
+        margin-top: 20px;
+    }
+
+    /* animation move button start */
+    @keyframes moveButton {
+        0% {
+            left: 0px;
+            top: 0px;
+        }
+
+        25% {
+            left: 0px;
+            top: 0px;
+        }
+
+        50% {
+            left: 0px;
+            top: 30px;
+            letter-spacing: 12px;
+
+        }
+
+        75% {
+            left: 0px;
+            top: 30px;
+            letter-spacing: 4px;
+
+        }
+
+        100% {
+            left: 0px;
+            top: 0px;
+        }
+    }
+
+    #enter:hover {
+        border: none;
+        font-family: 'Saira Condensed', sans-serif;
+        font-size: 17pt;
+        font-weight: 500;
+        letter-spacing: 4px;
+        transition: 0.5s;
+    }
+}
+/* End  responsive for devices greather than 577px and smaller than 768px */
