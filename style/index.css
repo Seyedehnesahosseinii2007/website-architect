@@ -10,6 +10,11 @@ body {
     height: 100vh;
 }
 
+strong {
+    font-family: 'Saira Condensed', sans-serif;
+    letter-spacing: 2px;
+}
+
 /* black border */
 .border-site {
     width: 1200px;
@@ -74,14 +79,14 @@ body {
 
     50% {
         left: 0px;
-        top: 50px;
+        top: 35px;
         letter-spacing: 12px;
 
     }
 
     75% {
         left: 0px;
-        top: 50px;
+        top: 35px;
         letter-spacing: 4px;
 
     }
