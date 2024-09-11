@@ -1,3 +1,15 @@
+body {
+    font-family: 'Saira Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #EDE9DC !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
 .border-site {
     width: 1200px;
     height: 600px;
@@ -5,16 +17,80 @@
     margin: 50px;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .start-enter-button {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 #gifstart {
     width: 400px;
     height: 300px;
-    margin: 100px;
+    margin: 20px;
 }
+
+.button-enter {
+    width: inherit;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#enter {
+    border: none;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 17pt;
+    font-weight: 500;
+    letter-spacing: 8px;
+    transition: 0.5s;
+    position: relative;
+    animation: moveButton 3s;
+    background-color: #EDE9DC;
+}
+/* animation move button start */
+@keyframes moveButton {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        left: 0px;
+        top: 0px;
+    }
+
+    50% {
+        left: 0px;
+        top: 50px;
+        letter-spacing: 12px;
+
+    }
+
+    75% {
+        left: 0px;
+        top: 50px;
+        letter-spacing: 4px;
+
+    }
+
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}
+
+#enter:hover {
+    border: none;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 17pt;
+    font-weight: 500;
+    letter-spacing: 4px;
+    transition: 0.5s;
+}
+/* animation move button end */
