@@ -12,6 +12,7 @@ body {
     gap: 20px;
 }
 
+/*text header our team*/
 h1 {
     font-family: 'Saira Condensed', sans-serif;
 }
@@ -44,8 +45,7 @@ h1 {
     justify-content: space-between;
 }
 
-/* buttons */
-/* buttons */
+/* buttons in normaly time */
 .btn1,
 .btn2,
 .btn3,
@@ -59,14 +59,23 @@ h1 {
     font-weight: 700;
     transition: 0.5s;
     width: 150px;
-    /* Set a fixed width */
     text-align: center;
-    /* Center the text */
 }
 
+/* buttons when you hover */
 .btn1:hover,
 .btn2:hover,
 .btn3:hover,
 .btn4:hover {
     letter-spacing: 4px;
+}
+
+/* start responsive for devices smaller than 576px */
+@media screen and (max-width:576px) {
+
+    /*3d gif*/
+    #threeD {
+        width: 100px;
+        height: 100px;
+    }
 }
