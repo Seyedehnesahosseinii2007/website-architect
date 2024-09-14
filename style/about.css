@@ -11,10 +11,13 @@ body {
 }
 
 .border-site {
-    width: 1200px;
-    height: 600px;
+    width: 100%;
+    height: 100vh;
     border: 4px solid #121212;
-    margin: 50px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+margin-bottom: 30px;
     display: flex;
     justify-content: center;
     flex-direction: column;
