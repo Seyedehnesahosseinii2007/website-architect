@@ -62,6 +62,11 @@ h2 {
     text-align: center;
 }
 
+.choose-item a {
+    text-decoration: none;
+    color: inherit;
+}
+
 /* buttons when you hover */
 .btn1:hover,
 .btn2:hover,
