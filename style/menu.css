@@ -1,0 +1,548 @@
+body {
+    font-family: 'Saira Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #EDE9DC !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/*text header our team*/
+h2 {
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+/* section for video */
+.sct-video {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* button choose section */
+.sct-choose-item {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* choose items */
+.choose-item {
+    width: 600px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* buttons in normaly time */
+.btn1,
+.btn2,
+.btn3,
+.btn4 {
+    border: none;
+    background-color: #EDE9DC;
+    cursor: pointer;
+    letter-spacing: 8px;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 15pt;
+    font-weight: 700;
+    transition: 0.5s;
+    width: 150px;
+    text-align: center;
+}
+
+/* buttons when you hover */
+.btn1:hover,
+.btn2:hover,
+.btn3:hover,
+.btn4:hover {
+    letter-spacing: 4px;
+}
+
+#threeD {
+    border-radius: 50%;
+}
+
+/* start responsive for devices smaller than 576px */
+@media screen and (max-width:576px) {
+
+    /*3d gif*/
+    #threeD {
+        width: 300px;
+        height: 300px;
+    }
+
+    .sct-choose-item {
+        width: 100%;
+        height: 750px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* choose items */
+    .choose-item {
+        width: inherit;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    body {
+        font-family: 'Saira Condensed', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #EDE9DC !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+
+    }
+
+    /*text header our team*/
+    h2 {
+        font-family: 'Saira Condensed', sans-serif;
+        font-size: 27pt;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .logo-brand {
+        width: 100%;
+        height: 40px;
+        margin-top: 20px;
+        font-size: 27pt;
+        font-weight: 600;
+    }
+
+    header {
+        font-size: 27pt;
+        font-weight: 600;
+        width: 100%;
+        height: 200px;
+    }
+
+    .sct-video {
+        width: 100%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* end responsive for devices smaller than 576px */
+/* start responsive for devices greather than 577px and smaller than 768px */
+@media screen and (min-width:577px) and (max-width:768px) {
+    body {
+        font-family: 'Saira Condensed', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #EDE9DC !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    /*text header our team*/
+    h2 {
+        font-family: 'Saira Condensed', sans-serif;
+    }
+
+    /* section for video */
+    .sct-video {
+        width: 100%;
+        height: 700px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* button choose section */
+    .sct-choose-item {
+        width: 100%;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* choose items */
+    .choose-item {
+        width: 600px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    /* buttons in normaly time */
+    .btn1,
+    .btn2,
+    .btn3,
+    .btn4 {
+        border: none;
+        background-color: #EDE9DC;
+        cursor: pointer;
+        letter-spacing: 8px;
+        font-family: 'Saira Condensed', sans-serif;
+        font-size: 17pt;
+        font-weight: 700;
+        transition: 0.5s;
+        width: 150px;
+        text-align: center;
+    }
+
+    /* buttons when you hover */
+    .btn1:hover,
+    .btn2:hover,
+    .btn3:hover,
+    .btn4:hover {
+        letter-spacing: 4px;
+    }
+
+    /*text header our team*/
+    h2 {
+        font-family: 'Saira Condensed', sans-serif;
+        font-size: 27pt;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .logo-brand {
+        width: 100%;
+        height: 40px;
+        margin-top: 20px;
+        font-size: 27pt;
+        font-weight: 600;
+    }
+
+    header {
+        font-size: 27pt;
+        font-weight: 600;
+        width: 100%;
+        height: 200px;
+    }
+}
+
+/* End  responsive for devices greather than 577px and smaller than 768px */
+/* start  responsive for devices greather than 769px and smaller than 992px */
+@media screen and (min-width:769px) and (max-width:992px) {
+    body {
+        font-family: 'Saira Condensed', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #EDE9DC !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    /*text header our team*/
+    h2 {
+        font-family: 'Saira Condensed', sans-serif;
+    }
+
+    /* section for video */
+    .sct-video {
+        width: 100%;
+        height: 700px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* button choose section */
+    .sct-choose-item {
+        width: 100%;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* choose items */
+    .choose-item {
+        width: 600px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    /* buttons in normaly time */
+    .btn1,
+    .btn2,
+    .btn3,
+    .btn4 {
+        border: none;
+        background-color: #EDE9DC;
+        cursor: pointer;
+        letter-spacing: 8px;
+        font-family: 'Saira Condensed', sans-serif;
+        font-size: 19pt;
+        font-weight: 700;
+        transition: 0.5s;
+        width: 150px;
+        text-align: center;
+    }
+
+    /* buttons when you hover */
+    .btn1:hover,
+    .btn2:hover,
+    .btn3:hover,
+    .btn4:hover {
+        letter-spacing: 4px;
+    }
+
+    /*text header our team*/
+
+
+    .logo-brand {
+        width: 100%;
+        height: 40px;
+        margin-top: 80px;
+        font-family: 'Saira Condensed', sans-serif;
+        font-size: 35pt;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    header {
+        width: 100%;
+        height: 200px;
+    }
+
+    #threeD {
+        width: 500px;
+        height: 500px;
+    }
+}
+
+/*end responsive for devices greather than 769px and smaller than 992px */
+/* start responsive for devices greather than 993px and smaller than 1200px */
+@media screen and (min-width:993px) and (max-width:1200px) {
+    body {
+        font-family: 'Saira Condensed', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #EDE9DC !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    /*text header our team*/
+    h2 {
+        font-family: 'Saira Condensed', sans-serif;
+    }
+
+    /* section for video */
+    .sct-video {
+        width: 100%;
+        height: 700px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* button choose section */
+    .sct-choose-item {
+        width: 100%;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* choose items */
+    .choose-item {
+        width: 800px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    /* buttons in normaly time */
+    .btn1,
+    .btn2,
+    .btn3,
+    .btn4 {
+        border: none;
+        background-color: #EDE9DC;
+        cursor: pointer;
+        letter-spacing: 8px;
+        font-family: 'Saira Condensed', sans-serif;
+        font-size: 30pt;
+        font-weight: 700;
+        transition: 0.5s;
+        width: 150px;
+        text-align: center;
+    }
+
+    /* buttons when you hover */
+    .btn1:hover,
+    .btn2:hover,
+    .btn3:hover,
+    .btn4:hover {
+        letter-spacing: 4px;
+    }
+
+    /*text header our team*/
+
+
+    .logo-brand {
+        width: 100%;
+        height: 40px;
+        margin-top: 80px;
+        font-family: 'Saira Condensed', sans-serif;
+        font-size: 35pt;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    header {
+        width: 100%;
+        height: 200px;
+    }
+
+    #threeD {
+        width: 500px;
+        height: 500px;
+    }
+}
+
+/* end responsive for devices greather than 993px and smaller than 1200px */
+/* start responsive for devices greather than 1201px */
+@media screen and (min-width:1201px) {
+    body {
+        font-family: 'Saira Condensed', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #EDE9DC !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    /*text header our team*/
+    h2 {
+        font-family: 'Saira Condensed', sans-serif;
+    }
+
+    /* section for video */
+    .sct-video {
+        width: 100%;
+        height: 700px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* button choose section */
+    .sct-choose-item {
+        width: 100%;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* choose items */
+    .choose-item {
+        width: 800px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    /* buttons in normaly time */
+    .btn1,
+    .btn2,
+    .btn3,
+    .btn4 {
+        border: none;
+        background-color: #EDE9DC;
+        cursor: pointer;
+        letter-spacing: 8px;
+        font-family: 'Saira Condensed', sans-serif;
+        font-size: 22pt;
+        font-weight: 700;
+        transition: 0.5s;
+        width: 150px;
+        text-align: center;
+    }
+
+    /* buttons when you hover */
+    .btn1:hover,
+    .btn2:hover,
+    .btn3:hover,
+    .btn4:hover {
+        letter-spacing: 4px;
+    }
+
+    /*text header our team*/
+
+
+    .logo-brand {
+        width: 100%;
+        height: 40px;
+        margin-top: 40px;
+        font-family: 'Saira Condensed', sans-serif;
+        font-size: 35pt;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    header {
+        width: 100%;
+        height: 200px;
+    }
+
+    #threeD {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+/* end responsive for devices greather than 1201px */
