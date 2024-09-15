@@ -275,6 +275,7 @@ header {
     gap: 50px;
 
 }
+
 /*icon employee*/
 #employee {
     transition: 0.5s;
@@ -316,6 +317,7 @@ p {
 /*employee someone end*/
 
 /* about oppurtunities */
+/* start responsive for devices smaller than 576px */
 
 @media (max-width: 576px) {
 
@@ -415,3 +417,5 @@ p {
 
 
 }
+
+/* end responsive for devices smaller than 576px */
