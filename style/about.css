@@ -419,3 +419,45 @@ p {
 }
 
 /* end responsive for devices smaller than 576px */
+
+@media (min-width: 577px) and (max-width: 768px) {
+    #person-one, #person-two {
+        flex-direction: column;
+        padding: 20px;
+        height: auto;
+    }
+
+    .picture-person-one, .picture-person-two {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .introd-person-one, .introd-person-two {
+        width: 100%;
+        text-align: center;
+    }
+
+    #boy-one, #girl-two {
+        width: 150px;
+        height: auto;
+        border-radius: 20px;
+    }
+
+    .number-person {
+        font-size: 15pt;
+    }
+
+    .introd-person-one b, .introd-person-two b {
+        font-size: 14pt;
+    }
+
+    .introd-person-one p, .introd-person-two p {
+        font-size: 13pt;
+    }
+
+    .introd-person-one strong, .introd-person-two strong {
+        font-size: 13pt;
+    }
+}
