@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    flex-direction: row-reverse;
+    flex-direction: row;
 }
 
 /*animation move in left to right the logo and header start*/
@@ -200,6 +200,7 @@ header {
     min-height: 300px;
     background-color: red;
 }
+
 /* talk about brand end */
 
 /*people*/
@@ -258,4 +259,32 @@ header {
     flex-direction: column;
     display: flex;
     gap: 30px;
+}
+
+/*employee someone*/
+.employee {
+    width: 100%;
+    height: 350px;
+    background-color: #EDE9DC;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 100px;
+    
+}
+#employee{
+    transition: 0.5s;
+    cursor: pointer;
+}
+#employee:hover{
+    width: 210px;
+    height: 210px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.jobcontainer{
+    font-size: 10pt;
+    text-align: right;
+    display: none;
 }

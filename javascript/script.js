@@ -1,9 +1,17 @@
 document.getElementById('enter').addEventListener('click', function () {
-    // نمایش لودر
     document.getElementById('loader').style.display = 'flex';
 
-    // بعد از 3 ثانیه به صفحه بعدی هدایت شود
     setTimeout(function () {
-        window.location.href = 'menu.html'; // آدرس صفحه بعدی را وارد کنید
+        window.location.href = 'menu.html';
     }, 3000);
 });
+/*click on the  Opportunities*/
+const clickOpp = document.getElementById('employee');
+const text = document.querySelector('.jobcontainer');
+
+function opportunities() {
+    clickOpp.addEventListener("click", function () {
+        text.style.display = 'block';
+    });
+}
+opportunities();
