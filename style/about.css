@@ -17,6 +17,7 @@ header {
     flex-direction: row-reverse;
 }
 
+/*animation move in left to right the logo and header start*/
 .humburgermenu,
 .logo-brand,
 .jobs,
@@ -30,6 +31,7 @@ header {
     animation-delay: 0.5s;
 }
 
+/*the main action*/
 @keyframes slideIn {
     to {
         opacity: 1;
@@ -37,6 +39,8 @@ header {
     }
 }
 
+/*animation move in left to right the logo and header end*/
+/* border website*/
 .border-site {
     width: calc(100% - 40px);
     height: auto;
@@ -60,11 +64,13 @@ header {
     align-items: center;
 }
 
+/* logo*/
 #brand {
     width: 130px;
     height: auto;
 }
 
+/* icon opportunity */
 .jobs {
     width: 120px;
     height: 30px;
@@ -78,13 +84,13 @@ header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+/* text about us start */
 .subject {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 20px 0;
-    /* Add some padding for better spacing */
 }
 
 .gradient-text {
@@ -97,6 +103,9 @@ header {
     -webkit-text-fill-color: transparent;
     color: transparent;
 }
+
+/* text about us end*/
+/*group picture start*/
 
 .group-pic {
     width: 100%;
@@ -118,11 +127,13 @@ header {
     overflow: hidden;
 }
 
+
 #group-people {
     position: relative;
     animation: moveUp 1s ease-in-out forwards;
 }
 
+/* the main action for group pic*/
 @keyframes moveUp {
     from {
         transform: translateY(100px);
@@ -132,6 +143,8 @@ header {
         transform: translateY(0);
     }
 }
+
+/*group picture end*/
 
 .all-details-about-people {
     width: 100%;
