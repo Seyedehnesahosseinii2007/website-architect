@@ -166,22 +166,24 @@
                         <path
                             d="M2 13c0 1 1 1 1 1h5.256A4.5 4.5 0 0 1 8 12.5a4.5 4.5 0 0 1 1.544-3.393Q8.844 9.002 8 9c-5 0-6 3-6 4" />
                     </svg>
-                    <h4 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">your
-                        Opportunities</h4>
+                    <h6
+                        style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-align: center;border-bottom: 4px solid #121212;">
+                        your
+                        Opportunities</h6>
                 </div>
                 <div class="text-employee">
                     <div class="jobcontainer">
-                        <h2> Job Opportunities </h2>
+                        <h2 style="border-bottom: 2px solid  #92918f;width: 290px;"> Job Opportunities </h2>
                         <p class="about-job-height-limit">We are always looking for creative, responsible, energetic
                             people from all over the country. If you are interested to join our firm, send your
                             information and resume to us for review.</p>
-                        <h3> Employment </h3>
+                        <h3 style="border-bottom: 2px solid  #92918f;width: 180px;"> Employment </h3>
                         <p>For Full-Time Employment please send your curriculum vitae (CV) and professional Portfolio
                             to<a class="email-link" href="mailto:jobs@mrkoffice.ir?subject=Employment application"
                                 data-mail="jobs" data-mailinfo="mrkoffice.ir"
                                 data-subject="?subject=Employment application" title="Employment application"
                                 target="_blank"> <b>jobs</b>mrkoffice.ir </a></p>
-                        <h3>Internships</h3>
+                        <h3 style="border-bottom: 2px solid  #92918f;width: 160px;">Internships</h3>
                         <p>In addition, we welcome advanced graduate or undergraduate students for Internships.<span
                                 class="about-job-height-limit"> Please include your information, sample of works, any
                                 letters of recommendation and the dates you are available and </span>send it to<a
@@ -197,13 +199,24 @@
                     </div>
                 </div>
             </section>
-            <script src="javascript/script.js" defer></script>
 
+            <!--the person who wants to be an employee end-->
 
         </div>
     </div>
     <!--border end-->
+    <script>
+        const clickOpp = document.getElementById('employee');
+        const text = document.querySelector('.jobcontainer');
 
+        function opportunities() {
+            clickOpp.addEventListener("click", function () {
+                text.style.display = 'block';
+            });
+        }
+        opportunities();
+
+    </script>
 
 
     <!--other links for bootstrap start-->
