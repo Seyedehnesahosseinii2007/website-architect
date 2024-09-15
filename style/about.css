@@ -450,14 +450,29 @@ p {
     }
 
     .introd-person-one b, .introd-person-two b {
-        font-size: 14pt;
+        font-size: 16pt;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
-    .introd-person-one p, .introd-person-two p {
-        font-size: 13pt;
+    .introd-person-one p, .introd-person-two p, .introd-person-one strong, .introd-person-two stron {
+        font-size: 15pt;
     }
 
-    .introd-person-one strong, .introd-person-two strong {
-        font-size: 13pt;
+   
+    #group-people {
+        border-radius: 20px;
+        box-shadow: 1px 2px 15px 1px black;
+        width: 600px;
+        height: auto;
     }
+    #employee {
+        width: 150px;
+        height: 150px;
+    }
+
+    #employee:hover {
+        width: 160px;
+        height: 160px;
+    }
+    
 }
