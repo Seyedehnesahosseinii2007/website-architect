@@ -308,3 +308,65 @@ p{
 }
 
 /* about oppurtunities */
+
+@media (max-width: 576px) {
+    /*person one*/
+    #person-one {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .picture-person-one {
+        margin-bottom: 20px;
+    }
+
+    .introd-person-one {
+        width: 100%;
+        gap: 15px;
+    }
+
+    #boy-one {
+        width: 100%;
+        max-width: 150px;
+        margin: 0 auto;
+    }
+
+    .number-person {
+        font-size: 1.2em;
+    }
+
+    .introd-person-one b, .introd-person-one p, .introd-person-one strong {
+        text-align: center;
+    }
+    /*person two*/
+    #person-two {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .picture-person-two {
+        margin-bottom: 20px;
+    }
+
+    .introd-person-two {
+        width: 100%;
+        gap: 15px;
+    }
+
+    #boy-two {
+        width: 100%;
+        max-width: 150px;
+        margin: 0 auto;
+    }
+
+    .number-person {
+        font-size: 1.2em;
+    }
+
+    .introd-person-two b, .introd-person-two p, .introd-person-two strong {
+        text-align: center;
+    }
+    
+}
