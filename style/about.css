@@ -95,7 +95,6 @@ header {
 
 .gradient-text {
     font-size: 40pt;
-    border-bottom: 2px solid #121212;
     text-align: center;
     background: linear-gradient(60deg, #B6B0A6, #121212);
     -webkit-background-clip: text;
@@ -116,8 +115,6 @@ header {
 }
 
 #group-people {
-    border-radius: 20px;
-    box-shadow: 1px 2px 15px 1px black;
     max-width: 100%;
     height: auto;
 }
