@@ -20,5 +20,34 @@ body {
     border: 4px solid #121212;
     margin: 50px;
     display: flex;
- 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.row-first {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.contact-us {
+    width: 50%;
+    height: 100%;
+    background-color: blue;
+}
+
+.map {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(134, 210, 137);
+}
+
+.row-second {
+    width: 100%;
+    height: 50%;
+    background-color: orange;
 }
