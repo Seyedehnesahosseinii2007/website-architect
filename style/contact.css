@@ -12,7 +12,10 @@ body {
     justify-content: center;
     align-items: flex-start;
 }
-
+.humburgermenu{
+    width: 100%;
+    display: flex;
+}
 /* black border */
 .border-site {
     width: 100%;
