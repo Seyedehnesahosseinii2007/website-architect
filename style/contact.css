@@ -42,11 +42,71 @@ body {
 .map {
     width: 50%;
     height: 100%;
-    background-color: rgb(134, 210, 137);
 }
 
 .row-second {
     width: 100%;
     height: 50%;
-    background-color: orange;
+}
+
+.part-inp-phone-name {
+    width: 100%;
+    height: 100%;
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.for-name-and-phone {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    gap: 30px;
+}
+
+.forName {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.for-phone {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.for-email {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.for-subject {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.for-email-and-subject {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    gap: 30px;
+}
+
+.for-msg-and-btnMsg {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    gap: 30px;
 }
