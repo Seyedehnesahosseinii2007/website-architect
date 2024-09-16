@@ -35,20 +35,22 @@
                         <span class="forName"> <label for="name">Name</label>
                             <input type="text" name="name" id="name"></span>
                         <span class="for-phone"> <label for="phone">Phone</label>
-                            <input type="number" name="number" id="phone"></span>
+                            <input type="tel" name="number" id="phone" pattern="^09\d{9}$" maxlength="11"
+                                required></span>
 
                     </div>
                     <div class="for-email-and-subject">
                         <span class="for-email"> <label for="name">Email</label>
-                            <input type="text" name="email" id="email"></span>
+                            <input type="email" name="email" id="email"
+                                pattern="[a-z0-9_]+[a-z]{2,15}+\.[a-z]{2,5}$"></span>
                         <span class="for-subject"> <label for="phone">Subject</label>
-                            <input type="number" name="subject" id="subject"></span>
+                            <input type="text" name="subject" id="subject"></span>
 
                     </div>
                     <div class="for-msg-and-btnMsg">
                         <span class="for-msgs"> <label for="name">message</label>
-                            <input type="text" name="subject" id="message">
-                        <div class="bttn"><button>send message</button></div>
+                            <input type="text" name="subject" id="message" maxlength="1000">
+                            <div class="bttn"><button type="reset">send message</button></div>
                         </span>
                     </div>
 

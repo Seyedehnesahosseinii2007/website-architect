@@ -288,7 +288,6 @@ header {
 
 /* about oppurtunities start*/
 .jobcontainer {
-    font-size: 10pt;
     text-align: left;
     display: none;
     opacity: 0;
@@ -298,7 +297,7 @@ header {
 }
 
 p {
-    font-size: 13pt;
+    font-size: 11pt;
 }
 
 /* about oppurtunities end*/

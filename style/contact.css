@@ -65,7 +65,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     padding: 0.5rem 1rem;
-    gap: 30px;
+    gap: 50px;
 }
 
 .button-send-msg {
@@ -82,7 +82,6 @@ body {
     width: 50%;
     display: flex;
     flex-direction: column;
-
 }
 
 .for-phone {
@@ -125,7 +124,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     padding: 0.5rem 1rem;
-    gap: 30px;
+    gap: 50px;
 }
 
 .for-msg-and-btnMsg {
@@ -150,6 +149,7 @@ body {
     border-left: none;
     border-right: none;
     height: 50px;
+    width: 300px;
     border-bottom: 2px solid #B6B0A6;
     background-color: transparent;
 }
@@ -240,7 +240,7 @@ label {
     border-top: none;
     border-left: none;
     border-right: none;
-    height: 50px;
+    height: 100px;
     width: 500px;
     background-color: transparent;
 
