@@ -59,18 +59,20 @@ iframe {
     width: 100%;
     height: 80%;
 }
-/*input 
+
+/*contact us part with inouts*/
 .contact-us {
     width: 50%;
     height: 100%;
 }
 
+/* division for map */
 .map {
     width: 100%;
     height: 500px;
 }
 
-
+/* all inputs are there */
 .part-inp-phone-name {
     width: 100%;
     height: 100%;
@@ -80,6 +82,7 @@ iframe {
     padding: 2rem 2rem;
 }
 
+/* input name and phonenumber*/
 .for-name-and-phone {
     width: 100%;
     height: 25%;
@@ -100,12 +103,14 @@ iframe {
     gap: 30px;
 }
 
+/* label name */
 .forName {
     width: 50%;
     display: flex;
     flex-direction: column;
 }
 
+/*label for phone*/
 .for-phone {
     width: 50%;
     display: flex;
@@ -114,6 +119,7 @@ iframe {
 
 }
 
+/*label for email*/
 .for-email {
     width: 50%;
     display: flex;
@@ -122,6 +128,7 @@ iframe {
 
 }
 
+/* label for subject*/
 .for-subject {
     width: 50%;
     display: flex;
@@ -130,6 +137,7 @@ iframe {
 
 }
 
+/* label for message */
 .for-msgs {
     width: 50%;
     height: 100px;
@@ -138,6 +146,7 @@ iframe {
     gap: 15px;
 }
 
+/* input email and subject*/
 
 .for-email-and-subject {
     width: 100%;
@@ -149,6 +158,8 @@ iframe {
     gap: 50px;
 }
 
+/* for button send*/
+
 .for-msg-and-btnMsg {
     width: 100%;
     height: 250px;
@@ -159,12 +170,14 @@ iframe {
     padding: 0.5rem 1rem;
 }
 
+/*button*/
 .bttn {
     height: 80px;
     display: flex;
     margin-top: 20px;
 }
 
+/*input name*/
 #name {
     border-radius: 10px 10px 10px 10px;
     border-top: none;
@@ -175,6 +188,8 @@ iframe {
     border-bottom: 2px solid #B6B0A6;
     background-color: transparent;
 }
+
+/*input when user click and enter spmething in that input*/
 
 #name:focus {
     border-radius: 10px 10px 10px 10px;
@@ -197,6 +212,8 @@ iframe {
 
     border-bottom: 2px solid #B6B0A6;
 }
+
+/*input when user click and enter spmething in that input*/
 
 #phone:focus {
     border-radius: 10px 10px 10px 10px;
@@ -224,6 +241,7 @@ label {
 
     border-bottom: 2px solid #B6B0A6;
 }
+/*input when user click and enter spmething in that input*/
 
 #email:focus {
     border-radius: 10px 10px 10px 10px;
@@ -246,6 +264,7 @@ label {
 
     border-bottom: 2px solid #B6B0A6;
 }
+/*input when user click and enter spmething in that input*/
 
 #subject:focus {
     border-radius: 10px 10px 10px 10px;
@@ -268,6 +287,7 @@ label {
 
     border-bottom: 2px solid #B6B0A6;
 }
+/*input when user click and enter spmething in that input*/
 
 #message:focus {
     border-radius: 10px 10px 10px 10px;
@@ -277,7 +297,7 @@ label {
     transition: 0.5s;
     border-bottom: 2px solid #121212;
 }
-
+/*button send message*/
 button {
     background-color: transparent;
     border: none;
@@ -286,6 +306,7 @@ button {
     cursor: pointer;
     transition: 0.25s;
 }
+/*when user hover on button send message*/
 
 button:hover {
     background-color: transparent;
