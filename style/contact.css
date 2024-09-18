@@ -16,6 +16,7 @@ body {
 
 }
 
+/*icon humburger menu */
 .humburgermenu {
     width: 100%;
     display: flex;
@@ -33,6 +34,7 @@ body {
     flex-direction: column;
 }
 
+/*first section has contact input and map*/
 .row-first {
     width: 100%;
     min-height: 450px;
@@ -43,6 +45,8 @@ body {
     flex-grow: 1;
 }
 
+/*second section has icons social medi  and contact info*/
+
 .row-second {
     width: 100%;
     min-height: 600px;
@@ -50,22 +54,25 @@ body {
     margin-top: -80px;
 }
 
+/* map*/
 iframe {
     width: 100%;
     height: 80%;
 }
 
+/*contact us part with inouts*/
 .contact-us {
     width: 50%;
     height: 100%;
 }
 
+/* division for map */
 .map {
     width: 100%;
     height: 500px;
 }
 
-
+/* all inputs are there */
 .part-inp-phone-name {
     width: 100%;
     height: 100%;
@@ -75,6 +82,7 @@ iframe {
     padding: 2rem 2rem;
 }
 
+/* input name and phonenumber*/
 .for-name-and-phone {
     width: 100%;
     height: 25%;
@@ -95,12 +103,14 @@ iframe {
     gap: 30px;
 }
 
+/* label name */
 .forName {
     width: 50%;
     display: flex;
     flex-direction: column;
 }
 
+/*label for phone*/
 .for-phone {
     width: 50%;
     display: flex;
@@ -109,6 +119,7 @@ iframe {
 
 }
 
+/*label for email*/
 .for-email {
     width: 50%;
     display: flex;
@@ -117,6 +128,7 @@ iframe {
 
 }
 
+/* label for subject*/
 .for-subject {
     width: 50%;
     display: flex;
@@ -125,6 +137,7 @@ iframe {
 
 }
 
+/* label for message */
 .for-msgs {
     width: 50%;
     height: 100px;
@@ -133,6 +146,7 @@ iframe {
     gap: 15px;
 }
 
+/* input email and subject*/
 
 .for-email-and-subject {
     width: 100%;
@@ -144,6 +158,8 @@ iframe {
     gap: 50px;
 }
 
+/* for button send*/
+
 .for-msg-and-btnMsg {
     width: 100%;
     height: 250px;
@@ -154,12 +170,14 @@ iframe {
     padding: 0.5rem 1rem;
 }
 
+/*button*/
 .bttn {
     height: 80px;
     display: flex;
     margin-top: 20px;
 }
 
+/*input name*/
 #name {
     border-radius: 10px 10px 10px 10px;
     border-top: none;
@@ -170,6 +188,8 @@ iframe {
     border-bottom: 2px solid #B6B0A6;
     background-color: transparent;
 }
+
+/*input when user click and enter spmething in that input*/
 
 #name:focus {
     border-radius: 10px 10px 10px 10px;
@@ -192,6 +212,8 @@ iframe {
 
     border-bottom: 2px solid #B6B0A6;
 }
+
+/*input when user click and enter spmething in that input*/
 
 #phone:focus {
     border-radius: 10px 10px 10px 10px;
@@ -220,6 +242,8 @@ label {
     border-bottom: 2px solid #B6B0A6;
 }
 
+/*input when user click and enter spmething in that input*/
+
 #email:focus {
     border-radius: 10px 10px 10px 10px;
 
@@ -241,6 +265,8 @@ label {
 
     border-bottom: 2px solid #B6B0A6;
 }
+
+/*input when user click and enter spmething in that input*/
 
 #subject:focus {
     border-radius: 10px 10px 10px 10px;
@@ -264,6 +290,8 @@ label {
     border-bottom: 2px solid #B6B0A6;
 }
 
+/*input when user click and enter spmething in that input*/
+
 #message:focus {
     border-radius: 10px 10px 10px 10px;
 
@@ -273,6 +301,7 @@ label {
     border-bottom: 2px solid #121212;
 }
 
+/*button send message*/
 button {
     background-color: transparent;
     border: none;
@@ -281,6 +310,8 @@ button {
     cursor: pointer;
     transition: 0.25s;
 }
+
+/*when user hover on button send message*/
 
 button:hover {
     background-color: transparent;
@@ -291,6 +322,7 @@ button:hover {
     transition: 0.25s;
 }
 
+/*division for social media icons*/
 .icons-social-media {
     width: 100%;
     height: 100px;
@@ -300,6 +332,7 @@ button:hover {
     gap: 100px;
 }
 
+/*instagram icon*/
 .instagram {
     display: flex;
     flex-direction: column;
@@ -307,6 +340,8 @@ button:hover {
     align-items: center;
     gap: 10px;
 }
+
+/*linkedin icon*/
 
 .linkedin {
     display: flex;
@@ -317,6 +352,8 @@ button:hover {
 
 }
 
+/*email icon*/
+
 .email {
     display: flex;
     flex-direction: column;
@@ -326,6 +363,7 @@ button:hover {
 
 }
 
+/* part contact info */
 .contact-info {
     width: 100%;
     height: 150px;
@@ -338,6 +376,7 @@ button:hover {
     text-align: center;
 }
 
+/*icons and details location company phonenumber and email address*/
 .location,
 .call-company,
 .email-text {
@@ -348,6 +387,7 @@ button:hover {
     align-items: center;
 }
 
+/* start line between contact info and social media */
 hr {
     width: 70%;
     height: 20px;
@@ -367,6 +407,8 @@ hr {
     text-align: center;
 }
 
+/* end line between contact info and social media */
+
 /* start responsive for devices smaller than 576px */
 
 @media screen and (max-width:576px) {
@@ -383,6 +425,8 @@ hr {
         align-items: center;
         flex-direction: column;
     }
+
+    /*start 2 sections*/
 
     .row-first {
         width: 100%;
@@ -404,10 +448,11 @@ hr {
         gap: 50px;
     }
 
+    /*end 2 sections*/
+
     .contact-us {
         width: 100%;
         padding: 0;
-        /* حذف padding */
     }
 
     .part-inp-phone-name {
@@ -421,6 +466,7 @@ hr {
         gap: 1rem;
     }
 
+    /* all label*/
     .forName,
     .for-phone,
     .for-email,
@@ -433,6 +479,7 @@ hr {
         text-align: center;
     }
 
+    /*start all inputs*/
     #message {
         border-radius: 10px 10px 10px 10px;
         border-top: none;
@@ -456,6 +503,8 @@ hr {
         background-color: transparent;
     }
 
+    /*end all inputs*/
+    /*map*/
     .map {
         width: 90%;
         height: 500px;
@@ -501,6 +550,7 @@ hr {
         gap: 10px;
     }
 
+    /*start line */
     hr {
         width: 90%;
     }
@@ -508,6 +558,9 @@ hr {
     .for-line {
         width: 100%;
     }
+
+    /*end line */
+
 }
 
 /* end responsive for devices smaller than 576px */
@@ -525,6 +578,8 @@ hr {
         align-items: center;
         flex-direction: column;
     }
+
+    /*start 2 sections*/
 
     .row-first {
         width: 100%;
@@ -546,10 +601,11 @@ hr {
         gap: 50px;
     }
 
+    /*end 2 sections*/
+
     .contact-us {
         width: 100%;
         padding: 0;
-        /* حذف padding */
     }
 
     .part-inp-phone-name {
@@ -563,6 +619,7 @@ hr {
         gap: 1rem;
     }
 
+    /*all labels*/
     .forName,
     .for-phone,
     .for-email,
@@ -574,6 +631,8 @@ hr {
     .bttn {
         text-align: center;
     }
+
+    /*start all inputs*/
 
     #message {
         border-radius: 10px 10px 10px 10px;
@@ -598,6 +657,8 @@ hr {
         background-color: transparent;
     }
 
+    /*end all inputs*/
+
     .map {
         width: 90%;
         height: 500px;
@@ -620,6 +681,7 @@ hr {
         padding: 1rem;
     }
 
+    /*icon locartion and phonennumber company email address*/
     .location,
     .call-company,
     .email-text {
@@ -636,6 +698,7 @@ hr {
         display: flex;
     }
 
+    /* icons instagram and linkedin and email*/
     .instagram,
     .linkedin,
     .email {
@@ -643,6 +706,7 @@ hr {
         gap: 10px;
     }
 
+    /*line*/
     hr {
         width: 90%;
     }
@@ -667,6 +731,8 @@ hr {
         flex-direction: column;
     }
 
+    /*start 2 sections*/
+
     .row-first {
         width: 100%;
         min-height: 450px;
@@ -686,6 +752,8 @@ hr {
         align-items: center;
         gap: 50px;
     }
+
+    /*end 2 sections*/
 
     .contact-us {
         width: 50%;
@@ -717,6 +785,8 @@ hr {
         text-align: center;
     }
 
+    /*start all inputs*/
+
     #message {
         border-radius: 10px 10px 10px 10px;
         border-top: none;
@@ -739,6 +809,8 @@ hr {
         border-bottom: 2px solid #B6B0A6;
         background-color: transparent;
     }
+
+    /*end all inputs*/
 
     .map {
         width: 90%;
@@ -789,6 +861,7 @@ hr {
         gap: 10px;
     }
 
+    /*line*/
     hr {
         width: 90%;
     }
@@ -814,6 +887,8 @@ hr {
         flex-direction: column;
     }
 
+    /*start 2 sections*/
+
     .row-first {
         width: 100%;
         min-height: 450px;
@@ -833,6 +908,8 @@ hr {
         align-items: center;
         gap: 50px;
     }
+
+    /*end 2 sections*/
 
     .contact-us {
         width: 50%;
@@ -864,6 +941,8 @@ hr {
         text-align: center;
     }
 
+    /*start all inputs*/
+
     #message {
         border-radius: 10px 10px 10px 10px;
         border-top: none;
@@ -886,6 +965,8 @@ hr {
         border-bottom: 2px solid #B6B0A6;
         background-color: transparent;
     }
+
+    /*end all inputs*/
 
     .map {
         width: 90%;
@@ -946,7 +1027,7 @@ hr {
 }
 
 /* end responsive for devices greather than 993px and smaller than 1200px */
-/* start  responsive for devices greather than 993px and smaller than 1200px */
+/* start  responsive for devices greather than 1201px  */
 @media screen and (min-width:1201px) {
 
     html,
@@ -984,6 +1065,7 @@ hr {
         flex-direction: column;
     }
 
+    /*start 2 sections*/
     .row-first {
         width: 100%;
         min-height: 450px;
@@ -1000,6 +1082,8 @@ hr {
         flex-grow: 1;
         margin-top: -80px;
     }
+
+    /*end 2 sections*/
 
     iframe {
         width: 100%;
@@ -1036,6 +1120,8 @@ hr {
         gap: 50px;
     }
 
+    /* button send message*/
+
     .button-send-msg {
         width: 100%;
         height: 25%;
@@ -1046,6 +1132,7 @@ hr {
         gap: 30px;
     }
 
+    /* start all label*/
     .forName {
         width: 50%;
         display: flex;
@@ -1105,12 +1192,15 @@ hr {
         padding: 0.5rem 1rem;
     }
 
+    /* end all label*/
+
     .bttn {
         height: 80px;
         display: flex;
         margin-top: 20px;
     }
 
+    /*start all inputs*/
     #name {
         border-radius: 10px 10px 10px 10px;
         border-top: none;
@@ -1224,6 +1314,10 @@ hr {
         border-bottom: 2px solid #121212;
     }
 
+    /*end all inputs*/
+
+
+    /* button send message*/
     button {
         background-color: transparent;
         border: none;
@@ -1232,6 +1326,8 @@ hr {
         cursor: pointer;
         transition: 0.25s;
     }
+
+    /* button send message after hover*/
 
     button:hover {
         background-color: transparent;
@@ -1296,10 +1392,11 @@ hr {
         justify-content: center;
         text-align: center;
         font-size: 13pt;
-        
+
 
     }
 
+    /*line between contact info and social media icons*/
     hr {
         width: 70%;
         height: 20px;
@@ -1319,3 +1416,5 @@ hr {
         text-align: center;
     }
 }
+
+/* end responsive for devices greather than 1201px  */
