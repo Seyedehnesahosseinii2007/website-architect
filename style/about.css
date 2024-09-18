@@ -117,7 +117,6 @@ header {
 #group-people {
     max-width: 100%;
     height: auto;
-    background-color: red;
 }
 
 .group-pic {
@@ -201,8 +200,31 @@ header {
 
 /*people start*/
 #boy-one {
-    width: 200px;
+    width: 225px;
     border-radius: 20px;
+}
+
+#girl-two {
+    width: 225px;
+    border-radius: 20px;
+    height: 450px;
+}
+
+.picture-person-one {
+    width: 230px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.picture-person-two {
+    width: 230px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
 }
 
 #person-one {
@@ -229,14 +251,10 @@ header {
     gap: 30px;
 }
 
-#girl-two {
-    width: 200px;
-    border-radius: 20px;
-}
 
 #person-two {
     width: 100%;
-    height: 350px;
+    height: 250px;
     background-color: #EDE9DC;
     display: flex;
     justify-content: space-between;
@@ -295,6 +313,7 @@ header {
     transform: translateX(-100%);
     animation: slideIn 1s forwards;
     font-family: Arial, Helvetica, sans-serif;
+
 }
 
 p {
@@ -407,7 +426,6 @@ p {
 
     #group-people {
         border-radius: 20px;
-        box-shadow: 1px 2px 15px 1px black;
         width: 300px;
         height: auto;
     }
@@ -482,4 +500,688 @@ p {
         height: 160px;
     }
 
+}
+
+/* start  responsive for devices greather than 769px and smaller than 992px */
+@media screen and (min-width:769px) and (max-width:992px) {
+
+    html,
+    body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        font-family: 'Saira Condensed', sans-serif;
+        background-color: #EDE9DC !important;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    header {
+        flex-direction: row;
+    }
+
+    /*animation move in left to right the logo and header start*/
+    .humburgermenu,
+    .logo-brand,
+    .jobs,
+    .subject {
+        opacity: 0;
+        transform: translateX(-100%);
+        animation: slideIn 1s forwards;
+    }
+
+    .subject {
+        animation-delay: 0.5s;
+    }
+
+    /*the main action*/
+    @keyframes slideIn {
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    /*animation move in left to right the logo and header end*/
+    /* border website*/
+    .border-site {
+        width: calc(100% - 40px);
+        height: auto;
+        border: 4px solid #121212;
+        margin: 30px 20px 0;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+    }
+
+    .header-logo-and-menu {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    header {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /* logo*/
+    #brand {
+        width: 130px;
+        height: auto;
+    }
+
+    /* icon opportunity */
+    .jobs {
+        width: 120px;
+        height: 30px;
+        border: 4px solid #121212;
+        border-radius: 40px;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    /* text about us start */
+    .subject {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 0;
+    }
+
+    .gradient-text {
+        font-size: 40pt;
+        text-align: center;
+        background: linear-gradient(60deg, #B6B0A6, #121212);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: transparent;
+    }
+
+    /* text about us end*/
+    /*group picture start*/
+
+    .group-pic {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 0;
+    }
+
+    #group-people {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .group-pic {
+        position: relative;
+        overflow: hidden;
+    }
+
+
+    #group-people {
+        position: relative;
+        animation: moveUp 1s ease-in-out forwards;
+    }
+
+    /* the main action for group pic*/
+    @keyframes moveUp {
+        from {
+            transform: translateY(100px);
+        }
+
+        to {
+            transform: translateY(0);
+        }
+    }
+
+    /*details about company start*/
+    .all-details-about-company {
+        width: 100%;
+        padding: 20px;
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        opacity: 0;
+        transform: translateX(-100%);
+        animation: slideIn 3s forwards;
+        animation-delay: 0.5s;
+    }
+
+    @keyframes slideIn {
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    /*details about company end*/
+
+    /*group picture end*/
+
+    /* talk about brand start */
+    .head {
+        text-align: center;
+        padding: 10px 0;
+        margin-top: -120px;
+    }
+
+    /*start main paragraph about company */
+    .details-paragraph {
+        padding: 10px 0;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #p {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        height: 100px;
+        font-size: 16pt;
+        width: 400px;
+    }
+
+    /*end main paragraph about company */
+
+    /* talk about brand end */
+
+    /*people start*/
+    #boy-one {
+        width: 150px;
+        border-radius: 20px;
+    }
+
+    #girl-two {
+        width: 150px;
+        border-radius: 20px;
+        height: 450px;
+    }
+
+    .picture-person-one {
+        width: 400px;
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .picture-person-two {
+        width: 400px;
+        height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    #person-one {
+        width: 100%;
+        height: 350px;
+        background-color: #B6B0A6;
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row-reverse;
+        padding: 100px;
+    }
+
+    .number-person {
+        color: black;
+        text-align: center;
+    }
+
+    .introd-person-one {
+        width: 50%;
+        flex-direction: column;
+        display: flex;
+        gap: 30px;
+    }
+
+
+    #person-two {
+        width: 100%;
+        height: 250px;
+        background-color: #EDE9DC;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        padding: 150px;
+    }
+
+    .number-person {
+        color: black;
+        text-align: center;
+    }
+
+    .introd-person-two {
+        width: 50%;
+        flex-direction: column;
+        display: flex;
+        gap: 30px;
+    }
+
+    /*people end*/
+
+
+    /*employee someone start*/
+    .employee {
+        width: 100%;
+        height: 400px;
+        background-color: #EDE9DC;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row-reverse;
+        padding: 50px;
+        gap: 50px;
+
+    }
+
+    /*icon employee*/
+    #employee {
+        transition: 0.5s;
+        cursor: pointer;
+    }
+
+    #employee:hover {
+        width: 210px;
+        height: 210px;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+
+    
+    #employee {
+        transition: 0.5s;
+        cursor: pointer;
+    }
+
+    #employee:hover {
+        width: 210px;
+        height: 210px;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+
+    .jobcontainer {
+        text-align: left;
+        display: none;
+        opacity: 0;
+        transform: translateX(-100%);
+        animation: slideIn 1s forwards;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    p {
+        font-size: 11pt;
+    }
+
+    @keyframes slideIn {
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+    /*employee someone end*/
+
+    /* about oppurtunities */
+}
+@media screen and (min-width:993px) {
+    html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Saira Condensed', sans-serif;
+    background-color: #EDE9DC !important;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+header {
+    flex-direction: row;
+}
+
+/*animation move in left to right the logo and header start*/
+.humburgermenu,
+.logo-brand,
+.jobs,
+.subject {
+    opacity: 0;
+    transform: translateX(-100%);
+    animation: slideIn 1s forwards;
+}
+
+.subject {
+    animation-delay: 0.5s;
+}
+
+/*the main action*/
+@keyframes slideIn {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/*animation move in left to right the logo and header end*/
+/* border website*/
+.border-site {
+    width: calc(100% - 40px);
+    height: auto;
+    border: 4px solid #121212;
+    margin: 30px 20px 0;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.header-logo-and-menu {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* logo*/
+#brand {
+    width: 130px;
+    height: auto;
+}
+
+/* icon opportunity */
+.jobs {
+    width: 120px;
+    height: 30px;
+    border: 4px solid #121212;
+    border-radius: 40px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* text about us start */
+.subject {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.gradient-text {
+    font-size: 40pt;
+    text-align: center;
+    background: linear-gradient(60deg, #B6B0A6, #121212);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
+/* text about us end*/
+/*group picture start*/
+
+.group-pic {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+#group-people {
+    max-width: 100%;
+    height: auto;
+}
+
+.group-pic {
+    position: relative;
+    overflow: hidden;
+}
+
+
+#group-people {
+    position: relative;
+    animation: moveUp 1s ease-in-out forwards;
+}
+
+/* the main action for group pic*/
+@keyframes moveUp {
+    from {
+        transform: translateY(100px);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+/*details about company start*/
+.all-details-about-company {
+    width: 100%;
+    padding: 20px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transform: translateX(-100%);
+    animation: slideIn 3s forwards;
+    animation-delay: 0.5s;
+}
+
+@keyframes slideIn {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/*details about company end*/
+
+/*group picture end*/
+
+/* talk about brand start */
+.head {
+    text-align: center;
+    padding: 10px 0;
+    margin-top: -120px;
+}
+
+/*start main paragraph about company */
+.details-paragraph {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 100px;
+    font-size: 16pt;
+    width: 400px;
+}
+
+/*end main paragraph about company */
+
+/* talk about brand end */
+
+/*people start*/
+#boy-one {
+    width: 225px;
+    border-radius: 20px;
+}
+
+#girl-two {
+    width: 225px;
+    border-radius: 20px;
+    height: 450px;
+}
+
+.picture-person-one {
+    width: 230px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.picture-person-two {
+    width: 230px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#person-one {
+    width: 100%;
+    height: 350px;
+    background-color: #B6B0A6;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 200px;
+}
+
+.number-person {
+    color: black;
+    text-align: center;
+}
+
+.introd-person-one {
+    width: 50%;
+    flex-direction: column;
+    display: flex;
+    gap: 30px;
+}
+
+
+#person-two {
+    width: 100%;
+    height: 250px;
+    background-color: #EDE9DC;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 200px;
+}
+
+.number-person {
+    color: black;
+    text-align: center;
+}
+
+.introd-person-two {
+    width: 50%;
+    flex-direction: column;
+    display: flex;
+    gap: 30px;
+}
+
+/*people end*/
+
+
+/*employee someone start*/
+.employee {
+    width: 100%;
+    height: 400px;
+    background-color: #EDE9DC;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 50px;
+    gap: 50px;
+
+}
+
+/*icon employee*/
+#employee {
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#employee:hover {
+    width: 210px;
+    height: 210px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+/* about oppurtunities start*/
+.jobcontainer {
+    text-align: left;
+    display: none;
+    opacity: 0;
+    transform: translateX(-100%);
+    animation: slideIn 1s forwards;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+p {
+    font-size: 11pt;
+}
+
+/* about oppurtunities end*/
+
+
+@keyframes slideIn {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/*employee someone end*/
+
+/* about oppurtunities */
 }
