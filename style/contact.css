@@ -16,6 +16,7 @@ body {
 
 }
 
+/*icon humburger menu */
 .humburgermenu {
     width: 100%;
     display: flex;
@@ -33,6 +34,7 @@ body {
     flex-direction: column;
 }
 
+/*first section has contact input and map*/
 .row-first {
     width: 100%;
     min-height: 450px;
@@ -43,6 +45,8 @@ body {
     flex-grow: 1;
 }
 
+/*second section has icons social medi  and contact info*/
+
 .row-second {
     width: 100%;
     min-height: 600px;
@@ -50,11 +54,12 @@ body {
     margin-top: -80px;
 }
 
+/* map*/
 iframe {
     width: 100%;
     height: 80%;
 }
-
+/*input 
 .contact-us {
     width: 50%;
     height: 100%;
@@ -1296,7 +1301,7 @@ hr {
         justify-content: center;
         text-align: center;
         font-size: 13pt;
-        
+
 
     }
 
