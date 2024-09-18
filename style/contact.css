@@ -426,6 +426,8 @@ hr {
         flex-direction: column;
     }
 
+    /*start 2 sections*/
+
     .row-first {
         width: 100%;
         min-height: 450px;
@@ -446,6 +448,8 @@ hr {
         gap: 50px;
     }
 
+    /*end 2 sections*/
+
     .contact-us {
         width: 100%;
         padding: 0;
@@ -462,6 +466,7 @@ hr {
         gap: 1rem;
     }
 
+    /* all label*/
     .forName,
     .for-phone,
     .for-email,
@@ -474,6 +479,7 @@ hr {
         text-align: center;
     }
 
+    /*start all inputs*/
     #message {
         border-radius: 10px 10px 10px 10px;
         border-top: none;
@@ -497,6 +503,8 @@ hr {
         background-color: transparent;
     }
 
+    /*end all inputs*/
+    /*map*/
     .map {
         width: 90%;
         height: 500px;
@@ -542,6 +550,7 @@ hr {
         gap: 10px;
     }
 
+    /*start line */
     hr {
         width: 90%;
     }
@@ -549,6 +558,9 @@ hr {
     .for-line {
         width: 100%;
     }
+
+    /*end line */
+
 }
 
 /* end responsive for devices smaller than 576px */
@@ -566,6 +578,8 @@ hr {
         align-items: center;
         flex-direction: column;
     }
+
+    /*start 2 sections*/
 
     .row-first {
         width: 100%;
@@ -587,10 +601,11 @@ hr {
         gap: 50px;
     }
 
+    /*end 2 sections*/
+
     .contact-us {
         width: 100%;
         padding: 0;
-        /* حذف padding */
     }
 
     .part-inp-phone-name {
@@ -604,6 +619,7 @@ hr {
         gap: 1rem;
     }
 
+    /*all labels*/
     .forName,
     .for-phone,
     .for-email,
@@ -615,6 +631,8 @@ hr {
     .bttn {
         text-align: center;
     }
+
+    /*start all inputs*/
 
     #message {
         border-radius: 10px 10px 10px 10px;
@@ -639,6 +657,8 @@ hr {
         background-color: transparent;
     }
 
+    /*end all inputs*/
+
     .map {
         width: 90%;
         height: 500px;
@@ -661,6 +681,7 @@ hr {
         padding: 1rem;
     }
 
+    /*icon locartion and phonennumber company email address*/
     .location,
     .call-company,
     .email-text {
@@ -677,6 +698,7 @@ hr {
         display: flex;
     }
 
+    /* icons instagram and linkedin and email*/
     .instagram,
     .linkedin,
     .email {
@@ -684,6 +706,7 @@ hr {
         gap: 10px;
     }
 
+    /*line*/
     hr {
         width: 90%;
     }
@@ -708,6 +731,8 @@ hr {
         flex-direction: column;
     }
 
+    /*start 2 sections*/
+
     .row-first {
         width: 100%;
         min-height: 450px;
@@ -727,6 +752,8 @@ hr {
         align-items: center;
         gap: 50px;
     }
+
+    /*end 2 sections*/
 
     .contact-us {
         width: 50%;
@@ -758,6 +785,8 @@ hr {
         text-align: center;
     }
 
+    /*start all inputs*/
+
     #message {
         border-radius: 10px 10px 10px 10px;
         border-top: none;
@@ -780,6 +809,8 @@ hr {
         border-bottom: 2px solid #B6B0A6;
         background-color: transparent;
     }
+
+    /*end all inputs*/
 
     .map {
         width: 90%;
@@ -830,6 +861,7 @@ hr {
         gap: 10px;
     }
 
+    /*line*/
     hr {
         width: 90%;
     }
@@ -855,6 +887,8 @@ hr {
         flex-direction: column;
     }
 
+    /*start 2 sections*/
+
     .row-first {
         width: 100%;
         min-height: 450px;
@@ -874,6 +908,8 @@ hr {
         align-items: center;
         gap: 50px;
     }
+
+    /*end 2 sections*/
 
     .contact-us {
         width: 50%;
@@ -905,6 +941,8 @@ hr {
         text-align: center;
     }
 
+    /*start all inputs*/
+
     #message {
         border-radius: 10px 10px 10px 10px;
         border-top: none;
@@ -927,6 +965,8 @@ hr {
         border-bottom: 2px solid #B6B0A6;
         background-color: transparent;
     }
+
+    /*end all inputs*/
 
     .map {
         width: 90%;
