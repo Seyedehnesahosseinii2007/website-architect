@@ -117,6 +117,7 @@ header {
 #group-people {
     max-width: 100%;
     height: auto;
+    background-color: red;
 }
 
 .group-pic {
@@ -417,25 +418,30 @@ p {
 /* end responsive for devices smaller than 576px */
 
 @media (min-width: 577px) and (max-width: 768px) {
-    #person-one, #person-two {
+
+    #person-one,
+    #person-two {
         flex-direction: column;
         padding: 20px;
         height: auto;
     }
 
-    .picture-person-one, .picture-person-two {
+    .picture-person-one,
+    .picture-person-two {
         width: 100%;
         display: flex;
         justify-content: center;
         margin-bottom: 20px;
     }
 
-    .introd-person-one, .introd-person-two {
+    .introd-person-one,
+    .introd-person-two {
         width: 100%;
         text-align: center;
     }
 
-    #boy-one, #girl-two {
+    #boy-one,
+    #girl-two {
         width: 150px;
         height: auto;
         border-radius: 20px;
@@ -445,22 +451,27 @@ p {
         font-size: 15pt;
     }
 
-    .introd-person-one b, .introd-person-two b {
+    .introd-person-one b,
+    .introd-person-two b {
         font-size: 16pt;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
-    .introd-person-one p, .introd-person-two p, .introd-person-one strong, .introd-person-two stron {
+    .introd-person-one p,
+    .introd-person-two p,
+    .introd-person-one strong,
+    .introd-person-two stron {
         font-size: 15pt;
     }
 
-   
+
     #group-people {
         border-radius: 20px;
         box-shadow: 1px 2px 15px 1px black;
         width: 600px;
         height: auto;
     }
+
     #employee {
         width: 150px;
         height: 150px;
@@ -470,5 +481,5 @@ p {
         width: 160px;
         height: 160px;
     }
-    
+
 }
