@@ -415,27 +415,32 @@ p {
 }
 
 /* end responsive for devices smaller than 576px */
-
+/* start responsive for devices greather than 577px and smaller than 768px */
 @media (min-width: 577px) and (max-width: 768px) {
-    #person-one, #person-two {
+
+    #person-one,
+    #person-two {
         flex-direction: column;
         padding: 20px;
         height: auto;
     }
 
-    .picture-person-one, .picture-person-two {
+    .picture-person-one,
+    .picture-person-two {
         width: 100%;
         display: flex;
         justify-content: center;
         margin-bottom: 20px;
     }
 
-    .introd-person-one, .introd-person-two {
+    .introd-person-one,
+    .introd-person-two {
         width: 100%;
         text-align: center;
     }
 
-    #boy-one, #girl-two {
+    #boy-one,
+    #girl-two {
         width: 150px;
         height: auto;
         border-radius: 20px;
@@ -445,22 +450,27 @@ p {
         font-size: 15pt;
     }
 
-    .introd-person-one b, .introd-person-two b {
+    .introd-person-one b,
+    .introd-person-two b {
         font-size: 16pt;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
-    .introd-person-one p, .introd-person-two p, .introd-person-one strong, .introd-person-two stron {
+    .introd-person-one p,
+    .introd-person-two p,
+    .introd-person-one strong,
+    .introd-person-two stron {
         font-size: 15pt;
     }
 
-   
+
     #group-people {
         border-radius: 20px;
         box-shadow: 1px 2px 15px 1px black;
         width: 600px;
         height: auto;
     }
+
     #employee {
         width: 150px;
         height: 150px;
@@ -470,5 +480,354 @@ p {
         width: 160px;
         height: 160px;
     }
-    
+
 }
+
+/* end responsive for devices greather than 577px and smaller than 768px */
+/* start  responsive for devices greather than 769px and smaller than 992px */
+@media (min-width: 769px) and (max-width: 992px) {
+    #boy-one {
+        width: 160px;
+        height: 270px;
+        border-radius: 15px;
+    }
+
+    #person-one {
+        width: 100%;
+        height: 330px;
+        background-color: #B6B0A6;
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row-reverse;
+        padding: 80px;
+    }
+
+    .number-person {
+        color: black;
+        text-align: center;
+    }
+
+    .introd-person-one {
+        width: 45%;
+        flex-direction: column;
+        display: flex;
+        gap: 25px;
+    }
+
+    #girl-two {
+        width: 160px;
+        height: 270px;
+        border-radius: 15px;
+    }
+
+    #person-two {
+        width: 100%;
+        height: 300px;
+        background-color: #EDE9DC;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        padding: 80px;
+    }
+
+    .introd-person-two {
+        width: 45%;
+        flex-direction: column;
+        display: flex;
+        gap: 25px;
+    }
+
+    .jobcontainer {
+        text-align: left;
+        display: none;
+        opacity: 0;
+        transform: translateX(-100%);
+        animation: slideIn 1s forwards;
+        font-family: Arial, Helvetica, sans-serif;
+        height: 400px;
+        width: 400px;
+
+    }
+
+    p {
+        font-size: 8.75pt;
+    }
+
+    /* about oppurtunities end*/
+
+
+    @keyframes slideIn {
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    #employee {
+        transition: 0.5s;
+        cursor: pointer;
+    }
+
+    #employee:hover {
+        width: 180px;
+        height: 180px;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+
+
+    .picture-person-two {
+        width: 30%;
+        height: 300px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    .picture-person-one {
+        width: 30%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+}
+
+/* end  responsive for devices greather than 769px and smaller than 992px */
+/* start responsive for devices greather than 993px and smaller than 1200px */
+@media (min-width: 993px) and (max-width: 1200px) {
+    #boy-one {
+        width: 180px;
+        height: 270px;
+        border-radius: 15px;
+    }
+
+    #person-one {
+        width: 100%;
+        height: 350px;
+        background-color: #B6B0A6;
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row-reverse;
+        padding: 80px;
+    }
+
+    .number-person {
+        color: black;
+        text-align: center;
+    }
+
+    .introd-person-one {
+        width: 45%;
+        flex-direction: column;
+        display: flex;
+        gap: 25px;
+    }
+
+    #girl-two {
+        width: 180px;
+        height: 270px;
+        border-radius: 15px;
+    }
+
+    #person-two {
+        width: 100%;
+        height: 300px;
+        background-color: #EDE9DC;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        padding: 80px;
+    }
+
+    .introd-person-two {
+        width: 45%;
+        flex-direction: column;
+        display: flex;
+        gap: 25px;
+    }
+
+    .jobcontainer {
+        text-align: left;
+        display: none;
+        opacity: 0;
+        transform: translateX(-100%);
+        animation: slideIn 1s forwards;
+        font-family: Arial, Helvetica, sans-serif;
+        height: 380px;
+        width: 400px;
+
+    }
+
+    p {
+        font-size: 8.7pt;
+    }
+
+    /* about oppurtunities end*/
+
+
+    @keyframes slideIn {
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    #employee {
+        transition: 0.5s;
+        cursor: pointer;
+    }
+
+    #employee:hover {
+        width: 180px;
+        height: 180px;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+
+
+    .picture-person-two {
+        width: 30%;
+        height: 300px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    .picture-person-one {
+        width: 30%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin: 40px;
+
+    }
+}
+
+/* end responsive for devices greather than 993px and smaller than 1200px */
+/* start responsive for devices greather than 1201px */
+@media screen and (min-width: 1201px) {
+    #boy-one {
+        width: 185px;
+        height: 290px;
+        border-radius: 15px;
+    }
+
+    #person-one {
+        width: 100%;
+        height: 350px;
+        background-color: #B6B0A6;
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row-reverse;
+        padding: 80px;
+    }
+
+    .number-person {
+        color: black;
+        text-align: center;
+    }
+
+    .introd-person-one {
+        width: 45%;
+        flex-direction: column;
+        display: flex;
+        gap: 25px;
+    }
+
+    #girl-two {
+        width: 180px;
+        height: 270px;
+        border-radius: 15px;
+    }
+
+    #person-two {
+        width: 100%;
+        height: 300px;
+        background-color: #EDE9DC;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        padding: 80px;
+    }
+
+    .introd-person-two {
+        width: 45%;
+        flex-direction: column;
+        display: flex;
+        gap: 25px;
+    }
+
+    .jobcontainer {
+        text-align: left;
+        display: none;
+        opacity: 0;
+        transform: translateX(-100%);
+        animation: slideIn 1s forwards;
+        font-family: Arial, Helvetica, sans-serif;
+        height: 400px;
+        width: 450px;
+
+    }
+
+    p {
+        font-size: 9.75pt;
+    }
+
+    /* about oppurtunities end*/
+
+
+    @keyframes slideIn {
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    #employee {
+        transition: 0.5s;
+        cursor: pointer;
+    }
+
+    .employee {
+        height: 450px;
+    }
+
+    #employee:hover {
+        width: 180px;
+        height: 180px;
+        transition: 0.5s;
+        cursor: pointer;
+    }
+
+
+    .picture-person-two {
+        width: 30%;
+        height: 300px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    .picture-person-one {
+        width: 30%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin: 40px;
+
+    }
+}
+
+/* end responsive for devices greather than 1201px */
