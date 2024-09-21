@@ -55,24 +55,28 @@
                         </g>
                     </svg>
                     <div class="off-screen-menu">
-                        <ul><b>type:</b>
-                            <li><a href="#"><u>VIEW ALL</u></a></li>
+                        <ul><strong>type:</strong>
+                            <li><a href="#"><b>VIEW ALL</b></a></li>
                             <li><a href="#">COMMERCIAL</a></li>
                             <li><a href="#">VILLA</a></li>
-                            <li><a href="#">APARTMENT</a></li>
-                            <li><a href="#">contact</a></li>
+                            <li><a href="#">RESIDENTAIL &nbsp; COMPLEX</a></li>
+                            <li><a href="#">REVONTATION</a></li>
                             <li><a href="#">contact</a></li>
                             <li><a href="#">contact</a></li>
                             <li><a href="#">contact</a></li>
                             <li><a href="#">contact</a></li>
 
                         </ul>
-                        <ul>
+                        <br>
+                        <ul><strong>STATUS:</strong>
+                            <li><a href="#"><b>VIEW ALL</b></a></li>
                             <li><a href="#">home</a></li>
                             <li><a href="#">about</a></li>
                             <li><a href="#">contact</a></li>
                         </ul>
-                        <ul>
+                        <br>
+                        <ul><strong>SORT BY:</strong>
+                            <li><a href="#"><b>DEFAUL</b></a></li>
                             <li><a href="#">home</a></li>
                             <li><a href="#">about</a></li>
                             <li><a href="#">contact</a></li>
@@ -84,18 +88,100 @@
             </nav>
 
         </header>
+        <div class="all-cards">
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="images/people/group.jpeg"
+                    alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="images/people/group.jpeg"
+                    alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="images/people/group.jpeg"
+                    alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="images/people/group.jpeg"
+                    alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="images/people/group.jpeg"
+                    alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="images/people/group.jpeg"
+                    alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="images/people/group.jpeg"
+                    alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="images/people/group.jpeg" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                </div>
+            </div><div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="images/people/group.jpeg" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                </div>
+            </div>
+        </div>
         <!--icon humburger end-->
     </div>
 
     <script>
         const hamMenu = document.querySelector(".ham-menu");
-
         const offScreenMenu = document.querySelector(".off-screen-menu");
+        const allCards = document.querySelector(".all-cards"); // Select all cards container  
 
         hamMenu.addEventListener("click", () => {
             hamMenu.classList.toggle("active");
             offScreenMenu.classList.toggle("active");
+            allCards.classList.toggle("shift"); // Toggle shift class for all cards  
         });
+        
     </script>
 </body>
 
