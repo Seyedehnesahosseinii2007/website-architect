@@ -7,6 +7,7 @@
     display: flex;
     flex-direction: column;
 }
+
 html,
 body {
     height: 100%;
@@ -24,6 +25,7 @@ body {
     padding: 10px;
 
 }
+
 /*icon humburger menu */
 .header-logo-and-menu {
     width: 100%;
@@ -36,7 +38,6 @@ header {
     display: flex;
     align-items: center;
     height: 70px;
-    background-color: blue;
     justify-content: space-between;
 }
 
@@ -45,8 +46,10 @@ header {
     width: 130px;
     height: auto;
 }
+
 a {
     color: white;
+    text-decoration: none;
 }
 
 a:visited {
@@ -58,7 +61,6 @@ a:hover {
 }
 
 body {
-    background-color: rgb(65, 71, 97);
     font-family: sans-serif;
 }
 
@@ -66,20 +68,26 @@ body {
 
 /* off-screen-menu */
 .off-screen-menu {
-    background-color: rgb(34, 37, 49);
-    height: 100vh;
-    width: 100%;
+    background-color: transparent;
+    height: 700px;
+    width: 300px;
     max-width: 450px;
     position: fixed;
-    top: 0;
+    top: 20px;
     right: -450px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     text-align: center;
-    font-size: 3rem;
+    font-size: 1rem;
+    padding: 20px;
     transition: .3s ease;
+    background-color: #858181;
+
+}
+
+li,a {
+    text-decoration: none;
+    text-decoration-line: none;
 }
 
 .off-screen-menu.active {
@@ -92,7 +100,7 @@ body {
 nav {
     padding: 1rem;
     display: flex;
-    background-color: rgb(34, 37, 49);
+    background-color: transparent;
 }
 
 
@@ -108,7 +116,7 @@ nav {
 .ham-menu span {
     height: 5px;
     width: 100%;
-    background-color: #6F86FF;
+    background-color: black;
     border-radius: 25px;
     position: absolute;
     left: 50%;
@@ -126,7 +134,7 @@ nav {
 }
 
 .ham-menu.active span {
-    background-color: white;
+    background-color: black;
 }
 
 .ham-menu.active span:nth-child(1) {
@@ -141,4 +149,26 @@ nav {
 .ham-menu.active span:nth-child(3) {
     top: 50%;
     transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.ham-menu {
+    height: 50px;
+    width: 40px;
+    margin-left: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ham-menu svg {
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.ham-menu.active svg {
+    transform: rotate(90deg);
+    /* Example transformation */
 }

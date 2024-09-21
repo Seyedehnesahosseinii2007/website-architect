@@ -39,25 +39,50 @@
             <div class="logo-brand">
                 <img id="brand" src="images/logo/mrk.png" alt="">
             </div>
+            <nav>
+                <div class="ham-menu">
+                    <svg fill="#000000" width="40px" height="40px" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <g data-name="Layer 2">
+                            <g data-name="options-2">
+                                <rect width="24" height="24" transform="rotate(90 12 12)" opacity="0" />
+                                <path d="M19 9a3 3 0 0 0-2.82 2H3a1 1 0 0 0 0 2h13.18A3 3 0 1 0 19 9z" />
+                                <path
+                                    d="M3 7h1.18a3 3 0 0 0 5.64 0H21a1 1 0 0 0 0-2H9.82a3 3 0 0 0-5.64 0H3a1 1 0 0 0 0 2z" />
+                                <path
+                                    d="M21 17h-7.18a3 3 0 0 0-5.64 0H3a1 1 0 0 0 0 2h5.18a3 3 0 0 0 5.64 0H21a1 1 0 0 0 0-2z" />
+                            </g>
+                        </g>
+                    </svg>
+                    <div class="off-screen-menu">
+                        <ul><b>type:</b>
+                            <li><a href="#"><u>VIEW ALL</u></a></li>
+                            <li><a href="#">COMMERCIAL</a></li>
+                            <li><a href="#">VILLA</a></li>
+                            <li><a href="#">APARTMENT</a></li>
+                            <li><a href="#">contact</a></li>
+                            <li><a href="#">contact</a></li>
+                            <li><a href="#">contact</a></li>
+                            <li><a href="#">contact</a></li>
+                            <li><a href="#">contact</a></li>
 
-            <div class="for-navigationmenu">
-                <div class="off-screen-menu">
-                    <ul>
-                        <li><a href="#">home</a></li>
-                        <li><a href="#">about</a></li>
-                        <li><a href="#">contact</a></li>
-                    </ul>
-                </div>
-                
-                <nav>
-                    <div class="ham-menu">
-                        <span></span>
-                        <span></span>
-                        <span></span>
+                        </ul>
+                        <ul>
+                            <li><a href="#">home</a></li>
+                            <li><a href="#">about</a></li>
+                            <li><a href="#">contact</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">home</a></li>
+                            <li><a href="#">about</a></li>
+                            <li><a href="#">contact</a></li>
+                        </ul>
                     </div>
-                </nav>
 
-            </div>
+
+                </div>
+            </nav>
+
         </header>
         <!--icon humburger end-->
     </div>
@@ -65,12 +90,12 @@
     <script>
         const hamMenu = document.querySelector(".ham-menu");
 
-            const offScreenMenu = document.querySelector(".off-screen-menu");
+        const offScreenMenu = document.querySelector(".off-screen-menu");
 
-            hamMenu.addEventListener("click", () => {
-                hamMenu.classList.toggle("active");
-                offScreenMenu.classList.toggle("active");
-            });
+        hamMenu.addEventListener("click", () => {
+            hamMenu.classList.toggle("active");
+            offScreenMenu.classList.toggle("active");
+        });
     </script>
 </body>
 
