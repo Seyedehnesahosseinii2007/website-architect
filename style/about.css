@@ -202,6 +202,7 @@ header {
 #boy-one {
     width: 225px;
     border-radius: 20px;
+
 }
 
 #girl-two {
@@ -334,18 +335,23 @@ p {
 
 /* about oppurtunities */
 /* start responsive for devices smaller than 576px */
-
 @media (max-width: 576px) {
 
     /*person one*/
     #person-one {
         flex-direction: column;
-        height: auto;
+        height: 580px;
         padding: 20px;
+        width: 100%;
     }
 
     .picture-person-one {
         margin-bottom: 20px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .introd-person-one {
@@ -355,8 +361,16 @@ p {
 
     #boy-one {
         width: 100%;
-        max-width: 150px;
-        margin: 0 auto;
+        max-width: 140px;
+        border-radius: 20px;
+        height: auto;
+    }
+
+    #girl-two {
+        width: 100%;
+        max-width: 120px;
+        border-radius: 20px;
+        height: auto;
     }
 
     .number-person {
@@ -372,24 +386,23 @@ p {
     /*person two*/
     #person-two {
         flex-direction: column;
-        height: auto;
+        height: 520px;
         padding: 20px;
+        width: 100%;
     }
 
     .picture-person-two {
         margin-bottom: 20px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .introd-person-two {
         width: 100%;
         gap: 15px;
-    }
-
-
-    #girl-two {
-        width: 100%;
-        max-width: 150px;
-        margin: 0 auto;
     }
 
     .number-person {
@@ -429,8 +442,6 @@ p {
         width: 300px;
         height: auto;
     }
-
-
 }
 
 /* end responsive for devices smaller than 576px */
@@ -578,41 +589,41 @@ p {
     /* about oppurtunities end*/
 }
 
-    @keyframes slideIn {
-        to {
-            opacity: 1;
-            transform: translateX(0);
-        }
+@keyframes slideIn {
+    to {
+        opacity: 1;
+        transform: translateX(0);
     }
+}
 
-    #employee {
-        transition: 0.5s;
-        cursor: pointer;
-    }
+#employee {
+    transition: 0.5s;
+    cursor: pointer;
+}
 
-    #employee:hover {
-        width: 180px;
-        height: 180px;
-        transition: 0.5s;
-        cursor: pointer;
-    }
+#employee:hover {
+    width: 180px;
+    height: 180px;
+    transition: 0.5s;
+    cursor: pointer;
+}
 
 
-    .picture-person-two {
-        width: 30%;
-        height: 300px;
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        margin-top: 40px;
-    }
+.picture-person-two {
+    width: 30%;
+    height: 300px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 40px;
+}
 
-    .picture-person-one {
-        width: 30%;
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-    }
+.picture-person-one {
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
 
 
 /* end  responsive for devices greather than 769px and smaller than 992px */
