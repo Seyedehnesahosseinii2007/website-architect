@@ -471,8 +471,10 @@ p {
 
     #boy-one,
     #girl-two {
-        width: 150px;
-        height: auto;
+        width: 200px;
+        /* تغییر عرض به 200 پیکسل */
+        height: 300px;
+        /* تغییر ارتفاع به 200 پیکسل */
         border-radius: 20px;
     }
 
@@ -493,7 +495,6 @@ p {
         font-size: 15pt;
     }
 
-
     #group-people {
         border-radius: 20px;
         box-shadow: 1px 2px 15px 1px black;
@@ -502,13 +503,17 @@ p {
     }
 
     #employee {
-        width: 150px;
-        height: 150px;
+        width: 200px;
+        /* تغییر عرض به 200 پیکسل */
+        height: 200px;
+        /* تغییر ارتفاع به 200 پیکسل */
     }
 
     #employee:hover {
-        width: 160px;
-        height: 160px;
+        width: 210px;
+        /* تغییر عرض به 210 پیکسل */
+        height: 210px;
+        /* تغییر ارتفاع به 210 پیکسل */
     }
 
 }
@@ -631,7 +636,7 @@ p {
 @media (min-width: 993px) and (max-width: 1200px) {
     #boy-one {
         width: 180px;
-        height: 270px;
+        height: 290px;
         border-radius: 15px;
     }
 
@@ -661,8 +666,8 @@ p {
 
     #girl-two {
         width: 180px;
-        height: 270px;
-        border-radius: 15px;
+            height: 290px;
+            border-radius: 15px;
     }
 
     #person-two {

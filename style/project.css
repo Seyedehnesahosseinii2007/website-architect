@@ -199,4 +199,21 @@ ul {
 .all-cards.shift {
     margin-right: 200px;
     transition: margin-left 0.3s ease;
+}/* text about us start */
+.subject {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.gradient-text {
+    font-size: 40pt;
+    text-align: center;
+    background: linear-gradient(60deg, #B6B0A6, #121212);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
 }
