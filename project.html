@@ -39,9 +39,7 @@
             <div class="logo-brand">
                 <img id="brand" src="images/logo/mrk.png" alt="">
             </div>
-            <section class="subject">
-                <h2 class="gradient-text">Projects</h2>
-            </section>
+
             <nav>
                 <div class="ham-menu">
                     <svg fill="#000000" width="40px" height="40px" viewBox="0 0 24 24"
@@ -91,6 +89,9 @@
             </nav>
 
         </header>
+        <section class="subject">
+            <h2 class="gradient-text">Projects</h2>
+        </section>
         <div class="all-cards">
             <div class="card" style="width: 18rem;">
                 <img class="card-img-top" src="images/people/group.jpeg" alt="Card image cap">
@@ -164,6 +165,55 @@
                         content.</p>
                 </div>
             </div>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="images/people/group.jpeg" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="images/people/group.jpeg" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="images/people/group.jpeg" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="images/people/group.jpeg" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="images/people/group.jpeg" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="images/people/group.jpeg" alt="Card image cap">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's
+                        content.</p>
+                </div>
+            </div>
+         
         </div>
         <!--icon humburger end-->
     </div>
@@ -177,6 +227,11 @@
             hamMenu.classList.toggle("active");
             offScreenMenu.classList.toggle("active");
             allCards.classList.toggle("shift"); // Toggle shift class for all cards  
+        });
+        document.querySelectorAll('.off-screen-menu li').forEach(item => {
+            item.addEventListener('click', () => {
+                document.querySelector('.all-cards').classList.add('shift');
+            });
         });
 
     </script>
