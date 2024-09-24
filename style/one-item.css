@@ -98,3 +98,76 @@ body {
     width: 100%;
     height: 700px;
 }
+
+/* first line info about project*/
+.row1 {
+    width: 100%;
+    height: 250px;
+}
+
+ul {
+    list-style: none;
+
+}
+
+.info1 {
+    font-size: 15pt;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.detail1 {
+    font-size: 14pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    gap: 200px;
+}
+
+@keyframes slideIn {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* second line info about project*/
+.row2 {
+    width: 100%;
+    height: 250px;
+    margin-top: 30px;
+}
+
+ul {
+    list-style: none;
+
+}
+
+.info2 {
+    font-size: 15pt;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.detail2 {
+    font-size: 14pt;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+/* third line info about project*/
+.row3 {
+    width: 100%;
+    height: 220px;
+    /* margin-top: 30px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info-about-project {
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
