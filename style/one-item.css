@@ -1,0 +1,100 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Saira Condensed', sans-serif;
+    background-color: #EDE9DC !important;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+header {
+    flex-direction: row;
+}
+
+.subject {
+    animation-delay: 0.5s;
+}
+
+
+/* border website*/
+.border-site {
+    width: 100%;
+    min-height: 100vh;
+    border: 4px solid #121212;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.header-logo-and-menu {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    background-color: red;
+    flex-direction: row;
+}
+
+
+
+/* logo*/
+#brand {
+    width: 130px;
+    height: auto;
+}
+
+* {
+    box-sizing: border-box
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    margin: 0
+}
+
+.mycarouselImages {
+    width: 100%;
+    height: auto;
+
+}
+
+#piccarousel {
+    width: 100%;
+    height: 700px;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+}
+
+.carousel-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+}
