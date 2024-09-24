@@ -1,0 +1,79 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Saira Condensed', sans-serif;
+    background-color: #EDE9DC !important;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+header {
+    flex-direction: row;
+}
+
+/*animation move in left to right the logo and header start*/
+.humburgermenu,
+.logo-brand,
+.jobs,
+.subject {
+    opacity: 0;
+    transform: translateX(-100%);
+    animation: slideIn 1s forwards;
+}
+
+.subject {
+    animation-delay: 0.5s;
+}
+
+/*the main action*/
+@keyframes slideIn {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/*animation move in left to right the logo and header end*/
+/* border website*/
+.border-site {
+    width: 100%;
+    min-height: 100vh;
+    border: 4px solid #121212;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.header-logo-and-menu {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* logo*/
+#brand {
+    width: 130px;
+    height: auto;
+}
