@@ -47,6 +47,7 @@ header {
     height: auto;
 }
 
+/*style for links*/
 a {
     color: rgb(0, 0, 0);
     text-decoration: none;
@@ -68,6 +69,7 @@ a {
     transition: .3s ease;
 }
 
+/*style for li and links*/
 li,
 a {
     text-decoration: none;
@@ -76,16 +78,17 @@ a {
     text-align: center;
 }
 
+/*humburger menu and whe is active */
 .off-screen-menu.active {
     right: 0;
 }
 
-a:hover {
+li:hover {
     transition: 0.25s;
     margin-right: 20px;
 }
 
-/* nav */
+/* navgation bar tag */
 nav {
     padding: 1rem;
     display: flex;
@@ -96,7 +99,7 @@ nav {
     justify-content: center;
 }
 
-/* ham menu */
+/*start ham menu style for text*/
 .ham-menu {
     height: 50px;
     width: 40px;
@@ -124,14 +127,15 @@ nav {
     text-align: center;
 }
 
+/*end ham menu style for text*/
 .ham-menu span:nth-child(1) {
     top: 25%;
 }
 
 .ham-menu span:nth-child(3) {
-    top: 75%;
+    top: 5%;
 }
-
+کار پیش اومد استریمم روشنه میام یه چند دقیقه دیگه 
 .ham-menu.active span {
     background-color: black;
 }
@@ -180,6 +184,10 @@ li a {
     filter: grayscale(0%);
 }
 
+.card:hover {
+    cursor: pointer;
+}
+
 /*end hover on the picture*/
 ul {
     list-style: none;
@@ -188,6 +196,11 @@ ul {
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+#link-card {
+    text-decoration: none;
+
 }
 
 /* کارت‌ها */
@@ -205,6 +218,8 @@ ul {
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
     border-radius: 8px;
     overflow: hidden;
+    list-style: none;
+    text-decoration: none;
 }
 
 .all-cards.shift {

@@ -716,7 +716,7 @@ hr {
     }
 }
 
-/* start responsive for devices greather than 577px and smaller than 768px */
+/* start responsive for devices greather than 769px and smaller than 992px */
 @media screen and (min-width:769px) and (max-width:992px) {
 
     /* black border */
