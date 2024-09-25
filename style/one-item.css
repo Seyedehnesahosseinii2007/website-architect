@@ -59,6 +59,7 @@ header {
     width: 100%;
     height: 700px;
 }
+
 /* 
 .carousel-inner {
     display: flex;
@@ -99,7 +100,6 @@ ul {
 .detail1 {
     font-size: 14pt;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    gap: 200px;
 }
 
 
@@ -168,3 +168,92 @@ ul {
     justify-content: center;
     align-items: center;
 }
+
+/* start responsive for devices smaller than 576px */
+@media (max-width: 576px) {
+
+    /*carousel's pictures */
+    .carousel {
+        height: 250px;
+    }
+
+    #piccarousel {
+        height: auto;
+    }
+
+    .row1 {
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .info1,
+    .detail1 {
+        flex-direction: row;
+        gap: 10px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .info1 {
+        display: flex;
+        gap: 10px;
+    }
+
+    .detail1 {
+        display: flex;
+        gap: 20px;
+    }
+
+    .info1 li,
+    .detail1 li {
+        width: 100%;
+        text-align: center;
+    }
+
+    /*scond row*/
+    .row2 {
+        margin-top: 150px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .row3 {
+        margin-top: 130px;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info2,
+    .detail2 {
+        flex-direction: row;
+        gap: 10px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .info2 {
+        display: flex;
+        font-size: 14pt;
+    }
+
+    .detail2 {
+        display: flex;
+        gap: 20px;
+        font-size: 14pt;
+    }
+
+    .info2 li,
+    .detail2 li {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* end responsive for devices smaller than 576px */
