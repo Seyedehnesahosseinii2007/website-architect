@@ -25,7 +25,6 @@ body {
     overflow: hidden;
 }
 
-/* CSS */
 header {
     display: flex;
     justify-content: space-between;
@@ -38,20 +37,22 @@ header {
     width: 130px;
     height: auto;
     margin: 0 auto;
-    /* این خط اضافه شده است */
 }
 
+/*for carousel*/
 .carousel {
     width: 100%;
     height: auto;
 
 }
 
+/*pictures in carousel*/
 #piccarousel {
     width: 100%;
     height: 700px;
 }
 
+/*division for pictures*/
 .carousel-item {
     display: flex;
     justify-content: center;
@@ -79,6 +80,7 @@ header {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/*animaton for when you are scrolling and  that row slideIn with animation*/
 @keyframes slideIn {
     to {
         opacity: 1;
@@ -86,11 +88,13 @@ header {
     }
 }
 
+/*for topics*/
 ul {
     list-style: none;
 
 }
 
+/* info where is the like architecture year ....*/
 .info1 {
     font-size: 15pt;
     font-weight: 500;
@@ -98,6 +102,7 @@ ul {
     margin-right: 30px;
 }
 
+/* detail where is the like 2024 seyedeh nesa hosseini tehran iran ....*/
 .detail1 {
     font-size: 14pt;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -121,6 +126,7 @@ ul {
 
 }
 
+/*animaton for when you are scrolling and  that row slideIn with animation*/
 @keyframes slideIn {
     to {
         opacity: 1;
@@ -128,11 +134,13 @@ ul {
     }
 }
 
+/*for topics*/
 ul {
     list-style: none;
 
 }
 
+/* info where is the like client team....*/
 .info2 {
     font-size: 15pt;
     font-weight: 500;
@@ -144,6 +152,7 @@ ul {
     margin-right: 30px;
 }
 
+/* info where is the like fandoq's team ....*/
 .detail2 {
     font-size: 14pt;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -167,13 +176,14 @@ ul {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/*animaton for when you are scrolling and  that row slideIn with animation*/
 @keyframes slideIn {
     to {
         opacity: 1;
         transform: translateY(0);
     }
 }
-
+/*caption... */
 .info-about-project {
     width: 90%;
     height: auto;
@@ -409,7 +419,7 @@ ul {
 /* start  responsive for devices greather than 1201px  */
 @media screen and (min-width: 1201px) {
 
-  
+
 
     /*start last line about caption*/
     .row3 {
@@ -418,7 +428,7 @@ ul {
         flex-direction: column;
         align-items: center;
         font-size: 12pt;
-                margin-top: -30px;
+        margin-top: -30px;
     }
 
 
@@ -427,7 +437,7 @@ ul {
         margin-top: -30px;
     }
 
-  
+
 
     .row1 {
         height: 300px;

@@ -128,6 +128,7 @@ nav {
 }
 
 /*end ham menu style for text*/
+/*start for svg icon humburger menu */
 .ham-menu span:nth-child(1) {
     top: 25%;
 }
@@ -135,10 +136,12 @@ nav {
 .ham-menu span:nth-child(3) {
     top: 5%;
 }
+
 .ham-menu.active span {
     background-color: black;
 }
 
+/*start svg when you click and it will rotate 180 deg*/
 .ham-menu.active span:nth-child(1) {
     top: 50%;
     transform: translate(-50%, -50%) rotate(45deg);
@@ -153,6 +156,7 @@ nav {
     transform: translate(-50%, -50%) rotate(-45deg);
 }
 
+/*end svg when you click and it will rotate 180 deg*/
 .ham-menu svg {
     height: 100%;
     width: 100%;
@@ -164,6 +168,7 @@ nav {
     transform: rotate(90deg);
 }
 
+/*end for svg icon humburger menu */
 li a {
     text-decoration: none;
     list-style: none;
@@ -179,7 +184,7 @@ li a {
 }
 
 .card-img-top:hover {
-
+    /*gray picture*/
     filter: grayscale(0%);
 }
 
@@ -188,6 +193,7 @@ li a {
 }
 
 /*end hover on the picture*/
+/* ul tag for li tag in humburger menu*/
 ul {
     list-style: none;
     display: flex;
@@ -196,12 +202,14 @@ ul {
     align-items: center;
     text-align: center;
 }
+
+/* link cards*/
 .linkscard {
     text-decoration: none;
 
 }
 
-/* کارت‌ها */
+/* all cards*/
 .all-cards {
     width: 80%;
     display: flex;
@@ -212,6 +220,7 @@ ul {
     gap: 50px;
 }
 
+/* each cards*/
 .card {
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
     border-radius: 8px;
@@ -234,6 +243,7 @@ ul {
     padding: 20px 0;
 }
 
+/*title*/
 .gradient-text {
     font-size: 40pt;
     text-align: center;
@@ -244,10 +254,10 @@ ul {
     color: transparent;
 }
 
-/* Add this CSS to your existing stylesheet */
-
-/* Media query for screens with a max-width of 576px */
+/* start responsive for devices smaller than 576px */
 @media (max-width: 576px) {
+
+    /*start humburger menu*/
     .ham-menu {
         height: 40px;
         width: 30px;
@@ -292,6 +302,8 @@ ul {
         transform: translateX(0);
     }
 
+    /*end humburger menu*/
+    /*start cards*/
     .all-cards {
         transition: transform 0.3s ease, opacity 0.3s ease;
     }
@@ -300,8 +312,12 @@ ul {
         transform: translateX(100%);
         opacity: 0;
     }
+
+    /*start cards*/
 }
 
+/* end responsive for devices smaller than 576px */
+/* start responsive for devices greather than 577px and smaller than 768px */
 @media screen and (min-width: 577px) and (max-width: 768px) {
     .ham-menu {
         height: 40px;
@@ -345,10 +361,10 @@ ul {
         margin-right: 20px;
     }
 
+    /*when you click on svg icon in active time*/
     .off-screen-menu.active {
         transform: translateX(0);
         width: 100%;
-        /* اضافه شده برای عرض 100 درصد */
     }
 
     .all-cards {
@@ -364,6 +380,8 @@ ul {
     }
 }
 
+/* end responsive for devices greather than 577px and smaller than 768px */
+/* start responsive for devices greather than 769px and smaller than 992px */
 @media screen and (min-width: 769px) and (max-width: 992px) {
     .ham-menu {
         height: 40px;
@@ -410,7 +428,6 @@ ul {
     .off-screen-menu.active {
         transform: translateX(0);
         width: 100%;
-        /* اضافه شده برای عرض 100 درصد */
     }
 
     .all-cards {
@@ -426,6 +443,8 @@ ul {
     }
 }
 
+/* end responsive for devices greather than 769px and smaller than 992px */
+/* start responsive for devices greather than 993px and smaller than 1024px */
 @media screen and (min-width: 993px) and (max-width: 1024px) {
     .ham-menu {
         height: 40px;
@@ -472,7 +491,6 @@ ul {
     .off-screen-menu.active {
         transform: translateX(0);
         width: 100%;
-        /* اضافه شده برای عرض 100 درصد */
     }
 
     .all-cards {
@@ -487,6 +505,8 @@ ul {
     }
 }
 
+/* end responsive for devices greather than 993px and smaller than 1024px */
+/* start responsive for devices greather than 1025px and smaller than 1200px */
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
     .ham-menu {
         height: 40px;
@@ -533,7 +553,6 @@ ul {
     .off-screen-menu.active {
         transform: translateX(0);
         width: 100%;
-        /* اضافه شده برای عرض 100 درصد */
     }
 
     .all-cards {
@@ -547,3 +566,5 @@ ul {
         opacity: 0;
     }
 }
+
+/* end responsive for devices greather than 1025px and smaller than 1200px */
