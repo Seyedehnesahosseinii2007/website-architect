@@ -789,6 +789,7 @@ ul {
         overflow-y: auto;
         flex-grow: 1;
         gap: 50px;
+        margin-left: 50px;
     }
 
     /* each cards*/
@@ -827,4 +828,3 @@ ul {
 }
 
 /* end responsive for devices greather than1201px*/
-   
