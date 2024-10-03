@@ -202,7 +202,7 @@ header {
 #boy-one {
     width: 225px;
     border-radius: 20px;
-
+    height: 450px;
 }
 
 #girl-two {
@@ -666,8 +666,8 @@ p {
 
     #girl-two {
         width: 180px;
-            height: 290px;
-            border-radius: 15px;
+        height: 290px;
+        border-radius: 15px;
     }
 
     #person-two {

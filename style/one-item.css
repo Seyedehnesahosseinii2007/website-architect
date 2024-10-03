@@ -48,8 +48,8 @@ header {
 
 /*pictures in carousel*/
 #piccarousel {
-    width: 100%;
-    height: 700px;
+    width: 850px;
+    height: 670px;
 }
 
 /*division for pictures*/
@@ -58,7 +58,7 @@ header {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 700px;
+    height: 670px;
 }
 
 /* 
