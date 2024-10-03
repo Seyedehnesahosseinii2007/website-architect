@@ -784,7 +784,8 @@ ul {
     .all-cards {
         width: 80%;
         display: flex;
-        flex-wrap: wrap;
+        align-items: center;
+        margin-left: 5px;
         justify-content: flex-start;
         overflow-y: auto;
         flex-grow: 1;
