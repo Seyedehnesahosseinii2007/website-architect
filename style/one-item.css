@@ -48,7 +48,7 @@ header {
 
 /*pictures in carousel*/
 #piccarousel {
-    width: 850px;
+    width: 100%;
     height: auto;
 
 }
