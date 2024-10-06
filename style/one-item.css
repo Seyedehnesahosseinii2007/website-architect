@@ -41,9 +41,17 @@ header {
 
 /*for carousel*/
 .carousel {
-    width: 100%;
-    height: auto;
+    width: 70%;
 
+    height: auto;
+}
+
+.for-my-carousel {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
 }
 
 /*pictures in carousel*/
@@ -184,6 +192,7 @@ ul {
         transform: translateY(0);
     }
 }
+
 /*caption... */
 .info-about-project {
     width: 90%;

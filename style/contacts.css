@@ -343,6 +343,8 @@ button:hover {
     justify-content: center;
     align-items: center;
     gap: 10px;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 /*youtube icon */
@@ -352,6 +354,7 @@ button:hover {
     justify-content: center;
     align-items: center;
     gap: 10px;
+    cursor: pointer;
 }
 
 /*linkedin icon*/
@@ -362,7 +365,7 @@ button:hover {
     justify-content: center;
     align-items: center;
     gap: 10px;
-
+    cursor: pointer;
 }
 
 /*email icon*/
@@ -373,7 +376,13 @@ button:hover {
     justify-content: center;
     align-items: center;
     gap: 10px;
+    cursor: pointer;
+}
 
+.icons-social-media a {
+    text-decoration: none;
+    color: inherit;
+    /* Optional: Ensures the link color matches the surrounding text */
 }
 
 /* part contact info */
@@ -390,12 +399,10 @@ button:hover {
 
 /*icons and details location company phonenumber and email address*/
 .location,
-.call-company,
-.call-company-two,
-.location-two .email-text {
-    width: 40%;
+.call-company {
+    width: 50%;
     height: auto;
-    justify-content: flex-start;
+    justify-content: center;
     display: flex;
     align-items: center;
 }
