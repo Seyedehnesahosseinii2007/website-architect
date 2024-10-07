@@ -130,14 +130,17 @@ strong {
 /* animation move button end */
 /* start responsive for devices smaller than 576px */
 @media screen and (max-width:576px) {
+
+    /* black border */
     .border-site {
-        width: 300px;
-        height: 300px;
+        width: 100%;
+        min-height: 100vh;
         border: 4px solid #121212;
         display: flex;
         justify-content: center;
-        flex-direction: column;
         align-items: center;
+        flex-direction: column;
+        margin-top: 150px;
     }
 
     #gifstart {
@@ -153,16 +156,22 @@ strong {
         margin-top: -100px;
     }
 
+    html,
     body {
-        font-family: 'Saira Condensed', sans-serif;
+        height: 100%;
         margin: 0;
         padding: 0;
+        height: 100vh;
+    }
+
+    body {
+        font-family: 'Saira Condensed', sans-serif;
         background-color: #EDE9DC !important;
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 100%;
-        height: 100vh;
+        padding: 10px;
+
     }
 
     /* button enter division */
@@ -235,7 +244,7 @@ strong {
 @media screen and (min-width:577px) and (max-width:768px) {
     .border-site {
         width: 550px;
-        height: 550px;
+        height: 600px;
         border: 4px solid #121212;
         display: flex;
         justify-content: center;
@@ -336,15 +345,6 @@ strong {
 /* End  responsive for devices greather than 577px and smaller than 768px */
 /* start  responsive for devices greather than 769px and smaller than 992px */
 @media screen and (min-width:769px) and (max-width:992px) {
-    .border-site {
-        width: 650px;
-        height: 700px;
-        border: 4px solid #121212;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-    }
 
     #gifstart {
         width: 500px;
@@ -359,6 +359,16 @@ strong {
         margin-top: -100px;
     }
 
+    .border-site {
+        width: 550px;
+        height: 650px;
+        border: 4px solid #121212;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
     body {
         font-family: 'Saira Condensed', sans-serif;
         margin: 0;
@@ -368,7 +378,7 @@ strong {
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: 100vh;
+        height: 90vh;
     }
 
     /* button enter division */
