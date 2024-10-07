@@ -33,6 +33,10 @@ header {
     flex-direction: row;
 }
 
+#humburger {
+    margin-left: 20px;
+}
+
 #brand {
     width: 130px;
     height: auto;
@@ -41,9 +45,9 @@ header {
 
 /*for carousel*/
 .carousel {
-    width: 70%;
+    width: 90%;
 
-    height: auto;
+    max-height: auto;
 }
 
 .for-my-carousel {

@@ -78,6 +78,11 @@ a {
     text-align: center;
 }
 
+#humburger {
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
 /*humburger menu and whe is active */
 .off-screen-menu.active {
     right: 0;

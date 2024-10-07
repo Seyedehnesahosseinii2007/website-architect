@@ -16,6 +16,10 @@ body {
 
 }
 
+#humburger {
+    margin-left: 20px;
+}
+
 /*icon humburger menu */
 .humburgermenu {
     width: 100%;
@@ -449,7 +453,7 @@ hr {
 
     .row-first {
         width: 100%;
-        min-height: 450px;
+        min-height: 290px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -459,13 +463,14 @@ hr {
 
     .row-second {
         width: 100%;
-        min-height: 800px;
+        min-height: 750px;
         display: flex;
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        gap: 50px;
+        gap: 60px;
     }
+
 
     /*end 2 sections*/
 
@@ -541,9 +546,9 @@ hr {
 
     .contact-info {
         width: 100%;
-        height: 200px;
-        margin-top: 20px;
+        height: 350px;
         padding: 1rem;
+        margin-top: -50px;
     }
 
     .location,
@@ -558,8 +563,16 @@ hr {
     .icons-social-media {
         flex-direction: column;
         gap: 20px;
-        height: 290px;
+        height: 400px;
         display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+
+    }
+
+    #social {
+        margin-top: -70px;
     }
 
     .instagram,
@@ -579,7 +592,6 @@ hr {
     }
 
     /*end line */
-
 }
 
 /* end responsive for devices smaller than 576px */
@@ -612,12 +624,12 @@ hr {
 
     .row-second {
         width: 100%;
-        min-height: 800px;
+        min-height: 550px;
         display: flex;
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        gap: 50px;
+        gap: 60px;
     }
 
     /*end 2 sections*/
@@ -695,7 +707,10 @@ hr {
 
     .contact-info {
         width: 100%;
-        height: 200px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         margin-top: 20px;
         padding: 1rem;
     }
@@ -713,7 +728,7 @@ hr {
     .icons-social-media {
         flex-direction: column;
         gap: 20px;
-        height: 290px;
+        height: 330px;
         display: flex;
     }
 
@@ -786,13 +801,12 @@ hr {
 
     .row-second {
         width: 100%;
-        min-height: 800px;
+        min-height: 550px;
         display: flex;
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        gap: 50px;
-        margin-top: -70px;
+        gap: 60px;
     }
 
     /*end 2 sections*/
@@ -852,8 +866,11 @@ hr {
 
     .contact-info {
         width: 100%;
-        height: 150px;
-        margin-top: -20px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
         padding: 1rem;
     }
 
@@ -869,7 +886,7 @@ hr {
     .icons-social-media {
         flex-direction: column;
         gap: 20px;
-        height: 290px;
+        height: 330px;
         display: flex;
     }
 
@@ -945,13 +962,12 @@ hr {
 
     .row-second {
         width: 100%;
-        min-height: 800px;
+        min-height: 550px;
         display: flex;
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        gap: 50px;
-        margin-top: -70px;
+        gap: 60px;
     }
 
     /*end 2 sections*/
@@ -1011,8 +1027,11 @@ hr {
 
     .contact-info {
         width: 100%;
-        height: 150px;
-        margin-top: -20px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
         padding: 1rem;
     }
 
@@ -1028,7 +1047,7 @@ hr {
     .icons-social-media {
         flex-direction: column;
         gap: 20px;
-        height: 290px;
+        height: 330px;
         display: flex;
     }
 
