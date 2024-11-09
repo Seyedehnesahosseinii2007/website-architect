@@ -2,7 +2,7 @@ body {
     font-family: 'Saira Condensed', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #EDE9DC !important;
+    /* background-color: #EDE9DC !important; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,22 +47,65 @@ strong {
     width: inherit;
     height: 100px;
     display: flex;
+    gap: 40px;
     justify-content: center;
     align-items: center;
 }
 
 /* button enter  */
-#enter {
+#persian {
     border: none;
     font-family: 'Saira Condensed', sans-serif;
     font-size: 17pt;
     font-weight: 500;
-    letter-spacing: 8px;
+    transition: 0.5s;
+    position: relative;
+    animation: moveButtons 3s;
+    background-color: #EDE9DC;
+    margin-top: 50px;
+}
+
+/* animation move button start */
+@keyframes moveButtons {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        left: 0px;
+        top: 0px;
+    }
+
+    50% {
+        left: 0px;
+        top: 35px;
+
+    }
+
+    75% {
+        left: 0px;
+        top: 35px;
+
+    }
+
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}
+
+#english {
+    border: none;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 17pt;
+    font-weight: 500;
     transition: 0.5s;
     position: relative;
     animation: moveButton 3s;
     background-color: #EDE9DC;
     margin-top: 50px;
+    letter-spacing: 6px;
 }
 
 /* animation move button start */
@@ -97,12 +140,20 @@ strong {
     }
 }
 
-#enter:hover {
+#english:hover {
     border: none;
     font-family: 'Saira Condensed', sans-serif;
     font-size: 17pt;
     font-weight: 500;
     letter-spacing: 4px;
+    transition: 0.5s;
+}
+
+#persian:hover {
+    border: none;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 17pt;
+    font-weight: 500;
     transition: 0.5s;
 }
 

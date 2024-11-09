@@ -54,7 +54,6 @@ h2 {
     border: none;
     background-color: #EDE9DC;
     cursor: pointer;
-    letter-spacing: 8px;
     font-family: 'Saira Condensed', sans-serif;
     font-size: 15pt;
     font-weight: 700;
@@ -66,14 +65,6 @@ h2 {
 .choose-item a {
     text-decoration: none;
     color: inherit;
-}
-
-/* buttons when you hover */
-.btn1:hover,
-.btn2:hover,
-.btn3:hover,
-.btn4:hover {
-    letter-spacing: 4px;
 }
 
 #threeD {
@@ -218,8 +209,7 @@ h2 {
         border: none;
         background-color: #EDE9DC;
         cursor: pointer;
-        letter-spacing: 8px;
-        font-family: 'Saira Condensed', sans-serif;
+            font-family: 'Saira Condensed', sans-serif;
         font-size: 17pt;
         font-weight: 700;
         transition: 0.5s;
@@ -228,13 +218,7 @@ h2 {
     }
 
     /* buttons when you hover */
-    .btn1:hover,
-    .btn2:hover,
-    .btn3:hover,
-    .btn4:hover {
-        letter-spacing: 4px;
-    }
-
+ 
     /*text header our team*/
     h2 {
         font-family: 'Saira Condensed', sans-serif;
@@ -317,8 +301,7 @@ h2 {
         border: none;
         background-color: #EDE9DC;
         cursor: pointer;
-        letter-spacing: 8px;
-        font-family: 'Saira Condensed', sans-serif;
+            font-family: 'Saira Condensed', sans-serif;
         font-size: 19pt;
         font-weight: 700;
         transition: 0.5s;
@@ -327,13 +310,7 @@ h2 {
     }
 
     /* buttons when you hover */
-    .btn1:hover,
-    .btn2:hover,
-    .btn3:hover,
-    .btn4:hover {
-        letter-spacing: 4px;
-    }
-
+ 
     /*text header our team*/
 
 
@@ -416,8 +393,7 @@ h2 {
         border: none;
         background-color: #EDE9DC;
         cursor: pointer;
-        letter-spacing: 8px;
-        font-family: 'Saira Condensed', sans-serif;
+            font-family: 'Saira Condensed', sans-serif;
         font-size: 30pt;
         font-weight: 700;
         transition: 0.5s;
@@ -426,13 +402,7 @@ h2 {
     }
 
     /* buttons when you hover */
-    .btn1:hover,
-    .btn2:hover,
-    .btn3:hover,
-    .btn4:hover {
-        letter-spacing: 4px;
-    }
-
+ 
     /*text header our team*/
 
 
@@ -515,8 +485,7 @@ h2 {
         border: none;
         background-color: #EDE9DC;
         cursor: pointer;
-        letter-spacing: 8px;
-        font-family: 'Saira Condensed', sans-serif;
+            font-family: 'Saira Condensed', sans-serif;
         font-size: 22pt;
         font-weight: 700;
         transition: 0.5s;
@@ -525,13 +494,7 @@ h2 {
     }
 
     /* buttons when you hover */
-    .btn1:hover,
-    .btn2:hover,
-    .btn3:hover,
-    .btn4:hover {
-        letter-spacing: 4px;
-    }
-
+ 
     /*text header our team*/
 
 

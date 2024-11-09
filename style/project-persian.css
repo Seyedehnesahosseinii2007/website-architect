@@ -222,6 +222,7 @@ ul {
     overflow-y: auto;
     flex-grow: 1;
     gap: 50px;
+    margin-top: 20px;
 }
 
 /* each cards*/
@@ -249,7 +250,7 @@ ul {
 
 /*title*/
 .gradient-text {
-    font-size: 40pt;
+    font-size: 26pt;
     text-align: center;
     background: linear-gradient(60deg, #B6B0A6, #121212);
     -webkit-background-clip: text;

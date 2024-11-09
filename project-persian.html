@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--link css style-->
+    <link rel="stylesheet" href="style/project-persian.css">
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--icon tab website-->
+    <link rel="icon" href="images/logo/blueprint.png" type="image/x-icon">
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+        <style>
+            .line-for-animation {
+                width: 100px;
+                height: 2px;
+                background-color: blue;
+                position: relative;
+                margin: 0 auto;
+                top: 50%;
+                transform: translateY(-50%);
+                animation: move 1.5s linear infinite;
+            }
+        
+            .the-line {
+                width: 100%;
+                height: 20px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        
+            @keyframes move {
+                0% {
+                    left: -100px;
+                    opacity: 1;
+                }
+        
+                70% {
+                    left: 2%;
+                    opacity: 1;
+                }
+        
+                80% {
+                    opacity: 0;
+                }
+        
+                100% {
+                    left: 10%;
+                    transition-delay: 0.5s;
+                    opacity: 0;
+                }
+            }
+        </style>
+</head>
+
+<body>
+    <div class="border-site">
+        <!--icon humburger start-->
+        <header>
+            <!--icon humburger start-->
+            <div class="humburgermenu">
+                <a href="menu-persian.html"> <svg id="humburger" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30"
+                        height="30" viewBox="0 0 48 48">
+                        <path
+                            d="M 23.951172 4 A 1.50015 1.50015 0 0 0 23.072266 4.3222656 L 8.859375 15.519531 C 7.0554772 16.941163 6 19.113506 6 21.410156 L 6 40.5 C 6 41.863594 7.1364058 43 8.5 43 L 18.5 43 C 19.863594 43 21 41.863594 21 40.5 L 21 30.5 C 21 30.204955 21.204955 30 21.5 30 L 26.5 30 C 26.795045 30 27 30.204955 27 30.5 L 27 40.5 C 27 41.863594 28.136406 43 29.5 43 L 39.5 43 C 40.863594 43 42 41.863594 42 40.5 L 42 21.410156 C 42 19.113506 40.944523 16.941163 39.140625 15.519531 L 24.927734 4.3222656 A 1.50015 1.50015 0 0 0 23.951172 4 z M 24 7.4101562 L 37.285156 17.876953 C 38.369258 18.731322 39 20.030807 39 21.410156 L 39 40 L 30 40 L 30 30.5 C 30 28.585045 28.414955 27 26.5 27 L 21.5 27 C 19.585045 27 18 28.585045 18 30.5 L 18 40 L 9 40 L 9 21.410156 C 9 20.030807 9.6307412 18.731322 10.714844 17.876953 L 24 7.4101562 z">
+                        </path>
+                    </svg>
+                </a>
+            </div>
+            <!--icon humburger end-->
+            <!--logo branding-->
+            <div class="logo-brand">
+                <img id="brand" src="images/logo/mrk.png" alt="">
+            </div>
+            <!--start naviagtion bar-->
+            <nav>
+                <!--start menu humburger-->
+                <div class="ham-menu">
+                    <!-- icon svg for humburgermenu-->
+                    <svg fill="#000000" width="40px" height="40px" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <g data-name="Layer 2">
+                            <g data-name="options-2">
+                                <rect width="24" height="24" transform="rotate(90 12 12)" opacity="0" />
+                                <path d="M19 9a3 3 0 0 0-2.82 2H3a1 1 0 0 0 0 2h13.18A3 3 0 1 0 19 9z" />
+                                <path
+                                    d="M3 7h1.18a3 3 0 0 0 5.64 0H21a1 1 0 0 0 0-2H9.82a3 3 0 0 0-5.64 0H3a1 1 0 0 0 0 2z" />
+                                <path
+                                    d="M21 17h-7.18a3 3 0 0 0-5.64 0H3a1 1 0 0 0 0 2h5.18a3 3 0 0 0 5.64 0H21a1 1 0 0 0 0-2z" />
+                            </g>
+                        </g>
+                    </svg>
+                    <!--start list of the items in humburger menu-->
+                    <div class="off-screen-menu">
+                        <ul><strong>type:</strong>
+                            <li><a href="#"><b>VIEW ALL</b></a></li>
+                            <li><a href="#">COMMERCIAL</a></li>
+                            <li><a href="#">VILLA</a></li>
+                            <li><a href="#">RESIDENTAIL &nbsp; COMPLEX</a></li>
+                            <li><a href="#">REVONTATION</a></li>
+                            <li><a href="#">contact</a></li>
+                            <li><a href="#">contact</a></li>
+                            <li><a href="#">contact</a></li>
+                            <li><a href="#">contact</a></li>
+
+                        </ul>
+                        <br>
+                        <ul><strong>STATUS:</strong>
+                            <li><a href="#"><b>VIEW ALL</b></a></li>
+                            <li><a href="#">home</a></li>
+                            <li><a href="#">about</a></li>
+                            <li><a href="#">contact</a></li>
+                        </ul>
+                        <br>
+                        <ul><strong>SORT BY:</strong>
+                            <li><a href="#"><b>DEFAUL</b></a></li>
+                            <li><a href="#">home</a></li>
+                            <li><a href="#">about</a></li>
+                            <li><a href="#">contact</a></li>
+                        </ul>
+                    </div>
+                    <!--end list of the items in humburger menu-->
+
+
+                </div>
+                <!--end menu humburger-->
+
+            </nav>
+            <!--end naviagtion bar-->
+
+        </header>
+        <!--title-->
+        <section class="subject">
+            <h2 class="gradient-text">لیست پروژه ها</h2>
+        </section>
+        <div class="the-line">
+            <div class="line-for-animation"></div>
+        </div>
+        <!--start all cards with link (bootstarp)-->
+        <div class="all-cards">
+            <!--start card one with link to the that page which name is one-item -->
+            <a href="one-item.html" class="linkscard">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="images/project images/1- HighQuality.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">این یک پرو ای در شمال است و توسط شرکت ما ساخته شده است </p>
+                    </div>
+                </div>
+            </a>
+            <!--end card one with link to the that page which name is one-item -->
+            <!--start card two without link  -->
+
+            <a href="#" class="linkscard">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="images/project images/1- HighQuality.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">این یک پرو ای در شمال است و توسط شرکت ما ساخته شده است</p>
+                    </div>
+                </div>
+            </a>
+            <!--end card two without link  -->
+            <!--start card three without link  -->
+
+            <a href="#" class="linkscard">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="images/project images/1- HighQuality.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">این یک پرو ای در شمال است و توسط شرکت ما ساخته شده است </p>
+                    </div>
+                </div>
+            </a>
+            <!--end card three without link  -->
+
+            <a href="#" class="linkscard">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="images/project images/1- HighQuality.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">این یک پرو ای در شمال است و توسط شرکت ما ساخته شده است </p>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="linkscard">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="images/project images/1- HighQuality.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">این یک پرو ای در شمال است و توسط شرکت ما ساخته شده است </p>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="linkscard">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="images/project images/1- HighQuality.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">این یک پرو ای در شمال است و توسط شرکت ما ساخته شده است </p>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="linkscard">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="images/project images/1- HighQuality.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">این یک پرو ای در شمال است و توسط شرکت ما ساخته شده است </p>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="linkscard">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="images/project images/1- HighQuality.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">این یک پرو ای در شمال است و توسط شرکت ما ساخته شده است </p>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="linkscard">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="images/project images/1- HighQuality.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">این یک پرو ای در شمال است و توسط شرکت ما ساخته شده است </p>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="linkscard">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="images/project images/1- HighQuality.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">این یک پرو ای در شمال است و توسط شرکت ما ساخته شده است </p>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="linkscard">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="images/project images/1- HighQuality.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">این یک پرو ای در شمال است و توسط شرکت ما ساخته شده است </p>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="linkscard">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="images/project images/1- HighQuality.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">این یک پرو ای در شمال است و توسط شرکت ما ساخته شده است </p>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="linkscard">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="images/project images/1- HighQuality.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">این یک پرو ای در شمال است و توسط شرکت ما ساخته شده است </p>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="linkscard">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="images/project images/1- HighQuality.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">این یک پرو ای در شمال است و توسط شرکت ما ساخته شده است </p>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="linkscard">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="images/project images/1- HighQuality.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-text">این یک پرو ای در شمال است و توسط شرکت ما ساخته شده است </p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <!--end all cards with link-->
+
+    </div>
+
+    <script>
+        //for element humburger menu
+        const hamMenu = document.querySelector(".ham-menu");
+        const offScreenMenu = document.querySelector(".off-screen-menu");
+        // Select all cards container
+        const allCards = document.querySelector(".all-cards");
+        //for icon svg for when you click 
+        hamMenu.addEventListener("click", () => {
+            hamMenu.classList.toggle("active");
+            offScreenMenu.classList.toggle("active");
+            allCards.classList.toggle("shift"); // Toggle shift class for all cards  
+        });
+        //for each li with text if I click each of them the humburger menu will close and show the cards
+        document.querySelectorAll('.off-screen-menu li').forEach(item => {
+            item.addEventListener('click', () => {
+                document.querySelector('.all-cards').classList.add('shift');
+            });
+        });
+
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
