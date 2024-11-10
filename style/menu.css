@@ -9,10 +9,13 @@ body {
     height: 100vh;
     flex-direction: column;
     gap: 20px;
+    background-color: #ede9dc !important;
 }
+
 #humburger {
     margin-left: 20px;
 }
+
 /*text header our team*/
 h2 {
     font-family: 'Saira Condensed', sans-serif;
@@ -77,6 +80,7 @@ h2 {
 
 #threeD {
     border-radius: 50%;
+
 }
 
 /* start responsive for devices smaller than 576px */
@@ -213,7 +217,7 @@ h2 {
     .btn3,
     .btn4 {
         border: none;
-            cursor: pointer;
+        cursor: pointer;
         letter-spacing: 8px;
         font-family: 'Saira Condensed', sans-serif;
         font-size: 17pt;
@@ -310,7 +314,7 @@ h2 {
     .btn3,
     .btn4 {
         border: none;
-            cursor: pointer;
+        cursor: pointer;
         letter-spacing: 8px;
         font-family: 'Saira Condensed', sans-serif;
         font-size: 19pt;
@@ -407,7 +411,7 @@ h2 {
     .btn3,
     .btn4 {
         border: none;
-            cursor: pointer;
+        cursor: pointer;
         letter-spacing: 8px;
         font-family: 'Saira Condensed', sans-serif;
         font-size: 30pt;
@@ -504,7 +508,7 @@ h2 {
     .btn3,
     .btn4 {
         border: none;
-            cursor: pointer;
+        cursor: pointer;
         letter-spacing: 8px;
         font-family: 'Saira Condensed', sans-serif;
         font-size: 22pt;
@@ -541,8 +545,8 @@ h2 {
     }
 
     #threeD {
-        width: 400px;
-        height: 400px;
+        width: 500px;
+        height: 470px;
     }
 }
 

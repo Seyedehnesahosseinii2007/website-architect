@@ -23,6 +23,7 @@ body {
     justify-content: center;
     align-items: flex-start;
     padding: 10px;
+    background-color: #ede9dc !important;
 }
 
 /*icon humburger menu */
@@ -44,6 +45,7 @@ header {
 #brand {
     width: 130px;
     height: auto;
+    margin-top: 80px;
 }
 
 /*style for links*/
@@ -222,7 +224,7 @@ ul {
     overflow-y: auto;
     flex-grow: 1;
     gap: 50px;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 /* each cards*/
@@ -246,6 +248,7 @@ ul {
     align-items: center;
     justify-content: center;
     padding: 20px 0;
+    margin-top: 80px;
 }
 
 /*title*/

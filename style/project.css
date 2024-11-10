@@ -23,6 +23,7 @@ body {
     justify-content: center;
     align-items: flex-start;
     padding: 10px;
+    background-color: #ede9dc !important;
 }
 
 /*icon humburger menu */
