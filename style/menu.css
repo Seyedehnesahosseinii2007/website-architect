@@ -52,7 +52,6 @@ h2 {
 .btn3,
 .btn4 {
     border: none;
-    background-color: #EDE9DC;
     cursor: pointer;
     letter-spacing: 8px;
     font-family: 'Saira Condensed', sans-serif;
@@ -113,7 +112,6 @@ h2 {
         font-family: 'Saira Condensed', sans-serif;
         margin: 0;
         padding: 0;
-        background-color: #EDE9DC !important;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -162,7 +160,6 @@ h2 {
         font-family: 'Saira Condensed', sans-serif;
         margin: 0;
         padding: 0;
-        background-color: #EDE9DC !important;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -216,8 +213,7 @@ h2 {
     .btn3,
     .btn4 {
         border: none;
-        background-color: #EDE9DC;
-        cursor: pointer;
+            cursor: pointer;
         letter-spacing: 8px;
         font-family: 'Saira Condensed', sans-serif;
         font-size: 17pt;
@@ -266,7 +262,6 @@ h2 {
         font-family: 'Saira Condensed', sans-serif;
         margin: 0;
         padding: 0;
-        background-color: #EDE9DC !important;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -315,8 +310,7 @@ h2 {
     .btn3,
     .btn4 {
         border: none;
-        background-color: #EDE9DC;
-        cursor: pointer;
+            cursor: pointer;
         letter-spacing: 8px;
         font-family: 'Saira Condensed', sans-serif;
         font-size: 19pt;
@@ -365,7 +359,6 @@ h2 {
         font-family: 'Saira Condensed', sans-serif;
         margin: 0;
         padding: 0;
-        background-color: #EDE9DC !important;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -414,8 +407,7 @@ h2 {
     .btn3,
     .btn4 {
         border: none;
-        background-color: #EDE9DC;
-        cursor: pointer;
+            cursor: pointer;
         letter-spacing: 8px;
         font-family: 'Saira Condensed', sans-serif;
         font-size: 30pt;
@@ -464,7 +456,6 @@ h2 {
         font-family: 'Saira Condensed', sans-serif;
         margin: 0;
         padding: 0;
-        background-color: #EDE9DC !important;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -513,8 +504,7 @@ h2 {
     .btn3,
     .btn4 {
         border: none;
-        background-color: #EDE9DC;
-        cursor: pointer;
+            cursor: pointer;
         letter-spacing: 8px;
         font-family: 'Saira Condensed', sans-serif;
         font-size: 22pt;

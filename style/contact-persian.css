@@ -206,7 +206,7 @@ iframe {
     border-left: none;
     border-right: none;
     height: 50px;
-    width: 200px;
+    width: 270px;
     background-color: transparent;
 
     border-bottom: 2px solid #B6B0A6;
@@ -224,7 +224,7 @@ iframe {
 }
 
 label {
-    width: 70px;
+    width: 100px;
     text-align: center;
 }
 

@@ -2,7 +2,6 @@ body {
     font-family: 'Saira Condensed', sans-serif;
     margin: 0;
     padding: 0;
-    /* background-color: #EDE9DC !important; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,7 +60,6 @@ strong {
     transition: 0.5s;
     position: relative;
     animation: moveButtons 3s;
-    background-color: #EDE9DC;
     margin-top: 50px;
 }
 
@@ -103,7 +101,6 @@ strong {
     transition: 0.5s;
     position: relative;
     animation: moveButton 3s;
-    background-color: #EDE9DC;
     margin-top: 50px;
     letter-spacing: 6px;
 }
@@ -217,7 +214,6 @@ strong {
 
     body {
         font-family: 'Saira Condensed', sans-serif;
-        background-color: #EDE9DC !important;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -244,8 +240,7 @@ strong {
         transition: 0.5s;
         position: relative;
         animation: moveButton 3s;
-        background-color: #EDE9DC;
-        margin-top: -10px;
+            margin-top: -10px;
     }
 
     /* animation move button start */
@@ -320,7 +315,6 @@ strong {
         font-family: 'Saira Condensed', sans-serif;
         margin: 0;
         padding: 0;
-        background-color: #EDE9DC !important;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -347,8 +341,7 @@ strong {
         transition: 0.5s;
         position: relative;
         animation: moveButton 3s;
-        background-color: #EDE9DC;
-        margin-top: 20px;
+            margin-top: 20px;
     }
 
     /* animation move button start */
@@ -424,7 +417,6 @@ strong {
         font-family: 'Saira Condensed', sans-serif;
         margin: 0;
         padding: 0;
-        background-color: #EDE9DC !important;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -451,8 +443,7 @@ strong {
         transition: 0.5s;
         position: relative;
         animation: moveButton 3s;
-        background-color: #EDE9DC;
-        margin-top: 70px;
+            margin-top: 70px;
     }
 
     /* animation move button start */
@@ -526,7 +517,6 @@ strong {
         font-family: 'Saira Condensed', sans-serif;
         margin: 0;
         padding: 0;
-        background-color: #EDE9DC !important;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -555,8 +545,7 @@ strong {
         transition: 0.5s;
         position: relative;
         animation: moveButton 3s;
-        background-color: #EDE9DC;
-        margin-top: 20px;
+            margin-top: 20px;
     }
 
     /* animation move button start */
