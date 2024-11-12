@@ -37,6 +37,32 @@ header {
     margin-left: 20px;
 }
 
+.for-icon-vr {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.vr-link {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    transition: 0.5s;
+    font-weight: 500;
+}
+
+.vr-link:hover {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    letter-spacing: 3px;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
 #brand {
     width: 80px;
     height: auto;
