@@ -9,11 +9,13 @@ body {
     height: 100vh;
     flex-direction: column;
     gap: 20px;
-            background-color: #ede9dc !important;
+    background-color: #EDE9DC !important;
 }
+
 #humburger {
     margin-left: 20px;
 }
+
 /*text header our team*/
 h2 {
     font-family: 'Saira Condensed', sans-serif;
@@ -205,8 +207,8 @@ h2 {
     .btn3,
     .btn4 {
         border: none;
-            cursor: pointer;
-            font-family: 'Saira Condensed', sans-serif;
+        cursor: pointer;
+        font-family: 'Saira Condensed', sans-serif;
         font-size: 17pt;
         font-weight: 700;
         transition: 0.5s;
@@ -215,7 +217,7 @@ h2 {
     }
 
     /* buttons when you hover */
- 
+
     /*text header our team*/
     h2 {
         font-family: 'Saira Condensed', sans-serif;
@@ -295,8 +297,8 @@ h2 {
     .btn3,
     .btn4 {
         border: none;
-            cursor: pointer;
-            font-family: 'Saira Condensed', sans-serif;
+        cursor: pointer;
+        font-family: 'Saira Condensed', sans-serif;
         font-size: 19pt;
         font-weight: 700;
         transition: 0.5s;
@@ -305,7 +307,7 @@ h2 {
     }
 
     /* buttons when you hover */
- 
+
     /*text header our team*/
 
 
@@ -385,8 +387,8 @@ h2 {
     .btn3,
     .btn4 {
         border: none;
-            cursor: pointer;
-            font-family: 'Saira Condensed', sans-serif;
+        cursor: pointer;
+        font-family: 'Saira Condensed', sans-serif;
         font-size: 30pt;
         font-weight: 700;
         transition: 0.5s;
@@ -395,7 +397,7 @@ h2 {
     }
 
     /* buttons when you hover */
- 
+
     /*text header our team*/
 
 
@@ -475,8 +477,8 @@ h2 {
     .btn3,
     .btn4 {
         border: none;
-            cursor: pointer;
-            font-family: 'Saira Condensed', sans-serif;
+        cursor: pointer;
+        font-family: 'Saira Condensed', sans-serif;
         font-size: 22pt;
         font-weight: 700;
         transition: 0.5s;
@@ -485,7 +487,7 @@ h2 {
     }
 
     /* buttons when you hover */
- 
+
     /*text header our team*/
 
 
@@ -506,7 +508,7 @@ h2 {
 
     #threeD {
         width: 500px;
-        height: 470px;
+        height: 500px;
     }
 }
 

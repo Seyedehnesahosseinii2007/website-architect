@@ -9,7 +9,7 @@ body {
     height: 100vh;
     flex-direction: column;
     gap: 20px;
-    background-color: #ede9dc !important;
+    background-color: #EDE9DC !important;
 }
 
 #humburger {
@@ -546,7 +546,7 @@ h2 {
 
     #threeD {
         width: 500px;
-        height: 470px;
+        height: 500px;
     }
 }
 

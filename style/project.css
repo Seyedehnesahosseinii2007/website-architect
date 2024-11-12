@@ -23,7 +23,7 @@ body {
     justify-content: center;
     align-items: flex-start;
     padding: 10px;
-    background-color: #ede9dc !important;
+    background-color: #EDE9DC !important;
 }
 
 /*icon humburger menu */
@@ -43,7 +43,7 @@ header {
 
 /* logo*/
 #brand {
-    width: 130px;
+    width: 80px;
     height: auto;
 }
 
@@ -618,7 +618,7 @@ ul {
 
     /* logo*/
     #brand {
-        width: 130px;
+        width: 80px;
         height: auto;
     }
 

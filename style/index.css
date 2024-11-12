@@ -7,7 +7,7 @@ body {
     align-items: center;
     width: 100%;
     height: 100vh;
-    background-color: #ede9dc !important;
+    background-color: #EDE9DC !important;
 }
 
 strong {
@@ -62,7 +62,7 @@ strong {
     position: relative;
     animation: moveButtons 3s;
     margin-top: 50px;
-    background-color: #ede9dc !important;
+    background-color: #EDE9DC !important;
 }
 
 /* animation move button start */
@@ -105,7 +105,7 @@ strong {
     animation: moveButton 3s;
     margin-top: 50px;
     letter-spacing: 6px;
-        background-color: #ede9dc !important;
+    background-color: #EDE9DC !important;
 }
 
 /* animation move button start */

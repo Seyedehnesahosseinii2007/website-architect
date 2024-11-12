@@ -23,6 +23,7 @@ body {
     justify-content: center;
     align-items: flex-start;
     padding: 10px;
+    background-color: #EDE9DC !important;
 }
 
 /*icon humburger menu */
@@ -42,187 +43,23 @@ header {
 
 /* logo*/
 #brand {
-    width: 130px;
+    width: 80px;
     height: auto;
-}
-
-/*style for links*/
-a {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-}
-
-/* off-screen-menu */
-.off-screen-menu {
-    background-color: transparent;
-    height: 800px;
-    width: 300px;
-    max-width: 450px;
-    position: fixed;
-    top: 20px;
-    right: -450px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    transition: .3s ease;
-}
-
-/*style for li and links*/
-li,
-a {
-    text-decoration: none;
-    color: black;
-    font-family: 'Lucida Sans', sans-serif;
-    text-align: center;
-}
-
-#humburger {
-    margin-top: 30px;
-    margin-left: 10px;
-}
-
-/*humburger menu and whe is active */
-.off-screen-menu.active {
-    right: 0;
-}
-
-li:hover {
-    transition: 0.25s;
-    margin-right: 20px;
-}
-
-/* navgation bar tag */
-nav {
-    padding: 1rem;
-    display: flex;
-    background-color: transparent;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-/*start ham menu style for text*/
-.ham-menu {
-    height: 50px;
-    width: 40px;
-    margin-left: auto;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.ham-menu span {
-    height: 5px;
-    width: 100%;
-    background-color: black;
-    border-radius: 25px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    transition: .3s ease;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-/*end ham menu style for text*/
-/*start for svg icon humburger menu */
-.ham-menu span:nth-child(1) {
-    top: 25%;
-}
-
-.ham-menu span:nth-child(3) {
-    top: 5%;
-}
-
-.ham-menu.active span {
-    background-color: black;
-}
-
-/*start svg when you click and it will rotate 180 deg*/
-.ham-menu.active span:nth-child(1) {
-    top: 50%;
-    transform: translate(-50%, -50%) rotate(45deg);
-}
-
-.ham-menu.active span:nth-child(2) {
-    opacity: 0;
-}
-
-.ham-menu.active span:nth-child(3) {
-    top: 50%;
-    transform: translate(-50%, -50%) rotate(-45deg);
-}
-
-/*end svg when you click and it will rotate 180 deg*/
-.ham-menu svg {
-    height: 100%;
-    width: 100%;
-    cursor: pointer;
-    transition: .3s ease;
-}
-
-.ham-menu.active svg {
-    transform: rotate(90deg);
-}
-
-/*end for svg icon humburger menu */
-li a {
-    text-decoration: none;
-    list-style: none;
-    color: black;
-    display: flex;
-    gap: 10px;
-}
-
-/*start hover on the picture*/
-.card-img-top {
-    filter: grayscale(100%);
-    transition: filter 0.5s ease;
-}
-
-.card-img-top:hover {
-    /*gray picture*/
-    filter: grayscale(0%);
-}
-
-.card:hover {
-    cursor: pointer;
-}
-
-/*end hover on the picture*/
-/* ul tag for li tag in humburger menu*/
-ul {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-/* link cards*/
-.linkscard {
-    text-decoration: none;
-
 }
 
 /* all cards*/
 .all-cards {
-    width: 80%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
     overflow-y: auto;
     flex-grow: 1;
+    /* background-color: red; */
     gap: 50px;
 }
+
 
 /* each cards*/
 .card {
@@ -231,11 +68,6 @@ ul {
     overflow: hidden;
     list-style: none;
     text-decoration: none;
-}
-
-.all-cards.shift {
-    margin-right: 200px;
-    transition: margin-left 0.3s ease;
 }
 
 /* text about us start */
@@ -308,8 +140,25 @@ ul {
 
     /*end humburger menu*/
     /*start cards*/
+    /* all cards*/
     .all-cards {
-        transition: transform 0.3s ease, opacity 0.3s ease;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow-y: auto;
+        flex-grow: 1;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    /* each cards*/
+    .card {
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+        overflow: hidden;
+        list-style: none;
+        text-decoration: none;
     }
 
     .all-cards.shift {
@@ -594,7 +443,6 @@ ul {
 
     body {
         font-family: 'Saira Condensed', sans-serif;
-        background-color: #EDE9DC !important;
         display: flex;
         justify-content: center;
         align-items: flex-start;
@@ -618,7 +466,7 @@ ul {
 
     /* logo*/
     #brand {
-        width: 130px;
+        width: 80px;
         height: auto;
     }
 
@@ -789,12 +637,10 @@ ul {
         width: 80%;
         display: flex;
         align-items: center;
-        margin-left: 5px;
-        justify-content: flex-start;
+        justify-content: center;
         overflow-y: auto;
         flex-grow: 1;
         gap: 50px;
-        margin-left: 50px;
     }
 
     /* each cards*/

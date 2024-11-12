@@ -10,15 +10,17 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-            background-color: #ede9dc !important;
+    background-color: #EDE9DC !important;
 }
 
 header {
     flex-direction: row;
 }
+
 #humburger {
     margin-left: 20px;
 }
+
 /*animation move in left to right the logo and header start*/
 .humburgermenu,
 .logo-brand,
@@ -68,7 +70,7 @@ header {
 
 /* logo*/
 #brand {
-    width: 130px;
+    width: 80px;
     height: auto;
 }
 
