@@ -45,6 +45,7 @@ header {
 #brand {
     width: 80px;
     height: auto;
+    margin-top: 21px;
 }
 
 /*style for links*/
@@ -620,6 +621,7 @@ ul {
     #brand {
         width: 80px;
         height: auto;
+        margin-top: 21px;
     }
 
     /*style for links*/
@@ -790,11 +792,10 @@ ul {
         display: flex;
         align-items: center;
         margin-left: 5px;
-        justify-content: flex-start;
+        justify-content: center;
         overflow-y: auto;
         flex-grow: 1;
         gap: 50px;
-        margin-left: 50px;
     }
 
     /* each cards*/
