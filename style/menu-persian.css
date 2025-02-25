@@ -1,5 +1,5 @@
 body {
-    font-family: 'Saira Condensed', sans-serif;
+    font-family: "Noto Sans Arabic", sans-serif;
     margin: 0;
     padding: 0;
     display: flex;
@@ -9,7 +9,7 @@ body {
     height: 100vh;
     flex-direction: column;
     gap: 20px;
-    background-color: #EDE9DC !important;
+    background-color: #E6E1DE !important;
 }
 
 #humburger {
@@ -18,7 +18,7 @@ body {
 
 /*text header our team*/
 h2 {
-    font-family: 'Saira Condensed', sans-serif;
+    font-family: "Noto Sans Arabic", sans-serif;
 }
 
 /* section for video */
@@ -53,10 +53,11 @@ h2 {
 .btn1,
 .btn2,
 .btn3,
-.btn4 {
+.btn4,
+.btn5 {
+    font-family: "Noto Sans Arabic", sans-serif;
     border: none;
     cursor: pointer;
-    font-family: 'Saira Condensed', sans-serif;
     font-size: 15pt;
     font-weight: 700;
     transition: 0.5s;
@@ -79,7 +80,8 @@ h2 {
     /*3d gif*/
     #threeD {
         width: 300px;
-        height: 300px;
+        height: 200px;
+        border-radius: 40px 40px 40px 40px;
     }
 
     .sct-choose-item {
@@ -103,7 +105,7 @@ h2 {
     }
 
     body {
-        font-family: 'Saira Condensed', sans-serif;
+        font-family: "Noto Sans Arabic", sans-serif;
         margin: 0;
         padding: 0;
         display: flex;
@@ -112,12 +114,12 @@ h2 {
         width: 100%;
         height: 100vh;
         flex-direction: column;
-
+        background-color: #E6E1DE !important;
     }
 
     /*text header our team*/
     h2 {
-        font-family: 'Saira Condensed', sans-serif;
+        font-family: "Noto Sans Arabic", sans-serif;
         font-size: 27pt;
         font-weight: 600;
         text-align: center;
@@ -145,13 +147,28 @@ h2 {
         justify-content: center;
         align-items: center;
     }
+
+    .btn1,
+    .btn2,
+    .btn3,
+    .btn5,
+    .btn4 {
+        border: none;
+        cursor: pointer;
+        font-family: "Noto Sans Arabic", sans-serif;
+        font-size: 17pt;
+        font-weight: 400;
+        transition: 0.5s;
+        width: 150px;
+        text-align: center;
+    }
 }
 
 /* end responsive for devices smaller than 576px */
 /* start responsive for devices greather than 577px and smaller than 768px */
 @media screen and (min-width:577px) and (max-width:768px) {
     body {
-        font-family: 'Saira Condensed', sans-serif;
+        font-family: "Noto Sans Arabic", sans-serif;
         margin: 0;
         padding: 0;
         display: flex;
@@ -161,11 +178,12 @@ h2 {
         height: 100vh;
         flex-direction: column;
         gap: 20px;
+        background-color: #E6E1DE !important;
     }
 
     /*text header our team*/
     h2 {
-        font-family: 'Saira Condensed', sans-serif;
+        font-family: "Noto Sans Arabic", sans-serif;
     }
 
     /* section for video */
@@ -175,12 +193,13 @@ h2 {
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-top: 100px;
     }
 
     /* button choose section */
     .sct-choose-item {
         width: 100%;
-        height: 250px;
+        height: 500px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -205,12 +224,13 @@ h2 {
     .btn1,
     .btn2,
     .btn3,
-    .btn4 {
+    .btn4,
+    .btn5 {
         border: none;
         cursor: pointer;
-        font-family: 'Saira Condensed', sans-serif;
+        font-family: "Noto Sans Arabic", sans-serif;
         font-size: 17pt;
-        font-weight: 700;
+        font-weight: 400;
         transition: 0.5s;
         width: 150px;
         text-align: center;
@@ -220,7 +240,7 @@ h2 {
 
     /*text header our team*/
     h2 {
-        font-family: 'Saira Condensed', sans-serif;
+        font-family: "Noto Sans Arabic", sans-serif;
         font-size: 27pt;
         font-weight: 600;
         text-align: center;
@@ -232,6 +252,12 @@ h2 {
         margin-top: 20px;
         font-size: 27pt;
         font-weight: 600;
+    }
+
+    #threeD {
+        width: 600px;
+        height: 400px;
+        border-radius: 40px 40px 40px 40px;
     }
 
     header {
@@ -246,7 +272,7 @@ h2 {
 /* start  responsive for devices greather than 769px and smaller than 992px */
 @media screen and (min-width:769px) and (max-width:992px) {
     body {
-        font-family: 'Saira Condensed', sans-serif;
+        font-family: "Noto Sans Arabic", sans-serif;
         margin: 0;
         padding: 0;
         display: flex;
@@ -256,11 +282,12 @@ h2 {
         height: 100vh;
         flex-direction: column;
         gap: 20px;
+        background-color: #E6E1DE !important;
     }
 
     /*text header our team*/
     h2 {
-        font-family: 'Saira Condensed', sans-serif;
+        font-family: "Noto Sans Arabic", sans-serif;
     }
 
     /* section for video */
@@ -270,12 +297,13 @@ h2 {
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-top: 100px;
     }
 
     /* button choose section */
     .sct-choose-item {
         width: 100%;
-        height: 250px;
+        height: 500px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -295,12 +323,13 @@ h2 {
     .btn1,
     .btn2,
     .btn3,
-    .btn4 {
+    .btn4,
+    .btn5 {
         border: none;
         cursor: pointer;
-        font-family: 'Saira Condensed', sans-serif;
+        font-family: "Noto Sans Arabic", sans-serif;
         font-size: 19pt;
-        font-weight: 700;
+        font-weight: 400;
         transition: 0.5s;
         width: 150px;
         text-align: center;
@@ -315,7 +344,7 @@ h2 {
         width: 100%;
         height: 40px;
         margin-top: 80px;
-        font-family: 'Saira Condensed', sans-serif;
+        font-family: "Noto Sans Arabic", sans-serif;
         font-size: 35pt;
         font-weight: bold;
         text-align: center;
@@ -327,8 +356,9 @@ h2 {
     }
 
     #threeD {
-        width: 500px;
-        height: 500px;
+        width: 600px;
+        height: 400px;
+        border-radius: 40px 40px 40px 40px;
     }
 }
 
@@ -336,7 +366,7 @@ h2 {
 /* start responsive for devices greather than 993px and smaller than 1200px */
 @media screen and (min-width:993px) and (max-width:1200px) {
     body {
-        font-family: 'Saira Condensed', sans-serif;
+        font-family: "Noto Sans Arabic", sans-serif;
         margin: 0;
         padding: 0;
         display: flex;
@@ -346,11 +376,12 @@ h2 {
         height: 100vh;
         flex-direction: column;
         gap: 20px;
+        background-color: #E6E1DE !important;
     }
 
     /*text header our team*/
     h2 {
-        font-family: 'Saira Condensed', sans-serif;
+        font-family: "Noto Sans Arabic", sans-serif;
     }
 
     /* section for video */
@@ -360,12 +391,13 @@ h2 {
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-top: 100px;
     }
 
     /* button choose section */
     .sct-choose-item {
         width: 100%;
-        height: 250px;
+        height: 500px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -385,12 +417,13 @@ h2 {
     .btn1,
     .btn2,
     .btn3,
-    .btn4 {
+    .btn4,
+    .btn5 {
         border: none;
         cursor: pointer;
-        font-family: 'Saira Condensed', sans-serif;
+        font-family: "Noto Sans Arabic", sans-serif;
         font-size: 30pt;
-        font-weight: 700;
+        font-weight: 400;
         transition: 0.5s;
         width: 150px;
         text-align: center;
@@ -405,7 +438,7 @@ h2 {
         width: 100%;
         height: 40px;
         margin-top: 80px;
-        font-family: 'Saira Condensed', sans-serif;
+        font-family: "Noto Sans Arabic", sans-serif;
         font-size: 35pt;
         font-weight: bold;
         text-align: center;
@@ -417,8 +450,9 @@ h2 {
     }
 
     #threeD {
-        width: 500px;
-        height: 500px;
+        width: 600px;
+        height: 400px;
+        border-radius: 40px 40px 40px 40px;
     }
 }
 
@@ -426,7 +460,7 @@ h2 {
 /* start responsive for devices greather than 1201px */
 @media screen and (min-width:1201px) {
     body {
-        font-family: 'Saira Condensed', sans-serif;
+        font-family: "Noto Sans Arabic", sans-serif;
         margin: 0;
         padding: 0;
         display: flex;
@@ -436,11 +470,13 @@ h2 {
         height: 100vh;
         flex-direction: column;
         gap: 20px;
+        background-color: #E6E1DE !important;
     }
 
     /*text header our team*/
     h2 {
         font-family: 'Saira Condensed', sans-serif;
+        margin-top: -22px;
     }
 
     /* section for video */
@@ -450,6 +486,7 @@ h2 {
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-top: 45px;
     }
 
     /* button choose section */
@@ -468,19 +505,22 @@ h2 {
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-top: 15px;
         justify-content: space-between;
+        margin-top: -15px;
     }
 
     /* buttons in normaly time */
     .btn1,
     .btn2,
     .btn3,
-    .btn4 {
+    .btn4,
+    .btn5 {
         border: none;
         cursor: pointer;
-        font-family: 'Saira Condensed', sans-serif;
+        font-family: "Noto Sans Arabic", sans-serif;
         font-size: 22pt;
-        font-weight: 700;
+        font-weight: 400;
         transition: 0.5s;
         width: 150px;
         text-align: center;
@@ -495,7 +535,7 @@ h2 {
         width: 100%;
         height: 40px;
         margin-top: 40px;
-        font-family: 'Saira Condensed', sans-serif;
+        font-family: "Noto Sans Arabic", sans-serif;
         font-size: 35pt;
         font-weight: bold;
         text-align: center;
@@ -504,12 +544,13 @@ h2 {
     header {
         width: 100%;
         height: 200px;
+        margin-top: -20px;
     }
 
     #threeD {
-        width: 500px;
-        height: 500px;
+        width: 600px;
+        height: 400px;
+        border-radius: 50px 50px 50px 50px;
+        margin-top: -30px;
     }
 }
-
-/* end responsive for devices greather than 1201px */

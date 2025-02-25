@@ -12,8 +12,15 @@ body {
     justify-content: center;
     align-items: flex-start;
     padding: 10px;
-    background-color: #EDE9DC !important;
+    background-color: #E6E1DE !important;
 
+}
+
+.space-after {
+    min-height: 100px;
+    flex-grow: 1;
+    width: 100%;
+    background-color: #E6E1DE;
 }
 
 #humburger {
@@ -435,7 +442,10 @@ hr {
 /* start responsive for devices smaller than 576px */
 
 @media screen and (max-width:576px) {
-
+    .fills {
+        width: 55px;
+        height: 55px;
+    }
 
     /* black border */
     .border-site {
@@ -546,7 +556,7 @@ hr {
 
     .contact-info {
         width: 100%;
-        height: 350px;
+        height: 400px;
         padding: 1rem;
         margin-top: -50px;
     }
@@ -591,12 +601,21 @@ hr {
         width: 100%;
     }
 
+    strong {
+        color: black;
+        text-decoration: none;
+    }
+
     /*end line */
 }
 
 /* end responsive for devices smaller than 576px */
 /* start responsive for devices greather than 577px and smaller than 768px */
 @media screen and (min-width:577px) and (max-width:768px) {
+    #humburger {
+        margin-top: -30px;
+        margin-left: 8px;
+    }
 
     /* black border */
     .border-site {
@@ -705,9 +724,16 @@ hr {
         height: 300px;
     }
 
+    .space-after {
+        min-height: 100px;
+        flex-grow: 1;
+        width: 100%;
+        background-color: #E6E1DE;
+    }
+
     .contact-info {
         width: 100%;
-        height: 300px;
+        height: 400px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -866,7 +892,7 @@ hr {
 
     .contact-info {
         width: 100%;
-        height: 300px;
+        height: 400px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -900,6 +926,13 @@ hr {
     /*start line */
     hr {
         width: 90%;
+    }
+
+    .space-after {
+        min-height: 100px;
+        flex-grow: 1;
+        width: 100%;
+        background-color: #E6E1DE;
     }
 
     .for-line {
@@ -1027,7 +1060,7 @@ hr {
 
     .contact-info {
         width: 100%;
-        height: 300px;
+        height: 400px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1066,6 +1099,13 @@ hr {
     .for-line {
         width: 100%;
         margin-top: -50px;
+    }
+
+    .space-after {
+        min-height: 100px;
+        flex-grow: 1;
+        width: 100%;
+        background-color: #E6E1DE;
     }
 
     /*end line */

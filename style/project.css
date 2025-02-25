@@ -23,7 +23,7 @@ body {
     justify-content: center;
     align-items: flex-start;
     padding: 10px;
-    background-color: #EDE9DC !important;
+    background-color: #E6E1DE !important;
 }
 
 /*icon humburger menu */
@@ -45,7 +45,7 @@ header {
 #brand {
     width: 80px;
     height: auto;
-    margin-top: 21px;
+    margin-top: 31px;
 }
 
 /*style for links*/
@@ -80,7 +80,7 @@ a {
 }
 
 #humburger {
-    margin-top: 30px;
+    margin-top: 10px;
     margin-left: 10px;
 }
 
@@ -247,17 +247,19 @@ ul {
     align-items: center;
     justify-content: center;
     padding: 20px 0;
+    margin-top: 20px;
 }
 
 /*title*/
 .gradient-text {
-    font-size: 40pt;
+    font-size: 20pt;
     text-align: center;
     background: linear-gradient(60deg, #B6B0A6, #121212);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     color: transparent;
+    margin-top: 20px;
 }
 
 /* start responsive for devices smaller than 576px */
@@ -267,6 +269,16 @@ ul {
     .ham-menu {
         height: 40px;
         width: 30px;
+    }
+
+    #humburger {
+        margin-top: 5px;
+        margin-left: -1px;
+    }
+
+    .humburgermenu {
+        margin-top: -25px;
+        margin-left: 8px;
     }
 
     a:hover {
@@ -295,7 +307,7 @@ ul {
         position: fixed;
         top: 0;
         left: 0;
-        background-color: #EDE9DC;
+        background-color: #E6E1DE;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -312,6 +324,12 @@ ul {
     /*start cards*/
     .all-cards {
         transition: transform 0.3s ease, opacity 0.3s ease;
+        display: flex;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
     }
 
     .all-cards.shift {
@@ -353,7 +371,7 @@ ul {
         position: fixed;
         top: 0;
         left: 0;
-        background-color: #EDE9DC;
+        background-color: #E6E1DE;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -375,9 +393,12 @@ ul {
 
     .all-cards {
         transition: transform 0.3s ease, opacity 0.3s ease;
-        display: grid;
+        display: flex;
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
     }
 
     .all-cards.shift {
@@ -394,6 +415,12 @@ ul {
         width: 30px;
         font-size: 19pt;
         text-align: center;
+    }
+
+    #humburger {
+        height: auto;
+        margin-top: 10px;
+        margin-left: 28px !important;
     }
 
     .ham-menu span {
@@ -417,7 +444,7 @@ ul {
         position: fixed;
         top: 0;
         left: 0;
-        background-color: #EDE9DC;
+        background-color: #E6E1DE;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -438,15 +465,24 @@ ul {
 
     .all-cards {
         transition: transform 0.3s ease, opacity 0.3s ease;
-        display: grid;
-        grid-template-columns: repeat(2, 2fr);
+        display: flex;
+        grid-template-columns: repeat(2, 1fr);
         gap: 20px;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
     }
 
     .all-cards.shift {
         transform: translateX(100%);
         opacity: 0;
     }
+
+    #humburger {
+        margin-top: -25px;
+        margin-left: 8px;
+    }
+
 }
 
 /* end responsive for devices greather than 769px and smaller than 992px */
@@ -480,7 +516,7 @@ ul {
         position: fixed;
         top: 0;
         left: 0;
-        background-color: #EDE9DC;
+        background-color: #E6E1DE;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -500,9 +536,15 @@ ul {
     }
 
     .all-cards {
-        transition: transform 0.3s ease, opacity 0.3s ease;
-        display: grid;
-        grid-template-columns: repeat(2, 3fr);
+        width: 80%;
+        display: flex;
+        align-items: center;
+        margin-left: 5px;
+        justify-content: center;
+        overflow-y: auto;
+        flex-grow: 1;
+        gap: 50px;
+        padding-bottom: 20px;
     }
 
     .all-cards.shift {
@@ -542,7 +584,7 @@ ul {
         position: fixed;
         top: 0;
         left: 0;
-        background-color: #EDE9DC;
+        background-color: #E6E1DE;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -563,13 +605,22 @@ ul {
 
     .all-cards {
         transition: transform 0.3s ease, opacity 0.3s ease;
-        display: grid;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         grid-template-columns: repeat(2, 3fr);
+        padding-bottom: 40px;
     }
 
     .all-cards.shift {
         transform: translateX(100%);
         opacity: 0;
+    }
+
+    #humburger {
+        height: auto;
+        margin-top: 10px;
+        margin-left: 28px;
     }
 }
 
@@ -621,7 +672,6 @@ ul {
     #brand {
         width: 80px;
         height: auto;
-        margin-top: 21px;
     }
 
     /*style for links*/
@@ -796,6 +846,7 @@ ul {
         overflow-y: auto;
         flex-grow: 1;
         gap: 50px;
+        padding-bottom: 40px;
     }
 
     /* each cards*/
@@ -819,18 +870,34 @@ ul {
         align-items: center;
         justify-content: center;
         padding: 20px 0;
+        margin-top: 20px;
     }
 
     /*title*/
     .gradient-text {
-        font-size: 40pt;
+        font-size: 20pt;
         text-align: center;
         background: linear-gradient(60deg, #B6B0A6, #121212);
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
         color: transparent;
+        margin-top: 20px;
     }
+
+    #brand {
+        width: 80px;
+        height: auto;
+        margin-top: 20px;
+        margin-left: 2px;
+    }
+
+    #humburger {
+        height: auto;
+        margin-top: 10px;
+        margin-left: 28px !important;
+    }
+
 }
 
 /* end responsive for devices greather than1201px*/

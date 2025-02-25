@@ -18,12 +18,12 @@ body {
 }
 
 body {
-    font-family: 'Saira Condensed', sans-serif;
+    font-family: "Noto Sans Arabic", sans-serif;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     padding: 10px;
-    background-color: #EDE9DC !important;
+    background-color: #E6E1DE !important;
 }
 
 /*icon humburger menu */
@@ -39,6 +39,18 @@ header {
     align-items: center;
     height: 70px;
     justify-content: space-between;
+}
+
+.card-text {
+    font-family: "Noto Sans Arabic", sans-serif;
+    font-weight: 400;
+
+}
+
+p {
+    font-family: "Noto Sans Arabic", sans-serif;
+    font-weight: 400;
+
 }
 
 /* logo*/
@@ -89,6 +101,10 @@ header {
     background-clip: text;
     -webkit-text-fill-color: transparent;
     color: transparent;
+    font-family: "Noto Sans Arabic", sans-serif;
+    font-weight: 400;
+
+
 }
 
 /* start responsive for devices smaller than 576px */
@@ -167,6 +183,12 @@ header {
         opacity: 0;
     }
 
+    #humburger {
+        margin-top: -25px;
+        margin-left: 8px;
+
+    }
+
     /*start cards*/
 }
 
@@ -223,14 +245,22 @@ header {
 
     .all-cards {
         transition: transform 0.3s ease, opacity 0.3s ease;
-        display: grid;
+        display: flex;
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
     }
 
     .all-cards.shift {
         transform: translateX(100%);
         opacity: 0;
+    }
+
+    #humburger {
+        margin-top: -25px;
+        margin-left: 8px;
     }
 }
 
@@ -286,14 +316,23 @@ header {
 
     .all-cards {
         transition: transform 0.3s ease, opacity 0.3s ease;
-        display: grid;
-        grid-template-columns: repeat(2, 2fr);
+        display: flex;
+        grid-template-columns: repeat(2, 1fr);
         gap: 20px;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
     }
 
     .all-cards.shift {
         transform: translateX(100%);
         opacity: 0;
+    }
+
+    #humburger {
+        height: auto;
+        margin-top: 9px;
+        margin-left: 20px;
     }
 }
 
@@ -347,15 +386,40 @@ header {
         width: 100%;
     }
 
+    .card-text {
+        font-family: "Noto Sans Arabic", sans-serif;
+        font-weight: 400;
+
+    }
+
+    .text-center {
+        font-family: "Noto Sans Arabic", sans-serif;
+        font-weight: 400;
+
+    }
+
     .all-cards {
         transition: transform 0.3s ease, opacity 0.3s ease;
         display: grid;
         grid-template-columns: repeat(2, 3fr);
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow-y: auto;
+        flex-grow: 1;
+        gap: 50px;
     }
 
     .all-cards.shift {
         transform: translateX(100%);
         opacity: 0;
+    }
+
+    #humburger {
+        height: auto;
+        margin-top: 9px;
+        margin-left: 20px;
     }
 }
 
@@ -413,11 +477,18 @@ header {
         transition: transform 0.3s ease, opacity 0.3s ease;
         display: grid;
         grid-template-columns: repeat(2, 3fr);
+        padding-bottom: 40px;
     }
 
     .all-cards.shift {
         transform: translateX(100%);
         opacity: 0;
+    }
+
+    #humburger {
+        height: auto;
+        margin-top: 9px;
+        margin-left: 20px;
     }
 }
 
@@ -443,7 +514,7 @@ header {
     }
 
     body {
-        font-family: 'Saira Condensed', sans-serif;
+        font-weight: 400;
         display: flex;
         justify-content: center;
         align-items: flex-start;
@@ -499,8 +570,21 @@ header {
     a {
         text-decoration: none;
         color: black;
-        font-family: 'Lucida Sans', sans-serif;
+        font-family: "Noto Sans Arabic", sans-serif;
+        font-weight: 400;
         text-align: center;
+    }
+
+    .card-text {
+        font-family: "Noto Sans Arabic", sans-serif;
+        font-weight: 400;
+
+    }
+
+    .text-center {
+        font-family: "Noto Sans Arabic", sans-serif;
+        font-weight: 400;
+
     }
 
     /*humburger menu and whe is active */
@@ -643,6 +727,7 @@ header {
         overflow-y: auto;
         flex-grow: 1;
         gap: 50px;
+        padding-bottom: 40px;
     }
 
     /* each cards*/
@@ -677,6 +762,23 @@ header {
         background-clip: text;
         -webkit-text-fill-color: transparent;
         color: transparent;
+        font-family: "Noto Sans Arabic", sans-serif;
+        font-weight: 400;
+
+
+    }
+
+    #brand {
+        width: 80px;
+        height: auto;
+        margin-top: 20px;
+        margin-left: 2px;
+    }
+
+    #humburger {
+        height: auto;
+        margin-top: 9px;
+        margin-left: 20px;
     }
 }
 

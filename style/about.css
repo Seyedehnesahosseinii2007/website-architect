@@ -10,7 +10,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    background-color: #EDE9DC !important;
+    background-color: #E6E1DE !important;
 }
 
 header {
@@ -72,7 +72,7 @@ header {
 #brand {
     width: 80px;
     height: auto;
-    margin-top: 21px;
+    margin-top: -40px;
 }
 
 /* icon opportunity */
@@ -106,6 +106,7 @@ header {
     background-clip: text;
     -webkit-text-fill-color: transparent;
     color: transparent;
+    width: 100%;
 }
 
 /* text about us end*/
@@ -129,7 +130,6 @@ header {
     overflow: hidden;
 }
 
-
 #group-people {
     position: relative;
     animation: moveUp 1s ease-in-out forwards;
@@ -150,7 +150,6 @@ header {
 .all-details-about-company {
     width: 100%;
     padding: 20px;
-    height: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -161,11 +160,15 @@ header {
     animation-delay: 0.5s;
 }
 
-@keyframes slideIn {
-    to {
-        opacity: 1;
-        transform: translateX(0);
-    }
+.details-paragraph {
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
+}
+
+#p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16pt;
 }
 
 /*details about company end*/
@@ -179,52 +182,22 @@ header {
     margin-top: -120px;
 }
 
-/*start main paragraph about company */
-.details-paragraph {
-    padding: 10px 0;
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    width: 100%;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#p {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    height: 100px;
-    font-size: 16pt;
-    width: 400px;
-}
-
-/*end main paragraph about company */
-
-/* talk about brand end */
-
 /*people start*/
-#boy-one {
+#boy-one,
+#girl-two,
+#boy-three,
+#girl-four,
+#boy-five {
     width: 225px;
     border-radius: 20px;
     height: 450px;
 }
 
-#girl-two {
-    width: 225px;
-    border-radius: 20px;
-    height: 450px;
-}
-
-.picture-person-one {
-    width: 230px;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.picture-person-two {
+.picture-person-one,
+.picture-person-two,
+.picture-person-three,
+.picture-person-four,
+.picture-person-five {
     width: 230px;
     height: 100%;
     display: flex;
@@ -233,7 +206,11 @@ header {
     margin-top: 50px;
 }
 
-#person-one {
+#person-one,
+#person-two,
+#person-three,
+#person-four,
+#person-five {
     width: 100%;
     height: 350px;
     background-color: #B6B0A6;
@@ -245,28 +222,10 @@ header {
     padding: 200px;
 }
 
-.number-person {
-    color: black;
-    text-align: center;
-}
-
-.introd-person-one {
-    width: 50%;
-    flex-direction: column;
-    display: flex;
-    gap: 30px;
-}
-
-
-#person-two {
-    width: 100%;
-    height: 450px;
-    background-color: #EDE9DC;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+#person-two,
+#person-four {
+    background-color: #E6E1DE;
     flex-direction: row;
-    padding: 200px;
 }
 
 .number-person {
@@ -274,7 +233,11 @@ header {
     text-align: center;
 }
 
-.introd-person-two {
+.introd-person-one,
+.introd-person-two,
+.introd-person-three,
+.introd-person-four,
+.introd-person-five {
     width: 50%;
     flex-direction: column;
     display: flex;
@@ -283,19 +246,17 @@ header {
 
 /*people end*/
 
-
 /*employee someone start*/
 .employee {
     width: 100%;
     height: 400px;
-    background-color: #EDE9DC;
+    background-color: #E6E1DE;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: row-reverse;
     padding: 50px;
     gap: 50px;
-
 }
 
 /*icon employee*/
@@ -319,7 +280,6 @@ header {
     transform: translateX(-100%);
     animation: slideIn 1s forwards;
     font-family: Arial, Helvetica, sans-serif;
-
 }
 
 p {
@@ -327,7 +287,6 @@ p {
 }
 
 /* about oppurtunities end*/
-
 
 @keyframes slideIn {
     to {
@@ -343,38 +302,40 @@ p {
 @media (max-width: 576px) {
 
     /*person one*/
-    #person-one {
+    #person-one,
+    #person-two,
+    #person-three,
+    #person-four,
+    #person-five {
         flex-direction: column;
-        height: 580px;
-        padding: 20px;
-        width: 100%;
-    }
-
-    .picture-person-one {
-        margin-bottom: 20px;
-        width: 100%;
         height: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        padding: 20px;
     }
 
-    .introd-person-one {
+    .picture-person-one,
+    .picture-person-two,
+    .picture-person-three,
+    .picture-person-four,
+    .picture-person-five {
+        margin-bottom: 20px;
+    }
+
+    .introd-person-one,
+    .introd-person-two,
+    .introd-person-three,
+    .introd-person-four,
+    .introd-person-five {
         width: 100%;
         gap: 15px;
     }
 
-    #boy-one {
+    #boy-one,
+    #girl-two,
+    #boy-three,
+    #girl-four,
+    #boy-five {
         width: 100%;
         max-width: 140px;
-        border-radius: 20px;
-        height: auto;
-    }
-
-    #girl-two {
-        width: 100%;
-        max-width: 120px;
-        border-radius: 20px;
         height: auto;
     }
 
@@ -384,39 +345,19 @@ p {
 
     .introd-person-one b,
     .introd-person-one p,
-    .introd-person-one strong {
-        text-align: center;
-    }
-
-    /*person two*/
-    #person-two {
-        flex-direction: column;
-        height: 520px;
-        padding: 20px;
-        width: 100%;
-    }
-
-    .picture-person-two {
-        margin-bottom: 20px;
-        width: 100%;
-        height: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .introd-person-two {
-        width: 100%;
-        gap: 15px;
-    }
-
-    .number-person {
-        font-size: 1.2em;
-    }
-
+    .introd-person-one strong,
     .introd-person-two b,
     .introd-person-two p,
-    .introd-person-two strong {
+    .introd-person-two strong,
+    .introd-person-three b,
+    .introd-person-three p,
+    .introd-person-three strong,
+    .introd-person-four b,
+    .introd-person-four p,
+    .introd-person-four strong,
+    .introd-person-five b,
+    .introd-person-five p,
+    .introd-person-five strong {
         text-align: center;
     }
 
@@ -445,41 +386,55 @@ p {
     #group-people {
         border-radius: 20px;
         width: 300px;
-        height: auto;
+    }
+
+    #humburger {
+        margin-top: -30px !important;
+        margin-left: 12px !important;
+    }
+
+    #brand {
+        margin-top: 5px;
     }
 }
 
-/* end responsive for devices smaller than 576px */
-/* start responsive for devices greather than 577px and smaller than 768px */
+/* start responsive for devices greater than 577px and smaller than 768px */
 @media (min-width: 577px) and (max-width: 768px) {
 
     #person-one,
-    #person-two {
+    #person-two,
+    #person-three,
+    #person-four,
+    #person-five {
         flex-direction: column;
         padding: 20px;
         height: auto;
     }
 
     .picture-person-one,
-    .picture-person-two {
-        width: 100%;
-        display: flex;
-        justify-content: center;
+    .picture-person-two,
+    .picture-person-three,
+    .picture-person-four,
+    .picture-person-five {
         margin-bottom: 20px;
     }
 
     .introd-person-one,
-    .introd-person-two {
+    .introd-person-two,
+    .introd-person-three,
+    .introd-person-four,
+    .introd-person-five {
         width: 100%;
         text-align: center;
     }
 
     #boy-one,
-    #girl-two {
+    #girl-two,
+    #boy-three,
+    #girl-four,
+    #boy-five {
         width: 200px;
-        /* تغییر عرض به 200 پیکسل */
         height: 300px;
-        /* تغییر ارتفاع به 200 پیکسل */
         border-radius: 20px;
     }
 
@@ -488,15 +443,24 @@ p {
     }
 
     .introd-person-one b,
-    .introd-person-two b {
+    .introd-person-two b,
+    .introd-person-three b,
+    .introd-person-four b,
+    .introd-person-five b {
         font-size: 16pt;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
     .introd-person-one p,
     .introd-person-two p,
+    .introd-person-three p,
+    .introd-person-four p,
+    .introd-person-five p,
     .introd-person-one strong,
-    .introd-person-two stron {
+    .introd-person-two strong,
+    .introd-person-three strong,
+    .introd-person-four strong,
+    .introd-person-five strong {
         font-size: 15pt;
     }
 
@@ -504,370 +468,231 @@ p {
         border-radius: 20px;
         box-shadow: 1px 2px 15px 1px black;
         width: 600px;
-        height: auto;
     }
 
     #employee {
         width: 200px;
-        /* تغییر عرض به 200 پیکسل */
         height: 200px;
-        /* تغییر ارتفاع به 200 پیکسل */
     }
 
     #employee:hover {
         width: 210px;
-        /* تغییر عرض به 210 پیکسل */
         height: 210px;
-        /* تغییر ارتفاع به 210 پیکسل */
     }
 
+    #brand {
+        margin-top: 21px;
+    }
 }
 
-/* end responsive for devices greather than 577px and smaller than 768px */
-/* start  responsive for devices greather than 769px and smaller than 992px */
+/* start responsive for devices greater than 769px and smaller than 992px */
 @media (min-width: 769px) and (max-width: 992px) {
-    #boy-one {
+
+    #boy-one,
+    #girl-two,
+    #boy-three,
+    #girl-four,
+    #boy-five {
         width: 160px;
         height: 270px;
         border-radius: 15px;
     }
 
-    #person-one {
-        width: 100%;
+    #person-one,
+    #person-two,
+    #person-three,
+    #person-four,
+    #person-five {
         height: 330px;
-        background-color: #B6B0A6;
-        margin-top: 40px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-direction: row-reverse;
         padding: 80px;
     }
 
-    .number-person {
-        color: black;
-        text-align: center;
-    }
-
-    .introd-person-one {
+    .introd-person-one,
+    .introd-person-two,
+    .introd-person-three,
+    .introd-person-four,
+    .introd-person-five {
         width: 45%;
-        flex-direction: column;
-        display: flex;
-        gap: 25px;
-    }
-
-    #girl-two {
-        width: 160px;
-        height: 270px;
-        border-radius: 15px;
-    }
-
-    #person-two {
-        width: 100%;
-        height: 300px;
-        background-color: #EDE9DC;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-direction: row;
-        padding: 80px;
-    }
-
-    .introd-person-two {
-        width: 45%;
-        flex-direction: column;
-        display: flex;
         gap: 25px;
     }
 
     .jobcontainer {
-        text-align: left;
-        display: none;
-        opacity: 0;
-        transform: translateX(-100%);
-        animation: slideIn 1s forwards;
         font-family: Arial, Helvetica, sans-serif;
         height: 400px;
         width: 400px;
-
     }
 
     p {
         font-size: 8.75pt;
     }
 
-    /* about oppurtunities end*/
-}
+    #humburger {
+        margin-top: -20px;
+        margin-left: 20px;
+    }
 
-@keyframes slideIn {
-    to {
-        opacity: 1;
-        transform: translateX(0);
+    .picture-person-one,
+    .picture-person-two,
+    .picture-person-three,
+    .picture-person-four,
+    .picture-person-five {
+        margin-top: 0;
     }
 }
 
-#employee {
-    transition: 0.5s;
-    cursor: pointer;
-}
-
-#employee:hover {
-    width: 180px;
-    height: 180px;
-    transition: 0.5s;
-    cursor: pointer;
-}
-
-
-.picture-person-two {
-    width: 30%;
-    height: 300px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin-top: 40px;
-}
-
-.picture-person-one {
-    width: 30%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-
-/* end  responsive for devices greather than 769px and smaller than 992px */
-/* start responsive for devices greather than 993px and smaller than 1200px */
+/* start responsive for devices greater than 993px and smaller than 1200px */
 @media (min-width: 993px) and (max-width: 1200px) {
-    #boy-one {
+
+    #boy-one,
+    #girl-two,
+    #boy-three,
+    #girl-four,
+    #boy-five {
         width: 180px;
         height: 290px;
         border-radius: 15px;
     }
 
-    #person-one {
-        width: 100%;
+    #humburger {
+        margin-top: -20px;
+        margin-left: 20px;
+    }
+
+    #person-one,
+    #person-two,
+    #person-three,
+    #person-four,
+    #person-five {
         height: 350px;
-        background-color: #B6B0A6;
-        margin-top: 40px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-direction: row-reverse;
         padding: 80px;
     }
 
-    .number-person {
-        color: black;
-        text-align: center;
-    }
-
-    .introd-person-one {
+    .introd-person-one,
+    .introd-person-two,
+    .introd-person-three,
+    .introd-person-four,
+    .introd-person-five {
         width: 45%;
-        flex-direction: column;
-        display: flex;
-        gap: 25px;
-    }
-
-    #girl-two {
-        width: 180px;
-        height: 290px;
-        border-radius: 15px;
-    }
-
-    #person-two {
-        width: 100%;
-        height: 300px;
-        background-color: #EDE9DC;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-direction: row;
-        padding: 80px;
-    }
-
-    .introd-person-two {
-        width: 45%;
-        flex-direction: column;
-        display: flex;
         gap: 25px;
     }
 
     .jobcontainer {
-        text-align: left;
-        display: none;
-        opacity: 0;
-        transform: translateX(-100%);
-        animation: slideIn 1s forwards;
         font-family: Arial, Helvetica, sans-serif;
         height: 380px;
         width: 400px;
-
     }
 
     p {
         font-size: 8.7pt;
     }
 
-    /* about oppurtunities end*/
-
-
-    @keyframes slideIn {
-        to {
-            opacity: 1;
-            transform: translateX(0);
-        }
-    }
-
     #employee {
-        transition: 0.5s;
-        cursor: pointer;
+        width: 180px;
+        height: 180px;
     }
 
     #employee:hover {
-        width: 180px;
-        height: 180px;
-        transition: 0.5s;
-        cursor: pointer;
+        width: 190px;
+        height: 190px;
     }
 
-
-    .picture-person-two {
-        width: 30%;
-        height: 300px;
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        margin-top: 40px;
+    #brand {
+        margin-top: 21px;
     }
 
-    .picture-person-one {
-        width: 30%;
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        margin: 40px;
-
+    .picture-person-one,
+    .picture-person-two,
+    .picture-person-three,
+    .picture-person-four,
+    .picture-person-five {
+        margin-top: 0;
     }
 }
 
-/* end responsive for devices greather than 993px and smaller than 1200px */
-/* start responsive for devices greather than 1201px */
+/* start responsive for devices greater than 1201px */
 @media screen and (min-width: 1201px) {
-    #boy-one {
+
+    #boy-one,
+    #girl-two,
+    #boy-three,
+    #girl-four,
+    #boy-five {
         width: 185px;
         height: 290px;
         border-radius: 15px;
     }
 
-    #person-one {
-        width: 100%;
+    #person-one,
+    #person-two,
+    #person-three,
+    #person-four,
+    #person-five {
         height: 350px;
-        background-color: #B6B0A6;
-        margin-top: 40px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-direction: row-reverse;
         padding: 80px;
     }
 
-    .number-person {
-        color: black;
-        text-align: center;
-    }
-
-    .introd-person-one {
+    .introd-person-one,
+    .introd-person-two,
+    .introd-person-three,
+    .introd-person-four,
+    .introd-person-five {
         width: 45%;
-        flex-direction: column;
-        display: flex;
-        gap: 25px;
-    }
-
-    #girl-two {
-        width: 180px;
-        height: 270px;
-        border-radius: 15px;
-    }
-
-    #person-two {
-        width: 100%;
-        height: 300px;
-        background-color: #EDE9DC;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-direction: row;
-        padding: 80px;
-    }
-
-    .introd-person-two {
-        width: 45%;
-        flex-direction: column;
-        display: flex;
         gap: 25px;
     }
 
     .jobcontainer {
-        text-align: left;
-        display: none;
-        opacity: 0;
-        transform: translateX(-100%);
-        animation: slideIn 1s forwards;
         font-family: Arial, Helvetica, sans-serif;
-        height: 400px;
-        width: 450px;
-
+        height: 420px;
+        width: 490px;
+        margin-top: 30px;
     }
 
     p {
         font-size: 9.75pt;
     }
 
-    /* about oppurtunities end*/
-
-
-    @keyframes slideIn {
-        to {
-            opacity: 1;
-            transform: translateX(0);
-        }
-    }
-
-    #employee {
-        transition: 0.5s;
-        cursor: pointer;
-    }
-
     .employee {
         height: 450px;
     }
 
-    #employee:hover {
+    #employee {
         width: 180px;
         height: 180px;
-        transition: 0.5s;
-        cursor: pointer;
     }
 
-
-    .picture-person-two {
-        width: 30%;
-        height: 300px;
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        margin-top: 40px;
+    #employee:hover {
+        width: 190px;
+        height: 190px;
     }
 
-    .picture-person-one {
-        width: 30%;
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        margin: 40px;
+    #brand {
+        margin-top: 10px;
+        margin-left: 2px;
+    }
 
+    #humburger {
+        margin-top: -20px;
+        margin-left: 20px;
+    }
+
+    .picture-person-one,
+    .picture-person-two,
+    .picture-person-three,
+    .picture-person-four,
+    .picture-person-five {
+        margin-top: 0;
+    }
+
+    .details-paragraph {
+        width: 80%;
+        max-width: 800px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    #p {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 16pt;
+        margin-top: 20px;
     }
 }
-
-/* end responsive for devices greather than 1201px */

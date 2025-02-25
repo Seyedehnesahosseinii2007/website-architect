@@ -18,12 +18,13 @@ body {
 }
 
 body {
-    font-family: 'Saira Condensed', sans-serif;
+    font-family: "Noto Sans Arabic", sans-serif;
+    font-weight: 400;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     padding: 10px;
-    background-color: #EDE9DC !important;
+    background-color: #E6E1DE !important;
 }
 
 /*icon humburger menu */
@@ -49,10 +50,17 @@ header {
     margin-top: 21px;
 }
 
+ul {
+    font-family: "Noto Sans Arabic", sans-serif;
+    font-weight: 400;
+}
+
 /*style for links*/
 a {
     color: rgb(0, 0, 0);
     text-decoration: none;
+    font-family: "Noto Sans Arabic", sans-serif;
+    font-weight: 400;
 }
 
 /* off-screen-menu */
@@ -69,20 +77,25 @@ a {
     text-align: center;
     justify-content: center;
     transition: .3s ease;
+    font-family: "Noto Sans Arabic", sans-serif;
+    font-weight: 400;
+    font-size: 13pt;
 }
 
 /*style for li and links*/
 li,
 a {
     text-decoration: none;
+    font-size: 14pt;
     color: black;
-    font-family: 'Lucida Sans', sans-serif;
+    font-family: "Noto Sans Arabic", sans-serif;
+    font-weight: 400;
     text-align: center;
 }
 
 #humburger {
-    margin-top: 30px;
-    margin-left: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 
 /*humburger menu and whe is active */
@@ -252,16 +265,23 @@ ul {
     margin-top: 50px;
 }
 
+.card-text {
+    font-family: 'Noto Sans Arabic', sans-serif;
+    font-weight: 400;
+}
+
 /*title*/
 .gradient-text {
-    font-size: 26pt;
+    font-size: 20pt;
     text-align: center;
     background: linear-gradient(60deg, #B6B0A6, #121212);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     color: transparent;
-    height:70px;
+    height: 70px;
+    font-family: "Noto Sans Arabic", sans-serif;
+    font-weight: 400;
 }
 
 /* start responsive for devices smaller than 576px */
@@ -271,6 +291,11 @@ ul {
     .ham-menu {
         height: 40px;
         width: 30px;
+    }
+
+    #humburger {
+        margin-top: -18px;
+        margin-left: 5px;
     }
 
     a:hover {
@@ -388,6 +413,8 @@ ul {
         transform: translateX(100%);
         opacity: 0;
     }
+
+
 }
 
 /* end responsive for devices greather than 577px and smaller than 768px */
@@ -451,6 +478,12 @@ ul {
         transform: translateX(100%);
         opacity: 0;
     }
+
+    #humburger {
+        margin-top: -25px;
+        margin-left: 8px;
+    }
+
 }
 
 /* end responsive for devices greather than 769px and smaller than 992px */
@@ -507,6 +540,14 @@ ul {
         transition: transform 0.3s ease, opacity 0.3s ease;
         display: grid;
         grid-template-columns: repeat(2, 3fr);
+        width: 80%;
+        display: flex;
+        align-items: center;
+        margin-left: 5px;
+        justify-content: center;
+        overflow-y: auto;
+        flex-grow: 1;
+        gap: 50px;
     }
 
     .all-cards.shift {
@@ -566,15 +607,22 @@ ul {
     }
 
     .all-cards {
-        transition: transform 0.3s ease, opacity 0.3s ease;
-        display: grid;
-        grid-template-columns: repeat(2, 3fr);
+        width: 80%;
+        display: flex;
+        align-items: center;
+        margin-left: 5px;
+        justify-content: center;
+        overflow-y: auto;
+        flex-grow: 1;
+        gap: 50px;
+
     }
 
     .all-cards.shift {
         transform: translateX(100%);
         opacity: 0;
     }
+
 }
 
 /* end responsive for devices greather than 1025px and smaller than 1200px */
@@ -599,7 +647,8 @@ ul {
     }
 
     body {
-        font-family: 'Saira Condensed', sans-serif;
+        font-family: "Noto Sans Arabic", sans-serif;
+        font-weight: 400;
         display: flex;
         justify-content: center;
         align-items: flex-start;
@@ -796,11 +845,10 @@ ul {
         display: flex;
         align-items: center;
         margin-left: 5px;
-        justify-content: flex-start;
+        justify-content: center;
         overflow-y: auto;
         flex-grow: 1;
         gap: 50px;
-        margin-left: 50px;
     }
 
     /* each cards*/
@@ -828,13 +876,28 @@ ul {
 
     /*title*/
     .gradient-text {
-        font-size: 40pt;
+        font-size: 30pt;
         text-align: center;
         background: linear-gradient(60deg, #B6B0A6, #121212);
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
         color: transparent;
+        font-family: "Noto Sans Arabic", sans-serif;
+        font-weight: 400;
+    }
+
+    #brand {
+        width: 80px;
+        height: auto;
+        margin-top: 20px;
+        margin-left: 2px;
+    }
+
+    #humburger {
+        height: auto;
+        margin-top: 18px;
+        margin-left: 22px;
     }
 }
 
