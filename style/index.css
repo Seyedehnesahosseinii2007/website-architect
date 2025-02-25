@@ -2,17 +2,33 @@ body {
     font-family: 'Saira Condensed', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #EDE9DC !important;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 100vh;
+    background-color: #E6E1DE !important;
+}
+
+a {
+    text-decoration: none !important;
+    color: inherit;
+    /* از رنگ متن والد استفاده می‌کند */
+}
+
+button {
+    color: black;
+    /* رنگ متون دکمه‌ها */
 }
 
 strong {
     font-family: 'Saira Condensed', sans-serif;
     letter-spacing: 2px;
+}
+
+a {
+    text-decoration: none !important;
+    color: black !important;
 }
 
 /* black border */
@@ -37,32 +53,79 @@ strong {
 
 /* gif */
 #gifstart {
-    width: 400px;
+    width: 300px;
     height: 300px;
     margin: 20px;
 }
 
 /* button enter division */
 .button-enter {
+    color: black;
     width: inherit;
     height: 100px;
     display: flex;
+    gap: 40px;
     justify-content: center;
     align-items: center;
 }
 
+
+
 /* button enter  */
-#enter {
+#persian {
+    color: black;
+    border: none;
+    font-family: "Noto Sans Arabic", sans-serif;
+    font-weight: 400;
+    font-size: 17pt;
+    transition: 0.5s;
+    position: relative;
+    animation: moveButtons 3s;
+    margin-top: 50px;
+    background-color: #E6E1DE !important;
+}
+
+/* animation move button start */
+@keyframes moveButtons {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        left: 0px;
+        top: 0px;
+    }
+
+    50% {
+        left: 0px;
+        top: 35px;
+
+    }
+
+    75% {
+        left: 0px;
+        top: 35px;
+
+    }
+
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}
+
+#english {
     border: none;
     font-family: 'Saira Condensed', sans-serif;
     font-size: 17pt;
     font-weight: 500;
-    letter-spacing: 8px;
     transition: 0.5s;
     position: relative;
     animation: moveButton 3s;
-    background-color: #EDE9DC;
     margin-top: 50px;
+    letter-spacing: 6px;
+    background-color: #E6E1DE !important;
 }
 
 /* animation move button start */
@@ -75,6 +138,11 @@ strong {
     25% {
         left: 0px;
         top: 0px;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
     }
 
     50% {
@@ -97,7 +165,7 @@ strong {
     }
 }
 
-#enter:hover {
+#english:hover {
     border: none;
     font-family: 'Saira Condensed', sans-serif;
     font-size: 17pt;
@@ -106,44 +174,45 @@ strong {
     transition: 0.5s;
 }
 
-/* loader start */
-.loader {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 9999;
-    background-color: white;
+#persian:hover {
+    border: none;
+    font-family: "Noto Sans Arabic", sans-serif;
+    font-weight: 400;
+    font-size: 17pt;
+    transition: 0.5s;
 }
 
-.loader {
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
-}
-
-/* loader end */
-/* animation move button end */
 /* start responsive for devices smaller than 576px */
 @media screen and (max-width:576px) {
+
+    /* black border */
     .border-site {
-        width: 300px;
-        height: 300px;
+        width: 100%;
+        min-height: 100vh;
         border: 4px solid #121212;
         display: flex;
         justify-content: center;
-        flex-direction: column;
         align-items: center;
+        flex-direction: column;
+        margin-top: 150px;
     }
 
     #gifstart {
         width: 200px;
         height: 200px;
     }
+
+    a {
+        text-decoration: none !important;
+        color: inherit;
+        /* از رنگ متن والد استفاده می‌کند */
+    }
+
+    button {
+        color: black;
+        /* رنگ متون دکمه‌ها */
+    }
+
 
     .start-enter-button {
         display: flex;
@@ -153,20 +222,31 @@ strong {
         margin-top: -100px;
     }
 
+    a {
+        text-decoration: none !important;
+        color: black !important;
+    }
+
+    html,
     body {
-        font-family: 'Saira Condensed', sans-serif;
+        height: 100%;
         margin: 0;
         padding: 0;
-        background-color: #EDE9DC !important;
+        height: 100vh;
+    }
+
+    body {
+        font-family: 'Saira Condensed', sans-serif;
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 100%;
-        height: 100vh;
+        padding: 10px;
+
     }
 
     /* button enter division */
     .button-enter {
+        color: black;
         width: inherit;
         height: 100px;
         display: flex;
@@ -184,7 +264,6 @@ strong {
         transition: 0.5s;
         position: relative;
         animation: moveButton 3s;
-        background-color: #EDE9DC;
         margin-top: -10px;
     }
 
@@ -235,12 +314,17 @@ strong {
 @media screen and (min-width:577px) and (max-width:768px) {
     .border-site {
         width: 550px;
-        height: 550px;
+        height: 600px;
         border: 4px solid #121212;
         display: flex;
         justify-content: center;
         flex-direction: column;
         align-items: center;
+    }
+
+    a {
+        text-decoration: none !important;
+        color: black !important;
     }
 
     #gifstart {
@@ -256,11 +340,21 @@ strong {
         margin-top: -100px;
     }
 
+    a {
+        text-decoration: none !important;
+        color: inherit;
+        /* از رنگ متن والد استفاده می‌کند */
+    }
+
+    button {
+        color: black;
+        /* رنگ متون دکمه‌ها */
+    }
+
     body {
         font-family: 'Saira Condensed', sans-serif;
         margin: 0;
         padding: 0;
-        background-color: #EDE9DC !important;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -270,6 +364,7 @@ strong {
 
     /* button enter division */
     .button-enter {
+        color: black;
         width: inherit;
         height: 100px;
         display: flex;
@@ -287,7 +382,6 @@ strong {
         transition: 0.5s;
         position: relative;
         animation: moveButton 3s;
-        background-color: #EDE9DC;
         margin-top: 20px;
     }
 
@@ -336,19 +430,15 @@ strong {
 /* End  responsive for devices greather than 577px and smaller than 768px */
 /* start  responsive for devices greather than 769px and smaller than 992px */
 @media screen and (min-width:769px) and (max-width:992px) {
-    .border-site {
-        width: 650px;
-        height: 700px;
-        border: 4px solid #121212;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-    }
 
     #gifstart {
         width: 500px;
         height: 300px;
+    }
+
+    a {
+        text-decoration: none !important;
+        color: black !important;
     }
 
     .start-enter-button {
@@ -359,20 +449,42 @@ strong {
         margin-top: -100px;
     }
 
+
+    a {
+        text-decoration: none !important;
+        color: inherit;
+        /* از رنگ متن والد استفاده می‌کند */
+    }
+
+    button {
+        color: black;
+        /* رنگ متون دکمه‌ها */
+    }
+
+    .border-site {
+        width: 550px;
+        height: 650px;
+        border: 4px solid #121212;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
     body {
         font-family: 'Saira Condensed', sans-serif;
         margin: 0;
         padding: 0;
-        background-color: #EDE9DC !important;
         display: flex;
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: 100vh;
+        height: 90vh;
     }
 
     /* button enter division */
     .button-enter {
+        color: black;
         width: inherit;
         height: 100px;
         display: flex;
@@ -390,7 +502,6 @@ strong {
         transition: 0.5s;
         position: relative;
         animation: moveButton 3s;
-        background-color: #EDE9DC;
         margin-top: 70px;
     }
 
@@ -454,6 +565,11 @@ strong {
         height: 350px;
     }
 
+    a {
+        text-decoration: none !important;
+        color: black !important;
+    }
+
     .start-enter-button {
         display: flex;
         justify-content: center;
@@ -465,7 +581,6 @@ strong {
         font-family: 'Saira Condensed', sans-serif;
         margin: 0;
         padding: 0;
-        background-color: #EDE9DC !important;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -477,6 +592,7 @@ strong {
 
     /* button enter division */
     .button-enter {
+        color: black;
         width: inherit;
         height: 100px;
         display: flex;
@@ -486,6 +602,7 @@ strong {
 
     /* button enter  */
     #enter {
+        color: black;
         border: none;
         font-family: 'Saira Condensed', sans-serif;
         font-size: 22pt;
@@ -494,7 +611,6 @@ strong {
         transition: 0.5s;
         position: relative;
         animation: moveButton 3s;
-        background-color: #EDE9DC;
         margin-top: 20px;
     }
 

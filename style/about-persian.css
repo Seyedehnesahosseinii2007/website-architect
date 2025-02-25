@@ -6,7 +6,8 @@ body {
 }
 
 body {
-    font-family: 'Saira Condensed', sans-serif;
+    font-family: "Noto Sans Arabic", sans-serif;
+    font-weight: 400;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -72,7 +73,6 @@ header {
 #brand {
     width: 80px;
     height: auto;
-    margin-top: -40px;
 }
 
 /* icon opportunity */
@@ -106,6 +106,8 @@ header {
     background-clip: text;
     -webkit-text-fill-color: transparent;
     color: transparent;
+    font-family: "Noto Sans Arabic", sans-serif;
+    font-weight: 400;
     width: 100%;
 }
 
@@ -164,11 +166,14 @@ header {
     width: 80%;
     max-width: 800px;
     text-align: center;
+    text-align: right;
 }
 
 #p {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Noto Sans Arabic", sans-serif;
+    font-weight: 400;
     font-size: 16pt;
+    direction: rtl;
 }
 
 /*details about company end*/
@@ -180,6 +185,8 @@ header {
     text-align: center;
     padding: 10px 0;
     margin-top: -120px;
+    font-family: "Noto Sans Arabic", sans-serif;
+    font-weight: 400;
 }
 
 /*people start*/
@@ -220,6 +227,8 @@ header {
     align-items: center;
     flex-direction: row-reverse;
     padding: 200px;
+    font-family: "Noto Sans Arabic", sans-serif;
+    font-weight: 400;
 }
 
 #person-two,
@@ -231,6 +240,8 @@ header {
 .number-person {
     color: black;
     text-align: center;
+    font-family: "Noto Sans Arabic", sans-serif;
+    font-weight: 400;
 }
 
 .introd-person-one,
@@ -242,6 +253,10 @@ header {
     flex-direction: column;
     display: flex;
     gap: 30px;
+    font-family: "Noto Sans Arabic", sans-serif;
+    font-weight: 400;
+    direction: rtl;
+    text-align: right;
 }
 
 /*people end*/
@@ -274,16 +289,21 @@ header {
 
 /* about oppurtunities start*/
 .jobcontainer {
-    text-align: left;
+    text-align: right;
     display: none;
     opacity: 0;
     transform: translateX(-100%);
     animation: slideIn 1s forwards;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Noto Sans Arabic", sans-serif;
+    font-weight: 400;
+    direction: rtl;
 }
 
 p {
+    font-family: "Noto Sans Arabic", sans-serif;
+    font-weight: 400;
     font-size: 11pt;
+    direction: rtl;
 }
 
 /* about oppurtunities end*/
@@ -312,6 +332,11 @@ p {
         padding: 20px;
     }
 
+    #humburger {
+        margin-top: -30px !important;
+        margin-left: 10px;
+    }
+
     .picture-person-one,
     .picture-person-two,
     .picture-person-three,
@@ -327,6 +352,8 @@ p {
     .introd-person-five {
         width: 100%;
         gap: 15px;
+        text-align: right;
+        direction: rtl;
     }
 
     #boy-one,
@@ -358,7 +385,8 @@ p {
     .introd-person-five b,
     .introd-person-five p,
     .introd-person-five strong {
-        text-align: center;
+        direction: rtl;
+        text-align: right;
     }
 
     .employee {
@@ -381,16 +409,12 @@ p {
     .jobcontainer {
         font-size: 8pt;
         text-align: center;
+        direction: rtl;
     }
 
     #group-people {
         border-radius: 20px;
         width: 300px;
-    }
-
-    #humburger {
-        margin-top: -30px !important;
-        margin-left: 12px !important;
     }
 
     #brand {
@@ -417,6 +441,7 @@ p {
     .picture-person-four,
     .picture-person-five {
         margin-bottom: 20px;
+        text-align: right;
     }
 
     .introd-person-one,
@@ -425,6 +450,8 @@ p {
     .introd-person-four,
     .introd-person-five {
         width: 100%;
+        text-align: right;
+        direction: rtl;
         text-align: center;
     }
 
@@ -449,6 +476,8 @@ p {
     .introd-person-five b {
         font-size: 16pt;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: right;
+        direction: rtl;
     }
 
     .introd-person-one p,
@@ -462,6 +491,8 @@ p {
     .introd-person-four strong,
     .introd-person-five strong {
         font-size: 15pt;
+        text-align: right;
+        direction: rtl;
     }
 
     #group-people {
@@ -513,6 +544,8 @@ p {
     .introd-person-four,
     .introd-person-five {
         width: 45%;
+        text-align: right;
+        direction: rtl;
         gap: 25px;
     }
 
@@ -520,16 +553,22 @@ p {
         font-family: Arial, Helvetica, sans-serif;
         height: 400px;
         width: 400px;
+        text-align: right;
+        direction: rtl;
+        margin-top: -20px;
     }
 
     p {
         font-size: 8.75pt;
+        text-align: right;
     }
+
 
     #humburger {
         margin-top: -20px;
         margin-left: 20px;
     }
+
 
     .picture-person-one,
     .picture-person-two,
@@ -553,11 +592,6 @@ p {
         border-radius: 15px;
     }
 
-    #humburger {
-        margin-top: -20px;
-        margin-left: 20px;
-    }
-
     #person-one,
     #person-two,
     #person-three,
@@ -573,17 +607,28 @@ p {
     .introd-person-four,
     .introd-person-five {
         width: 45%;
+        text-align: right;
+        direction: rtl;
         gap: 25px;
     }
 
     .jobcontainer {
         font-family: Arial, Helvetica, sans-serif;
         height: 380px;
+        text-align: right;
         width: 400px;
+        margin-top: -20px;
     }
 
     p {
         font-size: 8.7pt;
+        text-align: right;
+        direction: rtl;
+    }
+
+    #humburger {
+        margin-top: -20px;
+        margin-left: 20px;
     }
 
     #employee {
@@ -637,18 +682,23 @@ p {
     .introd-person-four,
     .introd-person-five {
         width: 45%;
+        text-align: right;
         gap: 25px;
+        direction: rtl;
     }
 
     .jobcontainer {
         font-family: Arial, Helvetica, sans-serif;
         height: 420px;
-        width: 490px;
-        margin-top: 30px;
+        width: 520px;
+        text-align: right;
+        direction: rtl;
+        margin-top: -20px;
     }
 
     p {
         font-size: 9.75pt;
+        text-align: right;
     }
 
     .employee {
@@ -681,18 +731,5 @@ p {
     .picture-person-four,
     .picture-person-five {
         margin-top: 0;
-    }
-
-    .details-paragraph {
-        width: 80%;
-        max-width: 800px;
-        text-align: center;
-        margin-top: 20px;
-    }
-
-    #p {
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 16pt;
-        margin-top: 20px;
     }
 }

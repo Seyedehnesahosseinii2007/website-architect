@@ -1,0 +1,1114 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+body {
+    font-family: 'Saira Condensed', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+    background-color: #E6E1DE !important;
+
+}
+
+.space-after {
+    min-height: 100px;
+    flex-grow: 1;
+    width: 100%;
+    background-color: #E6E1DE;
+}
+
+#humburger {
+    margin-left: 20px;
+}
+
+/*icon humburger menu */
+.humburgermenu {
+    width: 100%;
+    display: flex;
+}
+
+/* black border */
+.border-site {
+    width: 100%;
+    min-height: 100vh;
+    border: 4px solid #121212;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/*first section has contact input and map*/
+.row-first {
+    width: 100%;
+    min-height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+/* map*/
+iframe {
+    width: 50%;
+    height: 80%;
+}
+
+/*contact us part with inouts*/
+.contact-us {
+    width: 50%;
+    height: 100%;
+}
+
+/* division for map */
+.map {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -130px;
+}
+
+/* all inputs are there */
+.part-inp-phone-name {
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 2rem;
+}
+
+/* input name and phonenumber*/
+.for-name-and-phone {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    gap: 50px;
+}
+
+.button-send-msg {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    gap: 30px;
+}
+
+/* label name */
+.forName {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+/*label for phone*/
+.for-phone {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+/*label for email*/
+.for-email {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+/* label for subject*/
+.for-subject {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+/* label for message */
+.for-msgs {
+    width: 50%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* input email and subject*/
+
+.for-email-and-subject {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    gap: 50px;
+}
+
+/* for button send*/
+
+.for-msg-and-btnMsg {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+}
+
+/*button*/
+.bttn {
+    height: 80px;
+    display: flex;
+    margin-top: 20px;
+}
+
+/*input name*/
+#name {
+    border-radius: 10px 10px 10px 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    height: 50px;
+    width: 300px;
+    border-bottom: 2px solid #B6B0A6;
+    background-color: transparent;
+}
+
+/*input when user click and enter spmething in that input*/
+
+#name:focus {
+    border-radius: 10px 10px 10px 10px;
+
+    border: none;
+    outline: none;
+    transition: 0.5s;
+    border-bottom: 2px solid #121212;
+}
+
+/*phonenumber*/
+#phone {
+    border-radius: 10px 10px 10px 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    height: 50px;
+    width: 200px;
+    background-color: transparent;
+
+    border-bottom: 2px solid #B6B0A6;
+}
+
+/*input when user click and enter spmething in that input*/
+
+#phone:focus {
+    border-radius: 10px 10px 10px 10px;
+
+    border: none;
+    outline: none;
+    transition: 0.5s;
+    border-bottom: 2px solid #121212;
+}
+
+label {
+    width: 70px;
+    text-align: center;
+}
+
+/*email*/
+#email {
+    border-radius: 10px 10px 10px 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    height: 50px;
+    width: 300px;
+    background-color: transparent;
+
+    border-bottom: 2px solid #B6B0A6;
+}
+
+/*input when user click and enter spmething in that input*/
+
+#email:focus {
+    border-radius: 10px 10px 10px 10px;
+
+    border: none;
+    outline: none;
+    transition: 0.5s;
+    border-bottom: 2px solid #121212;
+}
+
+/*subject*/
+#subject {
+    border-radius: 10px 10px 10px 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    height: 50px;
+    width: 200px;
+    background-color: transparent;
+
+    border-bottom: 2px solid #B6B0A6;
+}
+
+/*input when user click and enter spmething in that input*/
+
+#subject:focus {
+    border-radius: 10px 10px 10px 10px;
+
+    border: none;
+    outline: none;
+    transition: 0.5s;
+    border-bottom: 2px solid #121212;
+}
+
+/*message*/
+#message {
+    border-radius: 10px 10px 10px 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    height: 100px;
+    width: 500px;
+    background-color: transparent;
+
+    border-bottom: 2px solid #B6B0A6;
+}
+
+/*input when user click and enter spmething in that input*/
+
+#message:focus {
+    border-radius: 10px 10px 10px 10px;
+
+    border: none;
+    outline: none;
+    transition: 0.5s;
+    border-bottom: 2px solid #121212;
+}
+
+/*button send message*/
+button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #B6B0A6;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+/*when user hover on button send message*/
+
+button:hover {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 4px solid #B6B0A6;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+/*second section has icons social medi  and contact info*/
+
+.row-second {
+    width: 100%;
+    min-height: 300px;
+    flex-grow: 1;
+}
+
+/*division for social media icons*/
+.icons-social-media {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+/*instagram icon*/
+.instagram {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*youtube icon */
+.youtube {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+/*linkedin icon*/
+
+.linkedin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+/*email icon*/
+
+.email {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.icons-social-media a {
+    text-decoration: none;
+    color: inherit;
+    /* Optional: Ensures the link color matches the surrounding text */
+}
+
+/* part contact info */
+.contact-info {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+}
+
+/*icons and details location company phonenumber and email address*/
+.location,
+.call-company {
+    width: 50%;
+    height: auto;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+/* start line between contact info and social media */
+hr {
+    width: 70%;
+    height: 20px;
+    stroke-width: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.for-line {
+    width: 100%;
+    stroke-width: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* end line between contact info and social media */
+/* start responsive for devices smaller than 576px */
+
+@media screen and (max-width:576px) {
+    .fills {
+        width: 35px;
+        height: 35px;
+    }
+
+    .fills-one {
+        width: 60px;
+        height: 60px;
+    }
+
+    /* black border */
+    .border-site {
+        width: 100%;
+        min-height: 100vh;
+        border: 4px solid #121212;
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    /*start 2 sections*/
+
+    .row-first {
+        width: 100%;
+        min-height: 290px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        flex-grow: 1;
+    }
+
+    .row-second {
+        width: 100%;
+        min-height: 750px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 60px;
+    }
+
+
+    /*end 2 sections*/
+
+    .contact-us {
+        width: 100%;
+        padding: 0;
+    }
+
+    .part-inp-phone-name {
+        padding: 1rem;
+    }
+
+    .for-name-and-phone,
+    .for-email-and-subject,
+    .for-msg-and-btnMsg {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    /* all label*/
+    .forName,
+    .for-phone,
+    .for-email,
+    .for-subject,
+    .for-msgs {
+        width: 100%;
+    }
+
+    .bttn {
+        text-align: center;
+    }
+
+    /*start all inputs*/
+    #message {
+        border-radius: 10px 10px 10px 10px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        height: 100px;
+        width: 300px;
+        background-color: transparent;
+
+        border-bottom: 2px solid #B6B0A6;
+    }
+
+    #name {
+        border-radius: 10px 10px 10px 10px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        height: 50px;
+        width: 200px;
+        border-bottom: 2px solid #B6B0A6;
+        background-color: transparent;
+    }
+
+    /*end all inputs*/
+    /*map*/
+    .map {
+        width: 90%;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -140px;
+        flex-direction: column;
+    }
+
+    iframe {
+        width: 100%;
+        height: 300px;
+    }
+
+    .contact-info {
+        width: 100%;
+        height: 400px;
+        padding: 1rem;
+        margin-top: -50px;
+    }
+
+    .location,
+    .call-company,
+    .email-text {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .icons-social-media {
+        flex-direction: column;
+        gap: 20px;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+
+    }
+
+    #social {
+        margin-top: -70px;
+    }
+
+    .instagram,
+    .linkedin,
+    .email {
+        width: 100%;
+        gap: 10px;
+    }
+
+    /*start line */
+    hr {
+        width: 90%;
+    }
+
+    .for-line {
+        width: 100%;
+    }
+
+    /*end line */
+}
+
+/* end responsive for devices smaller than 576px */
+/* start responsive for devices greather than 577px and smaller than 768px */
+@media screen and (min-width:577px) and (max-width:768px) {
+    #humburger {
+        margin-top: -30px;
+        margin-left: 8px;
+    }
+
+    /* black border */
+    .border-site {
+        width: 100%;
+        min-height: 100vh;
+        border: 4px solid #121212;
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    /*start 2 sections*/
+
+    .row-first {
+        width: 100%;
+        min-height: 450px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        flex-grow: 1;
+    }
+
+    .row-second {
+        width: 100%;
+        min-height: 550px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 60px;
+    }
+
+    /*end 2 sections*/
+
+    .contact-us {
+        width: 100%;
+        padding: 0;
+    }
+
+    .part-inp-phone-name {
+        padding: 1rem;
+    }
+
+    .for-name-and-phone,
+    .for-email-and-subject,
+    .for-msg-and-btnMsg {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    /*all labels*/
+    .forName,
+    .for-phone,
+    .for-email,
+    .for-subject,
+    .for-msgs {
+        width: 100%;
+    }
+
+    .bttn {
+        text-align: center;
+    }
+
+    /*start all inputs*/
+
+    #message {
+        border-radius: 10px 10px 10px 10px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        height: 100px;
+        width: 500px;
+        background-color: transparent;
+
+        border-bottom: 2px solid #B6B0A6;
+    }
+
+    #name {
+        border-radius: 10px 10px 10px 10px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        height: 50px;
+        width: 300px;
+        border-bottom: 2px solid #B6B0A6;
+        background-color: transparent;
+    }
+
+    /*end all inputs*/
+
+    .map {
+        width: 90%;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -140px;
+        flex-direction: column;
+    }
+
+    iframe {
+        width: 100%;
+        height: 300px;
+    }
+
+    .space-after {
+        min-height: 100px;
+        flex-grow: 1;
+        width: 100%;
+        background-color: #E6E1DE;
+    }
+
+    .contact-info {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        padding: 1rem;
+    }
+
+    /*icon locartion and phonennumber company email address*/
+    .location,
+    .call-company,
+    .email-text {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .icons-social-media {
+        flex-direction: column;
+        gap: 20px;
+        height: 330px;
+        display: flex;
+    }
+
+    /* icons instagram and linkedin and email*/
+    .instagram,
+    .linkedin,
+    .email {
+        width: 100%;
+        gap: 10px;
+    }
+
+    /*line*/
+    hr {
+        width: 90%;
+    }
+
+    .for-line {
+        width: 100%;
+    }
+}
+
+/* start responsive for devices greather than 769px and smaller than 992px */
+@media screen and (min-width:769px) and (max-width:992px) {
+
+    /* black border */
+    .border-site {
+        width: 100%;
+        min-height: 100vh;
+        border: 4px solid #121212;
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    /*first section has contact input and map*/
+    .row-first {
+        width: 100%;
+        min-height: 450px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-grow: 1;
+    }
+
+    /* map*/
+    iframe {
+        width: 50%;
+        height: 80%;
+    }
+
+    /*contact us part with inouts*/
+    .contact-us {
+        width: 50%;
+        height: 100%;
+    }
+
+    /* division for map */
+    .map {
+        width: 100%;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: -130px;
+    }
+
+    .row-second {
+        width: 100%;
+        min-height: 550px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 60px;
+    }
+
+    /*end 2 sections*/
+
+    .contact-us {
+        width: 100%;
+        padding: 0;
+    }
+
+    .part-inp-phone-name {
+        padding: 1rem;
+    }
+
+    .for-name-and-phone,
+    .for-email-and-subject,
+    .for-msg-and-btnMsg {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    /* all label*/
+    .forName,
+    .for-phone,
+    .for-email,
+    .for-subject,
+    .for-msgs {
+        width: 100%;
+    }
+
+    .bttn {
+        text-align: center;
+    }
+
+    /*start all inputs*/
+    #message {
+        border-radius: 10px 10px 10px 10px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        height: 100px;
+        width: 300px;
+        background-color: transparent;
+
+        border-bottom: 2px solid #B6B0A6;
+    }
+
+    #name {
+        border-radius: 10px 10px 10px 10px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        height: 50px;
+        width: 200px;
+        border-bottom: 2px solid #B6B0A6;
+        background-color: transparent;
+    }
+
+    .contact-info {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        padding: 1rem;
+    }
+
+    .location,
+    .call-company,
+    .email-text {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .icons-social-media {
+        flex-direction: column;
+        gap: 20px;
+        height: 330px;
+        display: flex;
+    }
+
+    .instagram,
+    .linkedin,
+    .email {
+        width: 100%;
+        gap: 10px;
+    }
+
+    /*start line */
+    hr {
+        width: 90%;
+    }
+
+    .space-after {
+        min-height: 100px;
+        flex-grow: 1;
+        width: 100%;
+        background-color: #E6E1DE;
+    }
+
+    .for-line {
+        width: 100%;
+        margin-top: -50px;
+    }
+
+    /*end line */
+}
+
+/* end responsive for devices greather than 577px and smaller than 768px */
+/* start responsive for devices greather than 993px and smaller than 1200px */
+@media screen and (min-width:993px) and (max-width:1200px) {
+
+    /* black border */
+    .border-site {
+        width: 100%;
+        min-height: 100vh;
+        border: 4px solid #121212;
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    /*first section has contact input and map*/
+    .row-first {
+        width: 100%;
+        min-height: 450px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-grow: 1;
+    }
+
+    /* map*/
+    iframe {
+        width: 50%;
+        height: 80%;
+    }
+
+    /*contact us part with inouts*/
+    .contact-us {
+        width: 50%;
+        height: 100%;
+    }
+
+    /* division for map */
+    .map {
+        width: 100%;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: -130px;
+    }
+
+    .row-second {
+        width: 100%;
+        min-height: 550px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 60px;
+    }
+
+    /*end 2 sections*/
+
+    .contact-us {
+        width: 100%;
+        padding: 0;
+    }
+
+    .part-inp-phone-name {
+        padding: 1rem;
+    }
+
+    .for-name-and-phone,
+    .for-email-and-subject,
+    .for-msg-and-btnMsg {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    /* all label*/
+    .forName,
+    .for-phone,
+    .for-email,
+    .for-subject,
+    .for-msgs {
+        width: 100%;
+    }
+
+    .bttn {
+        text-align: center;
+    }
+
+    /*start all inputs*/
+    #message {
+        border-radius: 10px 10px 10px 10px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        height: 100px;
+        width: 300px;
+        background-color: transparent;
+
+        border-bottom: 2px solid #B6B0A6;
+    }
+
+    #name {
+        border-radius: 10px 10px 10px 10px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        height: 50px;
+        width: 200px;
+        border-bottom: 2px solid #B6B0A6;
+        background-color: transparent;
+    }
+
+    .contact-info {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        padding: 1rem;
+    }
+
+    .location,
+    .call-company,
+    .email-text {
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .icons-social-media {
+        flex-direction: column;
+        gap: 20px;
+        height: 330px;
+        display: flex;
+    }
+
+    .instagram,
+    .linkedin,
+    .email {
+        width: 100%;
+        gap: 10px;
+    }
+
+    /*start line */
+    hr {
+        width: 90%;
+    }
+
+    .for-line {
+        width: 100%;
+        margin-top: -50px;
+    }
+
+    .space-after {
+        min-height: 100px;
+        flex-grow: 1;
+        width: 100%;
+        background-color: #E6E1DE;
+    }
+
+    /*end line */
+}
+
+/* end responsive for devices greather than 993px and smaller than 1200px */

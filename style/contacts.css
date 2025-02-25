@@ -8,12 +8,23 @@ body {
 
 body {
     font-family: 'Saira Condensed', sans-serif;
-    background-color: #EDE9DC !important;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     padding: 10px;
+    background-color: #E6E1DE !important;
 
+}
+
+.space-after {
+    min-height: 100px;
+    flex-grow: 1;
+    width: 100%;
+    background-color: #E6E1DE;
+}
+
+#humburger {
+    margin-left: 20px;
 }
 
 /*icon humburger menu */
@@ -39,24 +50,15 @@ body {
     width: 100%;
     min-height: 450px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
     flex-grow: 1;
-}
-
-/*second section has icons social medi  and contact info*/
-
-.row-second {
-    width: 100%;
-    min-height: 600px;
-    flex-grow: 1;
-    margin-top: -80px;
 }
 
 /* map*/
 iframe {
-    width: 100%;
+    width: 50%;
     height: 80%;
 }
 
@@ -70,6 +72,11 @@ iframe {
 .map {
     width: 100%;
     height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: -130px;
 }
 
 /* all inputs are there */
@@ -322,6 +329,14 @@ button:hover {
     transition: 0.25s;
 }
 
+/*second section has icons social medi  and contact info*/
+
+.row-second {
+    width: 100%;
+    min-height: 300px;
+    flex-grow: 1;
+}
+
 /*division for social media icons*/
 .icons-social-media {
     width: 100%;
@@ -339,6 +354,18 @@ button:hover {
     justify-content: center;
     align-items: center;
     gap: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*youtube icon */
+.youtube {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
 }
 
 /*linkedin icon*/
@@ -349,7 +376,7 @@ button:hover {
     justify-content: center;
     align-items: center;
     gap: 10px;
-
+    cursor: pointer;
 }
 
 /*email icon*/
@@ -360,29 +387,33 @@ button:hover {
     justify-content: center;
     align-items: center;
     gap: 10px;
+    cursor: pointer;
+}
 
+.icons-social-media a {
+    text-decoration: none;
+    color: inherit;
+    /* Optional: Ensures the link color matches the surrounding text */
 }
 
 /* part contact info */
 .contact-info {
     width: 100%;
-    height: 150px;
+    height: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 30px;
-    margin-top: 60px;
     text-align: center;
 }
 
 /*icons and details location company phonenumber and email address*/
 .location,
-.call-company,
-.email-text {
-    width: 20%;
+.call-company {
+    width: 50%;
     height: auto;
-    justify-content: flex-start;
+    justify-content: center;
     display: flex;
     align-items: center;
 }
@@ -408,11 +439,13 @@ hr {
 }
 
 /* end line between contact info and social media */
-
 /* start responsive for devices smaller than 576px */
 
 @media screen and (max-width:576px) {
-
+    .fills {
+        width: 55px;
+        height: 55px;
+    }
 
     /* black border */
     .border-site {
@@ -430,7 +463,7 @@ hr {
 
     .row-first {
         width: 100%;
-        min-height: 450px;
+        min-height: 290px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -440,13 +473,14 @@ hr {
 
     .row-second {
         width: 100%;
-        min-height: 800px;
+        min-height: 750px;
         display: flex;
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        gap: 50px;
+        gap: 60px;
     }
+
 
     /*end 2 sections*/
 
@@ -522,9 +556,9 @@ hr {
 
     .contact-info {
         width: 100%;
-        height: 200px;
-        margin-top: 20px;
+        height: 400px;
         padding: 1rem;
+        margin-top: -50px;
     }
 
     .location,
@@ -539,8 +573,16 @@ hr {
     .icons-social-media {
         flex-direction: column;
         gap: 20px;
-        height: 290px;
+        height: 400px;
         display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+
+    }
+
+    #social {
+        margin-top: -70px;
     }
 
     .instagram,
@@ -559,13 +601,21 @@ hr {
         width: 100%;
     }
 
-    /*end line */
+    strong {
+        color: black;
+        text-decoration: none;
+    }
 
+    /*end line */
 }
 
 /* end responsive for devices smaller than 576px */
 /* start responsive for devices greather than 577px and smaller than 768px */
 @media screen and (min-width:577px) and (max-width:768px) {
+    #humburger {
+        margin-top: -30px;
+        margin-left: 8px;
+    }
 
     /* black border */
     .border-site {
@@ -593,12 +643,12 @@ hr {
 
     .row-second {
         width: 100%;
-        min-height: 800px;
+        min-height: 550px;
         display: flex;
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        gap: 50px;
+        gap: 60px;
     }
 
     /*end 2 sections*/
@@ -674,9 +724,19 @@ hr {
         height: 300px;
     }
 
+    .space-after {
+        min-height: 100px;
+        flex-grow: 1;
+        width: 100%;
+        background-color: #E6E1DE;
+    }
+
     .contact-info {
         width: 100%;
-        height: 200px;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         margin-top: 20px;
         padding: 1rem;
     }
@@ -694,7 +754,7 @@ hr {
     .icons-social-media {
         flex-direction: column;
         gap: 20px;
-        height: 290px;
+        height: 330px;
         display: flex;
     }
 
@@ -716,7 +776,7 @@ hr {
     }
 }
 
-/* start responsive for devices greather than 577px and smaller than 768px */
+/* start responsive for devices greather than 769px and smaller than 992px */
 @media screen and (min-width:769px) and (max-width:992px) {
 
     /* black border */
@@ -731,35 +791,55 @@ hr {
         flex-direction: column;
     }
 
-    /*start 2 sections*/
-
+    /*first section has contact input and map*/
     .row-first {
         width: 100%;
         min-height: 450px;
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
-        flex-direction: row;
+        flex-direction: column;
         flex-grow: 1;
+    }
+
+    /* map*/
+    iframe {
+        width: 50%;
+        height: 80%;
+    }
+
+    /*contact us part with inouts*/
+    .contact-us {
+        width: 50%;
+        height: 100%;
+    }
+
+    /* division for map */
+    .map {
+        width: 100%;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: -130px;
     }
 
     .row-second {
         width: 100%;
-        min-height: 800px;
+        min-height: 550px;
         display: flex;
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        gap: 50px;
+        gap: 60px;
     }
 
     /*end 2 sections*/
 
     .contact-us {
-        width: 50%;
+        width: 100%;
         padding: 0;
-        /* حذف padding */
-        font-size: 15pt;
     }
 
     .part-inp-phone-name {
@@ -773,6 +853,7 @@ hr {
         gap: 1rem;
     }
 
+    /* all label*/
     .forName,
     .for-phone,
     .for-email,
@@ -786,14 +867,13 @@ hr {
     }
 
     /*start all inputs*/
-
     #message {
         border-radius: 10px 10px 10px 10px;
         border-top: none;
         border-left: none;
         border-right: none;
         height: 100px;
-        width: 400px;
+        width: 300px;
         background-color: transparent;
 
         border-bottom: 2px solid #B6B0A6;
@@ -805,34 +885,19 @@ hr {
         border-left: none;
         border-right: none;
         height: 50px;
-        width: 300px;
+        width: 200px;
         border-bottom: 2px solid #B6B0A6;
         background-color: transparent;
     }
 
-    /*end all inputs*/
-
-    .map {
-        width: 90%;
-        height: 500px;
+    .contact-info {
+        width: 100%;
+        height: 400px;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: -140px;
-        flex-direction: column;
-    }
-
-    iframe {
-        width: 90%;
-        height: 400px;
-    }
-
-    .contact-info {
-        width: 100%;
-        height: 200px;
         margin-top: 20px;
         padding: 1rem;
-        font-size: 15pt;
     }
 
     .location,
@@ -841,17 +906,14 @@ hr {
         width: 100%;
         justify-content: center;
         text-align: center;
-        font-size: 17pt;
 
     }
 
     .icons-social-media {
         flex-direction: column;
         gap: 20px;
-        height: 290px;
+        height: 330px;
         display: flex;
-        font-size: 15pt;
-
     }
 
     .instagram,
@@ -861,14 +923,24 @@ hr {
         gap: 10px;
     }
 
-    /*line*/
+    /*start line */
     hr {
         width: 90%;
     }
 
+    .space-after {
+        min-height: 100px;
+        flex-grow: 1;
+        width: 100%;
+        background-color: #E6E1DE;
+    }
+
     .for-line {
         width: 100%;
+        margin-top: -50px;
     }
+
+    /*end line */
 }
 
 /* end responsive for devices greather than 577px and smaller than 768px */
@@ -887,35 +959,55 @@ hr {
         flex-direction: column;
     }
 
-    /*start 2 sections*/
-
+    /*first section has contact input and map*/
     .row-first {
         width: 100%;
         min-height: 450px;
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
-        flex-direction: row;
+        flex-direction: column;
         flex-grow: 1;
+    }
+
+    /* map*/
+    iframe {
+        width: 50%;
+        height: 80%;
+    }
+
+    /*contact us part with inouts*/
+    .contact-us {
+        width: 50%;
+        height: 100%;
+    }
+
+    /* division for map */
+    .map {
+        width: 100%;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: -130px;
     }
 
     .row-second {
         width: 100%;
-        min-height: 800px;
+        min-height: 550px;
         display: flex;
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        gap: 50px;
+        gap: 60px;
     }
 
     /*end 2 sections*/
 
     .contact-us {
-        width: 50%;
+        width: 100%;
         padding: 0;
-        /* حذف padding */
-        font-size: 15pt;
     }
 
     .part-inp-phone-name {
@@ -929,6 +1021,7 @@ hr {
         gap: 1rem;
     }
 
+    /* all label*/
     .forName,
     .for-phone,
     .for-email,
@@ -942,14 +1035,13 @@ hr {
     }
 
     /*start all inputs*/
-
     #message {
         border-radius: 10px 10px 10px 10px;
         border-top: none;
         border-left: none;
         border-right: none;
         height: 100px;
-        width: 400px;
+        width: 300px;
         background-color: transparent;
 
         border-bottom: 2px solid #B6B0A6;
@@ -961,34 +1053,19 @@ hr {
         border-left: none;
         border-right: none;
         height: 50px;
-        width: 300px;
+        width: 200px;
         border-bottom: 2px solid #B6B0A6;
         background-color: transparent;
     }
 
-    /*end all inputs*/
-
-    .map {
-        width: 90%;
-        height: 500px;
+    .contact-info {
+        width: 100%;
+        height: 400px;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: -140px;
-        flex-direction: column;
-    }
-
-    iframe {
-        width: 90%;
-        height: 400px;
-    }
-
-    .contact-info {
-        width: 100%;
-        height: 200px;
         margin-top: 20px;
         padding: 1rem;
-        font-size: 15pt;
     }
 
     .location,
@@ -997,17 +1074,14 @@ hr {
         width: 100%;
         justify-content: center;
         text-align: center;
-        font-size: 20pt;
 
     }
 
     .icons-social-media {
         flex-direction: column;
         gap: 20px;
-        height: 290px;
+        height: 330px;
         display: flex;
-        font-size: 15pt;
-
     }
 
     .instagram,
@@ -1017,404 +1091,24 @@ hr {
         gap: 10px;
     }
 
+    /*start line */
     hr {
         width: 90%;
     }
 
     .for-line {
         width: 100%;
+        margin-top: -50px;
     }
+
+    .space-after {
+        min-height: 100px;
+        flex-grow: 1;
+        width: 100%;
+        background-color: #E6E1DE;
+    }
+
+    /*end line */
 }
 
 /* end responsive for devices greather than 993px and smaller than 1200px */
-/* start  responsive for devices greather than 1201px  */
-@media screen and (min-width:1201px) {
-
-    html,
-    body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-        height: 100vh;
-    }
-
-    body {
-        font-family: 'Saira Condensed', sans-serif;
-        background-color: #EDE9DC !important;
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;
-        padding: 10px;
-
-    }
-
-    .humburgermenu {
-        width: 100%;
-        display: flex;
-    }
-
-    /* black border */
-    .border-site {
-        width: 100%;
-        min-height: 100vh;
-        border: 4px solid #121212;
-        margin: 10px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-
-    /*start 2 sections*/
-    .row-first {
-        width: 100%;
-        min-height: 450px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-direction: row;
-        flex-grow: 1;
-    }
-
-    .row-second {
-        width: 100%;
-        min-height: 500px;
-        flex-grow: 1;
-        margin-top: -80px;
-    }
-
-    /*end 2 sections*/
-
-    iframe {
-        width: 100%;
-        height: 80%;
-    }
-
-    .contact-us {
-        width: 50%;
-        height: 100%;
-    }
-
-    .map {
-        width: 100%;
-        height: 500px;
-    }
-
-
-    .part-inp-phone-name {
-        width: 100%;
-        height: 100%;
-        gap: 10px;
-        display: flex;
-        flex-direction: column;
-        padding: 2rem 2rem;
-    }
-
-    .for-name-and-phone {
-        width: 100%;
-        height: 25%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        padding: 0.5rem 1rem;
-        gap: 50px;
-    }
-
-    /* button send message*/
-
-    .button-send-msg {
-        width: 100%;
-        height: 25%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        padding: 0.5rem 1rem;
-        gap: 30px;
-    }
-
-    /* start all label*/
-    .forName {
-        width: 50%;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .for-phone {
-        width: 50%;
-        display: flex;
-        flex-direction: column;
-
-
-    }
-
-    .for-email {
-        width: 50%;
-        display: flex;
-        flex-direction: column;
-
-
-    }
-
-    .for-subject {
-        width: 50%;
-        display: flex;
-        flex-direction: column;
-
-
-    }
-
-    .for-msgs {
-        width: 50%;
-        height: 100px;
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-    }
-
-
-    .for-email-and-subject {
-        width: 100%;
-        height: 25%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        padding: 0.5rem 1rem;
-        gap: 50px;
-    }
-
-    .for-msg-and-btnMsg {
-        width: 100%;
-        height: 250px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        justify-content: space-between;
-        padding: 0.5rem 1rem;
-    }
-
-    /* end all label*/
-
-    .bttn {
-        height: 80px;
-        display: flex;
-        margin-top: 20px;
-    }
-
-    /*start all inputs*/
-    #name {
-        border-radius: 10px 10px 10px 10px;
-        border-top: none;
-        border-left: none;
-        border-right: none;
-        height: 50px;
-        width: 300px;
-        border-bottom: 2px solid #B6B0A6;
-        background-color: transparent;
-    }
-
-    #name:focus {
-        border-radius: 10px 10px 10px 10px;
-
-        border: none;
-        outline: none;
-        transition: 0.5s;
-        border-bottom: 2px solid #121212;
-    }
-
-    /*phonenumber*/
-    #phone {
-        border-radius: 10px 10px 10px 10px;
-        border-top: none;
-        border-left: none;
-        border-right: none;
-        height: 50px;
-        width: 200px;
-        background-color: transparent;
-
-        border-bottom: 2px solid #B6B0A6;
-    }
-
-    #phone:focus {
-        border-radius: 10px 10px 10px 10px;
-
-        border: none;
-        outline: none;
-        transition: 0.5s;
-        border-bottom: 2px solid #121212;
-    }
-
-    label {
-        width: 70px;
-        text-align: center;
-    }
-
-    /*email*/
-    #email {
-        border-radius: 10px 10px 10px 10px;
-        border-top: none;
-        border-left: none;
-        border-right: none;
-        height: 50px;
-        width: 300px;
-        background-color: transparent;
-
-        border-bottom: 2px solid #B6B0A6;
-    }
-
-    #email:focus {
-        border-radius: 10px 10px 10px 10px;
-
-        border: none;
-        outline: none;
-        transition: 0.5s;
-        border-bottom: 2px solid #121212;
-    }
-
-    /*subject*/
-    #subject {
-        border-radius: 10px 10px 10px 10px;
-        border-top: none;
-        border-left: none;
-        border-right: none;
-        height: 50px;
-        width: 200px;
-        background-color: transparent;
-
-        border-bottom: 2px solid #B6B0A6;
-    }
-
-    #subject:focus {
-        border-radius: 10px 10px 10px 10px;
-
-        border: none;
-        outline: none;
-        transition: 0.5s;
-        border-bottom: 2px solid #121212;
-    }
-
-    /*message*/
-    #message {
-        border-radius: 10px 10px 10px 10px;
-        border-top: none;
-        border-left: none;
-        border-right: none;
-        height: 100px;
-        width: 500px;
-        background-color: transparent;
-
-        border-bottom: 2px solid #B6B0A6;
-    }
-
-    #message:focus {
-        border-radius: 10px 10px 10px 10px;
-
-        border: none;
-        outline: none;
-        transition: 0.5s;
-        border-bottom: 2px solid #121212;
-    }
-
-    /*end all inputs*/
-
-
-    /* button send message*/
-    button {
-        background-color: transparent;
-        border: none;
-        outline: none;
-        border-bottom: 2px solid #B6B0A6;
-        cursor: pointer;
-        transition: 0.25s;
-    }
-
-    /* button send message after hover*/
-
-    button:hover {
-        background-color: transparent;
-        border: none;
-        outline: none;
-        border-bottom: 4px solid #B6B0A6;
-        cursor: pointer;
-        transition: 0.25s;
-    }
-
-    .icons-social-media {
-        width: 100%;
-        height: 100px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 100px;
-    }
-
-    .instagram {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-    }
-
-    .linkedin {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-
-    }
-
-    .email {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-
-    }
-
-    .contact-info {
-        width: 100%;
-        height: 150px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        gap: 30px;
-        margin-top: 60px;
-        text-align: center;
-    }
-
-    .location,
-    .call-company,
-    .email-text {
-        width: 100%;
-        justify-content: center;
-        text-align: center;
-        font-size: 13pt;
-
-
-    }
-
-    /*line between contact info and social media icons*/
-    hr {
-        width: 70%;
-        height: 20px;
-        stroke-width: 4px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-
-    .for-line {
-        width: 100%;
-        stroke-width: 4px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-}
-
-/* end responsive for devices greather than 1201px  */

@@ -18,6 +18,14 @@ body {
     background-color: #E6E1DE !important;
 }
 
+td,
+th {
+    font-family: 'Noto Sans Arabic', sans-serif;
+    border-collapse: collapse;
+    /* Ensure borders are collapsed */
+    border: 1px solid #E6E1DE !important;
+}
+
 /* Existing styles... */
 
 .custom-table {
@@ -30,9 +38,9 @@ body {
 .custom-table th,
 .custom-table td {
     background-color: #E6E1DE !important;
+    border-collapse: collapse;
+    /* Ensure borders are collapsed */
     border: 1px solid #E6E1DE !important;
-    /* Match the border color to the background */
-    padding: 8px;
 }
 
 /* border website */
@@ -54,7 +62,6 @@ header {
 }
 
 #humburger {
-    margin-top: -10px;
     margin-left: 20px;
 }
 
@@ -247,25 +254,24 @@ ul {
 
 /* start responsive for devices smaller than 576px */
 @media screen and (max-width: 576px) {
-    #humburger {
-        margin-top: -47px !important;
-        margin-left: 5px;
-    }
 
     /*carousel's pictures */
     .carousel {
         height: 250px;
     }
 
-    #brand {
-        width: 80px;
-        height: auto;
-        margin: 0 auto;
-        margin-top: -10px;
+    #humburger {
+        margin-top: -47px !important;
+        margin-left: 12px;
     }
 
     #piccarousel {
         height: auto;
+    }
+
+    td,
+    th {
+        font-family: 'Noto Sans Arabic', sans-serif;
     }
 
     /* start forst line info*/
@@ -394,6 +400,11 @@ ul {
         height: auto;
     }
 
+    td,
+    th {
+        font-family: 'Noto Sans Arabic', sans-serif;
+    }
+
     /* start forst line info*/
 
     .info1,
@@ -469,6 +480,11 @@ ul {
         font-size: 16pt;
     }
 
+    td,
+    th {
+        font-family: 'Noto Sans Arabic', sans-serif;
+    }
+
     .info-about-project {
         margin-top: -30px;
     }
@@ -520,6 +536,11 @@ ul {
         margin-top: 30px;
     }
 
+    td,
+    th {
+        font-family: 'Noto Sans Arabic', sans-serif;
+    }
+
     .enter-type,
     .enter-st,
     .enter-year,
@@ -545,11 +566,6 @@ ul {
 
     .info-about-project {
         margin-top: -50px;
-    }
-
-    #humburger {
-        margin-top: -10px;
-        margin-left: 20px;
     }
 
     /*end last line about caption*/
@@ -585,6 +601,10 @@ ul {
         margin-top: -30px;
     }
 
+    td,
+    th {
+        font-family: 'Noto Sans Arabic', sans-serif;
+    }
 
 
     .row1 {

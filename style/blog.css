@@ -44,8 +44,8 @@ header {
 /* logo*/
 #brand {
     width: 80px;
-    height: auto;
     margin-top: 31px;
+    height: auto;
 }
 
 /*style for links*/
@@ -80,7 +80,7 @@ a {
 }
 
 #humburger {
-    margin-top: 10px;
+    margin-top: 30px;
     margin-left: 10px;
 }
 
@@ -247,19 +247,18 @@ ul {
     align-items: center;
     justify-content: center;
     padding: 20px 0;
-    margin-top: 20px;
 }
 
 /*title*/
 .gradient-text {
-    font-size: 20pt;
+    font-size: 40pt;
     text-align: center;
     background: linear-gradient(60deg, #B6B0A6, #121212);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     color: transparent;
-    margin-top: 20px;
+    height: 100px;
 }
 
 /* start responsive for devices smaller than 576px */
@@ -272,13 +271,8 @@ ul {
     }
 
     #humburger {
-        margin-top: 5px;
-        margin-left: -1px;
-    }
-
-    .humburgermenu {
-        margin-top: -25px;
-        margin-left: 8px;
+        margin-top: -14px;
+        margin-left: 10px;
     }
 
     a:hover {
@@ -307,7 +301,7 @@ ul {
         position: fixed;
         top: 0;
         left: 0;
-        background-color: #E6E1DE;
+        background-color: #EDE9DC;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -330,6 +324,7 @@ ul {
         justify-content: center;
         align-items: center;
         width: 100%;
+
     }
 
     .all-cards.shift {
@@ -371,13 +366,30 @@ ul {
         position: fixed;
         top: 0;
         left: 0;
-        background-color: #E6E1DE;
+        background-color: #EDE9DC;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         transition: transform 0.3s ease;
         transform: translateX(-100%);
+    }
+
+    #humburger {
+        margin-top: -35px;
+        margin-left: 5px;
+    }
+
+    #brand {
+        width: 80px;
+        height: auto;
+        margin-top: 30px;
+        margin-left: 2px;
+    }
+
+    #humburger {
+        margin-top: -35px;
+        margin-left: 5px;
     }
 
     a:hover {
@@ -393,12 +405,9 @@ ul {
 
     .all-cards {
         transition: transform 0.3s ease, opacity 0.3s ease;
-        display: flex;
+        display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
     }
 
     .all-cards.shift {
@@ -417,10 +426,11 @@ ul {
         text-align: center;
     }
 
-    #humburger {
+    #brand {
+        width: 80px;
         height: auto;
-        margin-top: 10px;
-        margin-left: 28px !important;
+        margin-top: 30px;
+        margin-left: 2px;
     }
 
     .ham-menu span {
@@ -444,7 +454,7 @@ ul {
         position: fixed;
         top: 0;
         left: 0;
-        background-color: #E6E1DE;
+        background-color: #EDE9DC;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -465,12 +475,9 @@ ul {
 
     .all-cards {
         transition: transform 0.3s ease, opacity 0.3s ease;
-        display: flex;
-        grid-template-columns: repeat(2, 1fr);
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
         gap: 20px;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
     }
 
     .all-cards.shift {
@@ -479,8 +486,9 @@ ul {
     }
 
     #humburger {
-        margin-top: -25px;
-        margin-left: 8px;
+        height: auto;
+        margin-top: 9px;
+        margin-left: 20px;
     }
 
 }
@@ -516,7 +524,7 @@ ul {
         position: fixed;
         top: 0;
         left: 0;
-        background-color: #E6E1DE;
+        background-color: #EDE9DC;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -536,20 +544,31 @@ ul {
     }
 
     .all-cards {
-        width: 80%;
+        transition: transform 0.3s ease, opacity 0.3s ease;
         display: flex;
-        align-items: center;
-        margin-left: 5px;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
         justify-content: center;
-        overflow-y: auto;
-        flex-grow: 1;
-        gap: 50px;
-        padding-bottom: 20px;
+        align-items: center;
+        width: 100%;
     }
 
     .all-cards.shift {
         transform: translateX(100%);
         opacity: 0;
+    }
+
+    #brand {
+        width: 80px;
+        height: auto;
+        margin-top: 30px;
+        margin-left: 2px;
+    }
+
+    #humburger {
+        height: auto;
+        margin-top: 9px;
+        margin-left: 20px;
     }
 }
 
@@ -577,6 +596,13 @@ ul {
         transform: translate(-50%, -50%) rotate(-45deg);
     }
 
+    #brand {
+        width: 80px;
+        height: auto;
+        margin-top: 30px;
+        margin-left: 2px;
+    }
+
     .off-screen-menu {
         width: 100%;
         min-width: 100%;
@@ -584,7 +610,7 @@ ul {
         position: fixed;
         top: 0;
         left: 0;
-        background-color: #E6E1DE;
+        background-color: #EDE9DC;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -606,9 +632,11 @@ ul {
     .all-cards {
         transition: transform 0.3s ease, opacity 0.3s ease;
         display: flex;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
         justify-content: center;
         align-items: center;
-        grid-template-columns: repeat(2, 3fr);
+        width: 100%;
         padding-bottom: 40px;
     }
 
@@ -619,8 +647,8 @@ ul {
 
     #humburger {
         height: auto;
-        margin-top: 10px;
-        margin-left: 28px;
+        margin-top: 9px;
+        margin-left: 20px;
     }
 }
 
@@ -672,6 +700,7 @@ ul {
     #brand {
         width: 80px;
         height: auto;
+        margin-top: 30px;
     }
 
     /*style for links*/
@@ -846,6 +875,7 @@ ul {
         overflow-y: auto;
         flex-grow: 1;
         gap: 50px;
+        margin-left: 50px;
         padding-bottom: 40px;
     }
 
@@ -870,34 +900,32 @@ ul {
         align-items: center;
         justify-content: center;
         padding: 20px 0;
-        margin-top: 20px;
     }
 
     /*title*/
     .gradient-text {
-        font-size: 20pt;
+        font-size: 40pt;
         text-align: center;
         background: linear-gradient(60deg, #B6B0A6, #121212);
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
         color: transparent;
-        margin-top: 20px;
+        height: 100px;
     }
 
     #brand {
         width: 80px;
         height: auto;
-        margin-top: 20px;
+        margin-top: 30px;
         margin-left: 2px;
     }
 
     #humburger {
         height: auto;
-        margin-top: 10px;
-        margin-left: 28px !important;
+        margin-top: 9px;
+        margin-left: 20px;
     }
-
 }
 
 /* end responsive for devices greather than1201px*/
